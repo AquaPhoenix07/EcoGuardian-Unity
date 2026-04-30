@@ -3,6 +3,8 @@ using UnityEngine.Tilemaps;
 
 public class GameManager : MonoBehaviour
 {
+    
+    
     [Header("Map Settings")] // Tạo ra một header trong bảng Inspector
     public Tilemap map;
     //Box Tile
@@ -11,6 +13,8 @@ public class GameManager : MonoBehaviour
     //Wall Tile
     public TileBase trashCanTile;
     public GameObject trashCanPrefab;
+    
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -20,7 +24,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     private void ScanMap()
     {
-        // Lấy kch thước bao trùm map
+        // Lấy kích thước bao trùm map
         BoundsInt bounds = map.cellBounds;
         
         // Trả về Vector3Int là toạ độ số thứ tự ô trong Cell,
@@ -44,6 +48,5 @@ public class GameManager : MonoBehaviour
                 map.SetTile(pos, null);
             }
         }
-        
     }
 }
