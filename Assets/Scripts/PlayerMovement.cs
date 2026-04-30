@@ -53,14 +53,47 @@ public class PlayerMovement : MonoBehaviour
     {
         //Do chỉnh pivot là bottomleft nên phải có phần bù vào
         Vector3 centerOffset = new Vector3(0.5f, 0.5f, 0);
+        
         //transform.position trả ra toạ độ  ở bottom left nên phải cộng thêm offset
         Vector3 startPos = transform.position + centerOffset;
         Vector3 endPos = startPos + direction;
         
+        
         //Vẽ tạm cái raycast
         Debug.DrawLine(startPos, endPos, Color.red, 0.5f);
         RaycastHit2D hit = Physics2D.Linecast(startPos, endPos, obstacleLayer);
-        return hit.collider == null;
+        if (hit.collider == null)
+        {
+            return true;
+        }
+        if (hit.collider.gameObject.layer == LayerMask.NameToLayer("Wall"))
+        {
+            return false;
+        }
+        if (hit.collider.gameObject.layer == LayerMask.NameToLayer("Obstacles"))
+        {
+            return TryPush(hit.collider.gameObject, direction);
+        }
+        return false;
+    }
+
+    private bool TryPush(GameObject garbage, Vector3 direction)
+    {
+        Vector3 centerOffset = new Vector3(0.5f, 0.5f, 0);
+        Vector3 startPos = garbage.transform.position + centerOffset;
+        Vector3 endPos = startPos + direction;
+        
+        Debug.DrawLine(startPos, endPos, Color.red, 0.5f);
+        garbage.GetComponent<BoxCollider2D>().enabled = false;
+        RaycastHit2D hit = Physics2D.Linecast(startPos, endPos, obstacleLayer);
+        garbage.GetComponent<BoxCollider2D>().enabled = true;
+        
+        if (hit.collider == null )
+        {
+            garbage.transform.position = endPos - centerOffset;
+            return true;
+        }
+        return false;
     }
     
     
