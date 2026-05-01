@@ -4,7 +4,6 @@ using UnityEngine.Tilemaps;
 public class GameManager : MonoBehaviour
 {
     
-    
     [Header("Map Settings")] // Tạo ra một header trong bảng Inspector
     public Tilemap map;
     //Box Tile
@@ -13,15 +12,24 @@ public class GameManager : MonoBehaviour
     //Wall Tile
     public TileBase trashCanTile;
     public GameObject trashCanPrefab;
+    //Target
+    private int totalTrashCan = 0;
+    private int currentGarbageOnTaget = 0; 
     
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         ScanMap();
+        
     }
 
     // Update is called once per frame
+    void Update()
+    {
+        
+    }
+    
     private void ScanMap()
     {
         // Lấy kích thước bao trùm map
@@ -45,8 +53,25 @@ public class GameManager : MonoBehaviour
             {
                 Vector3 currentPos = map.CellToWorld(pos);
                 Instantiate(trashCanPrefab, currentPos, trashCanPrefab.transform.rotation);
+                totalTrashCan++;
                 map.SetTile(pos, null);
             }
         }
+    }
+    
+    private void CheckTarget()
+    {
+        Debug.Log(currentGarbageOnTaget);
+        if (totalTrashCan == currentGarbageOnTaget)
+        {
+            Debug.Log("You win");
+        }
+    }
+
+    public void UpdateScore(int value)
+    {
+        currentGarbageOnTaget += value;
+        Debug.Log($"[GameManager] Điểm hiện tại: {currentGarbageOnTaget} / {totalTrashCan}");
+        CheckTarget();
     }
 }
