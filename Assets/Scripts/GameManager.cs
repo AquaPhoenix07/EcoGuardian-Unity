@@ -12,11 +12,12 @@ public class GameManager : MonoBehaviour
     public TileBase fertilizerTile;
     public GameObject fertilizerPrefab;
     //Target Tile
-    public TileBase trashCanTile;
-    public GameObject trashCanPrefab;
-
+    public TileBase trashcanTile;
+    public GameObject emptyTrashcanPrefab;
+    public GameObject trashcanPrefab;
+    
     public TileBase trunkTile;
-    public GameObject trunkPrefabs;
+    public GameObject trunkPrefab;
     public GameObject treePrefab;
     
     // Shelter Tile
@@ -65,19 +66,25 @@ public class GameManager : MonoBehaviour
                 Instantiate(fertilizerPrefab, currentPos, fertilizerPrefab.transform.rotation);
                 map.SetTile(pos, null);
             }
-            else if (currentTile == trashCanTile)
+            else if (currentTile == trashcanTile)
             {
                 Vector3 currentPos = map.CellToWorld(pos);
-                Instantiate(trashCanPrefab, currentPos, trashCanPrefab.transform.rotation);
+                Instantiate(emptyTrashcanPrefab, currentPos, emptyTrashcanPrefab.transform.rotation);
                 Target++;
                 map.SetTile(pos, null);
             }
             else if (currentTile == trunkTile)
             {
+                Vector3 upperPos = new Vector3(pos.x, pos.y + 1, 0);
+                
+                Vector3Int upperTile = map.WorldToCell(upperPos);
                 Vector3 currentPos = map.CellToWorld(pos);
-                Instantiate(trunkPrefabs, currentPos, trunkPrefabs.transform.rotation);
-                Target++;
+                
+                Instantiate(trunkPrefab, currentPos, treePrefab.transform.rotation);
+                Target++; 
+                
                 map.SetTile(pos,null);
+                map.SetTile(upperTile, null);
             }
             else if (currentTile == shelterTile)
             {

@@ -43,9 +43,10 @@ GameObject:
   - component: {fileID: 7272996414888779274}
   - component: {fileID: 513290267288954047}
   - component: {fileID: 1356408166180774597}
-  m_Layer: 0
+  - component: {fileID: 7749081147550464326}
+  m_Layer: 8
   m_Name: Skin
-  m_TagString: Untagged
+  m_TagString: Target
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -170,3 +171,15 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &7749081147550464326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7193853486077216271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee12fc9debc70784ca9f9e73c1264101, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Target

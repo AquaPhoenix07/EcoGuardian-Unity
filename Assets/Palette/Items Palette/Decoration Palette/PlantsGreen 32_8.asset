@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: PlantsGreen_5
+  m_Name: PlantsGreen 32_8
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: -8804793240699503913, guid: e3c8dc55adc4b8843b7c091090de452c, type: 3}
+  m_Sprite: {fileID: 523756184, guid: e3c8dc55adc4b8843b7c091090de452c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

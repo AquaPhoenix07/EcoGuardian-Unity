@@ -8,6 +8,8 @@ TagManager:
   - Items
   - Target
   - Shelter
+  - Fertilizer
+  - Garbage
   layers:
   - Default
   - TransparentFX

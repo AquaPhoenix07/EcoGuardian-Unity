@@ -161,7 +161,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlantsGreen_0
+      name: PlantsGreen 32_0
       rect:
         serializedVersion: 2
         x: 32
@@ -174,16 +174,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0a1773ece945bc640800000000000000
-      internalID: 5101264043968524704
+      spriteID: 339f5953f1533b846a9ebd12a01e1648
+      internalID: -192983428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlantsGreen_1
+      name: PlantsGreen 32_1
       rect:
         serializedVersion: 2
         x: 64
@@ -196,16 +196,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e0afa011b929043e0800000000000000
-      internalID: -2071494633886909938
+      spriteID: 12383d28b65697b49aa08f9d18064b2b
+      internalID: -888033798
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlantsGreen_2
+      name: PlantsGreen 32_2
       rect:
         serializedVersion: 2
         x: 0
@@ -218,16 +218,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 11e98a6b6954d37a0800000000000000
-      internalID: -6395879382184321519
+      spriteID: 8319e94d933b75949bccd48979665fa4
+      internalID: 1111373011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlantsGreen_3
+      name: PlantsGreen 32_3
       rect:
         serializedVersion: 2
         x: 32
@@ -240,16 +240,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a243c51361fbad5c0800000000000000
-      internalID: -4189826401276513238
+      spriteID: b85a0c2abdf579d4ba29d6c4e92ad4e7
+      internalID: -2078542019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlantsGreen_4
+      name: PlantsGreen 32_4
       rect:
         serializedVersion: 2
         x: 64
@@ -262,16 +262,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b8872e0cb48e706f0800000000000000
-      internalID: -718350203486046069
+      spriteID: 6a3be5f8d652e9441b2f753c7fac6da1
+      internalID: 11276265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlantsGreen_5
+      name: PlantsGreen 32_5
       rect:
         serializedVersion: 2
         x: 0
@@ -284,16 +284,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7da785782371fc580800000000000000
-      internalID: -8804793240699503913
+      spriteID: 285d028c0230f5c4a95e4b732c477ee2
+      internalID: -1953295606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlantsGreen_6
+      name: PlantsGreen 32_6
       rect:
         serializedVersion: 2
         x: 32
@@ -306,16 +306,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4cb990085cc4753e0800000000000000
-      internalID: -2065097492985701436
+      spriteID: c27d8e2ba90f07045a0d9a11ed35df51
+      internalID: -968573679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlantsGreen_7
+      name: PlantsGreen 32_7
       rect:
         serializedVersion: 2
         x: 64
@@ -328,16 +328,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f93f28d6dba961110800000000000000
-      internalID: 1231341686509204383
+      spriteID: 19c281eb728bcea458b0ce61a0c96168
+      internalID: 1708334401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlantsGreen_8
+      name: PlantsGreen 32_8
       rect:
         serializedVersion: 2
         x: 0
@@ -350,16 +350,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 495f7d6ba75443f30800000000000000
-      internalID: 4554341516534347156
+      spriteID: b5fafccdbd5799445a51f55650cfd1a8
+      internalID: 523756184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlantsGreen_9
+      name: PlantsGreen 32_9
       rect:
         serializedVersion: 2
         x: 32
@@ -372,16 +372,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e2bde05d19a560be0800000000000000
-      internalID: -1511421042544944338
+      spriteID: c4a0ac55b99e4c040a46fbddb9812e78
+      internalID: 746744164
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlantsGreen_10
+      name: PlantsGreen 32_10
       rect:
         serializedVersion: 2
         x: 64
@@ -394,10 +394,76 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 219fca01fee291e00800000000000000
-      internalID: 1015894795260590354
+      spriteID: ff398cde7f491a6479c614259ccb6d59
+      internalID: 1823848590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsGreen 32_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ed6c22eb4a7cb47b42358b4775e5df
+      internalID: 1763807328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsGreen Full
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0283cc6275c8dfb418950bde4748152a
+      internalID: 1729011574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk Full
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8785f62209ced6d4e9058545e116ced9
+      internalID: -793100320
       vertices: []
       indices: 
       edges: []
@@ -418,17 +484,20 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      PlantsGreen_0: 5101264043968524704
-      PlantsGreen_1: -2071494633886909938
-      PlantsGreen_10: 1015894795260590354
-      PlantsGreen_2: -6395879382184321519
-      PlantsGreen_3: -4189826401276513238
-      PlantsGreen_4: -718350203486046069
-      PlantsGreen_5: -8804793240699503913
-      PlantsGreen_6: -2065097492985701436
-      PlantsGreen_7: 1231341686509204383
-      PlantsGreen_8: 4554341516534347156
-      PlantsGreen_9: -1511421042544944338
+      PlantsGreen 32_0: -192983428
+      PlantsGreen 32_1: -888033798
+      PlantsGreen 32_10: 1823848590
+      PlantsGreen 32_11: 1763807328
+      PlantsGreen 32_2: 1111373011
+      PlantsGreen 32_3: -2078542019
+      PlantsGreen 32_4: 11276265
+      PlantsGreen 32_5: -1953295606
+      PlantsGreen 32_6: -968573679
+      PlantsGreen 32_7: 1708334401
+      PlantsGreen 32_8: 523756184
+      PlantsGreen 32_9: 746744164
+      PlantsGreen Full: 1729011574
+      Trunk Full: -793100320
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

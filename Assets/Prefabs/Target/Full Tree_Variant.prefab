@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &6583682146832833708
+--- !u!1001 &7604058891820033284
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -9,17 +9,13 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 513290267288954047, guid: c151b947d185264449da2a9c5819cde0, type: 3}
-      propertyPath: m_Size.x
-      value: 0.5625
-      objectReference: {fileID: 0}
-    - target: {fileID: 513290267288954047, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_Size.y
-      value: 0.84765625
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 513290267288954047, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 2731001722924673131, guid: 92c41d29e94fc0d499f1adbb7b25b30f, type: 3}
+      objectReference: {fileID: 1729011574, guid: e3c8dc55adc4b8843b7c091090de452c, type: 3}
     - target: {fileID: 513290267288954047, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -27,22 +23,6 @@ PrefabInstance:
     - target: {fileID: 513290267288954047, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1356408166180774597, guid: c151b947d185264449da2a9c5819cde0, type: 3}
-      propertyPath: m_Size.x
-      value: 0.6185713
-      objectReference: {fileID: 0}
-    - target: {fileID: 1356408166180774597, guid: c151b947d185264449da2a9c5819cde0, type: 3}
-      propertyPath: m_Size.y
-      value: 0.8884502
-      objectReference: {fileID: 0}
-    - target: {fileID: 1356408166180774597, guid: c151b947d185264449da2a9c5819cde0, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.007196784
-      objectReference: {fileID: 0}
-    - target: {fileID: 1356408166180774597, guid: c151b947d185264449da2a9c5819cde0, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.0053975284
       objectReference: {fileID: 0}
     - target: {fileID: 1356408166180774597, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.x
@@ -54,19 +34,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1356408166180774597, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 0.5625
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1356408166180774597, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
-      value: 0.84765625
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1356408166180774597, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 0.5625
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1356408166180774597, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 0.84765625
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1356408166180774597, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_SpriteTilingProperty.adaptiveTilingThreshold
@@ -74,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6579157904388343742, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_Name
-      value: Trashcan_Variant
+      value: Full Tree_Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7780620409679885057, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -119,25 +99,5 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7193853486077216271, guid: c151b947d185264449da2a9c5819cde0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8766643781150397196}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c151b947d185264449da2a9c5819cde0, type: 3}
---- !u!1 &4073580244808489635 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7193853486077216271, guid: c151b947d185264449da2a9c5819cde0, type: 3}
-  m_PrefabInstance: {fileID: 6583682146832833708}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &8766643781150397196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4073580244808489635}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee12fc9debc70784ca9f9e73c1264101, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Target
