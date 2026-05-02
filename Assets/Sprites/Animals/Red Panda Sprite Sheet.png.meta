@@ -1,0 +1,1404 @@
+fileFormatVersion: 2
+guid: 79d8a138896071a48a237b95624a60a2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6183221414469221057
+    second: Red Panda Sprite Sheet_0
+  - first:
+      213: -4721953898572786391
+    second: Red Panda Sprite Sheet_1
+  - first:
+      213: -7707179708891489450
+    second: Red Panda Sprite Sheet_2
+  - first:
+      213: 5305023740104168898
+    second: Red Panda Sprite Sheet_3
+  - first:
+      213: 6239786114490643870
+    second: Red Panda Sprite Sheet_4
+  - first:
+      213: 9124331991502321180
+    second: Red Panda Sprite Sheet_5
+  - first:
+      213: 1911556580117271490
+    second: Red Panda Sprite Sheet_6
+  - first:
+      213: -4835205588363601020
+    second: Red Panda Sprite Sheet_7
+  - first:
+      213: -7713417895751828622
+    second: Red Panda Sprite Sheet_8
+  - first:
+      213: 2207552309590012676
+    second: Red Panda Sprite Sheet_9
+  - first:
+      213: -433664303970302847
+    second: Red Panda Sprite Sheet_10
+  - first:
+      213: -6733567026640893871
+    second: Red Panda Sprite Sheet_11
+  - first:
+      213: -5639828505347389903
+    second: Red Panda Sprite Sheet_12
+  - first:
+      213: 1849798697684916424
+    second: Red Panda Sprite Sheet_13
+  - first:
+      213: -8536053996928989065
+    second: Red Panda Sprite Sheet_14
+  - first:
+      213: -1857136823983917692
+    second: Red Panda Sprite Sheet_15
+  - first:
+      213: -6947343035643546312
+    second: Red Panda Sprite Sheet_16
+  - first:
+      213: 2101459953074152935
+    second: Red Panda Sprite Sheet_17
+  - first:
+      213: -3975593695876955072
+    second: Red Panda Sprite Sheet_18
+  - first:
+      213: 6031269025539255813
+    second: Red Panda Sprite Sheet_19
+  - first:
+      213: 6203204255902532846
+    second: Red Panda Sprite Sheet_20
+  - first:
+      213: 5192609880789839
+    second: Red Panda Sprite Sheet_21
+  - first:
+      213: 4174767810667824439
+    second: Red Panda Sprite Sheet_22
+  - first:
+      213: 4694779055350103243
+    second: Red Panda Sprite Sheet_23
+  - first:
+      213: -9149905357828426678
+    second: Red Panda Sprite Sheet_24
+  - first:
+      213: -2720864925533605616
+    second: Red Panda Sprite Sheet_25
+  - first:
+      213: -4597511974245751903
+    second: Red Panda Sprite Sheet_26
+  - first:
+      213: -2440265783488970346
+    second: Red Panda Sprite Sheet_27
+  - first:
+      213: -2047432944325720395
+    second: Red Panda Sprite Sheet_28
+  - first:
+      213: -8691447965530127720
+    second: Red Panda Sprite Sheet_29
+  - first:
+      213: -7680311231900882727
+    second: Red Panda Sprite Sheet_30
+  - first:
+      213: 8914157738193780145
+    second: Red Panda Sprite Sheet_31
+  - first:
+      213: 6446636284495657447
+    second: Red Panda Sprite Sheet_32
+  - first:
+      213: 6363630185974294646
+    second: Red Panda Sprite Sheet_33
+  - first:
+      213: 7528139335078843895
+    second: Red Panda Sprite Sheet_34
+  - first:
+      213: 2492484321289527175
+    second: Red Panda Sprite Sheet_35
+  - first:
+      213: 1232410699589774881
+    second: Red Panda Sprite Sheet_36
+  - first:
+      213: -2689091984603561275
+    second: Red Panda Sprite Sheet_37
+  - first:
+      213: 5651362624535716092
+    second: Red Panda Sprite Sheet_38
+  - first:
+      213: -1759122741632578436
+    second: Red Panda Sprite Sheet_39
+  - first:
+      213: -8156206214288082818
+    second: Red Panda Sprite Sheet_40
+  - first:
+      213: -6819392146486278225
+    second: Red Panda Sprite Sheet_41
+  - first:
+      213: 6071058579058155187
+    second: Red Panda Sprite Sheet_42
+  - first:
+      213: -2127483583572739103
+    second: Red Panda Sprite Sheet_43
+  - first:
+      213: -5627489858187618839
+    second: Red Panda Sprite Sheet_44
+  - first:
+      213: -8404799282911020268
+    second: Red Panda Sprite Sheet_45
+  - first:
+      213: -7572450811144065612
+    second: Red Panda Sprite Sheet_46
+  - first:
+      213: -3868117244599031814
+    second: Red Panda Sprite Sheet_47
+  - first:
+      213: -6502584257461312137
+    second: Red Panda Sprite Sheet_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 191
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3549f632e8c03aa0800000000000000
+      internalID: -6183221414469221057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 191
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9255ccd72ff387eb0800000000000000
+      internalID: -4721953898572786391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 191
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b9c6f93e89a0590800000000000000
+      internalID: -7707179708891489450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 191
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c55ce10cfa3f9940800000000000000
+      internalID: 5305023740104168898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 191
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9531ac496c289650800000000000000
+      internalID: 6239786114490643870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 191
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c167a3e7a9320ae70800000000000000
+      internalID: 9124331991502321180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 159
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c353fde496378a10800000000000000
+      internalID: 1911556580117271490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 159
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b9a99a226e5ecb0800000000000000
+      internalID: -4835205588363601020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 159
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b329f8a4f64f490800000000000000
+      internalID: -7713417895751828622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 159
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403b434212dc2ae10800000000000000
+      internalID: 2207552309590012676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 159
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184451afc905bf9f0800000000000000
+      internalID: -433664303970302847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 159
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15849c917709d82a0800000000000000
+      internalID: -6733567026640893871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 127
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13685a00bdd4bb1b0800000000000000
+      internalID: -5639828505347389903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 130
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c85d796d1ecba910800000000000000
+      internalID: 1849798697684916424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 133
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7788e71ad18d98980800000000000000
+      internalID: -8536053996928989065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 129
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485342be5ef1a36e0800000000000000
+      internalID: -1857136823983917692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 127
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835bea35154169f90800000000000000
+      internalID: -6947343035643546312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 129
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5a1bc71b2e92d10800000000000000
+      internalID: 2101459953074152935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 130
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044c8f1e89ad3d8c0800000000000000
+      internalID: -3975593695876955072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 129
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e6514493f53b350800000000000000
+      internalID: 6031269025539255813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 95
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4034e9765361650800000000000000
+      internalID: 6203204255902532846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 95
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f43d663b6a2721000800000000000000
+      internalID: 5192609880789839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 95
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73547967431cfe930800000000000000
+      internalID: 4174767810667824439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 95
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc36154da4372140800000000000000
+      internalID: 4694779055350103243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 95
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44713a2e81050180800000000000000
+      internalID: -9149905357828426678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 95
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011ffb714cb8d3ad0800000000000000
+      internalID: -2720864925533605616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 95
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a32a74d73b5230c0800000000000000
+      internalID: -4597511974245751903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 95
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6918991f23f622ed0800000000000000
+      internalID: -2440265783488970346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 63
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b6880cb59e0693e0800000000000000
+      internalID: -2047432944325720395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 63
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89209c6ef16c16780800000000000000
+      internalID: -8691447965530127720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 63
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8ea1a60ad0a6590800000000000000
+      internalID: -7680311231900882727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 63
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bdf6d0db3375bb70800000000000000
+      internalID: 8914157738193780145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 63
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9f1858b8d077950800000000000000
+      internalID: 6446636284495657447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 31
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67863fc20f7205850800000000000000
+      internalID: 6363630185974294646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 31
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f51507e6d2597860800000000000000
+      internalID: 7528139335078843895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 31
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f51b2d845179220800000000000000
+      internalID: 2492484321289527175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 31
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e607e60076a1110800000000000000
+      internalID: 1232410699589774881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 31
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c2ca51661d6eaad0800000000000000
+      internalID: -2689091984603561275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 31
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0ee546d5cad6e40800000000000000
+      internalID: 5651362624535716092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 31
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ccdaccf275697e0800000000000000
+      internalID: -1759122741632578436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 31
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78768a59a55fce80800000000000000
+      internalID: -8156206214288082818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7c89439f6ac51a0800000000000000
+      internalID: -6819392146486278225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be595f9c9bb04450800000000000000
+      internalID: 6071058579058155187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ebfbafd3f8a972e0800000000000000
+      internalID: -2127483583572739103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e51d992ac327e1b0800000000000000
+      internalID: -5627489858187618839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b71ad25972c5b80800000000000000
+      internalID: -8404799282911020268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bda3aa9b1049e690800000000000000
+      internalID: -7572450811144065612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7ac163cdfa15ac0800000000000000
+      internalID: -3868117244599031814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panda Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 0
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775a8fbe11e22c5a0800000000000000
+      internalID: -6502584257461312137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Red Panda Sprite Sheet_0: -6183221414469221057
+      Red Panda Sprite Sheet_1: -4721953898572786391
+      Red Panda Sprite Sheet_10: -433664303970302847
+      Red Panda Sprite Sheet_11: -6733567026640893871
+      Red Panda Sprite Sheet_12: -5639828505347389903
+      Red Panda Sprite Sheet_13: 1849798697684916424
+      Red Panda Sprite Sheet_14: -8536053996928989065
+      Red Panda Sprite Sheet_15: -1857136823983917692
+      Red Panda Sprite Sheet_16: -6947343035643546312
+      Red Panda Sprite Sheet_17: 2101459953074152935
+      Red Panda Sprite Sheet_18: -3975593695876955072
+      Red Panda Sprite Sheet_19: 6031269025539255813
+      Red Panda Sprite Sheet_2: -7707179708891489450
+      Red Panda Sprite Sheet_20: 6203204255902532846
+      Red Panda Sprite Sheet_21: 5192609880789839
+      Red Panda Sprite Sheet_22: 4174767810667824439
+      Red Panda Sprite Sheet_23: 4694779055350103243
+      Red Panda Sprite Sheet_24: -9149905357828426678
+      Red Panda Sprite Sheet_25: -2720864925533605616
+      Red Panda Sprite Sheet_26: -4597511974245751903
+      Red Panda Sprite Sheet_27: -2440265783488970346
+      Red Panda Sprite Sheet_28: -2047432944325720395
+      Red Panda Sprite Sheet_29: -8691447965530127720
+      Red Panda Sprite Sheet_3: 5305023740104168898
+      Red Panda Sprite Sheet_30: -7680311231900882727
+      Red Panda Sprite Sheet_31: 8914157738193780145
+      Red Panda Sprite Sheet_32: 6446636284495657447
+      Red Panda Sprite Sheet_33: 6363630185974294646
+      Red Panda Sprite Sheet_34: 7528139335078843895
+      Red Panda Sprite Sheet_35: 2492484321289527175
+      Red Panda Sprite Sheet_36: 1232410699589774881
+      Red Panda Sprite Sheet_37: -2689091984603561275
+      Red Panda Sprite Sheet_38: 5651362624535716092
+      Red Panda Sprite Sheet_39: -1759122741632578436
+      Red Panda Sprite Sheet_4: 6239786114490643870
+      Red Panda Sprite Sheet_40: -8156206214288082818
+      Red Panda Sprite Sheet_41: -6819392146486278225
+      Red Panda Sprite Sheet_42: 6071058579058155187
+      Red Panda Sprite Sheet_43: -2127483583572739103
+      Red Panda Sprite Sheet_44: -5627489858187618839
+      Red Panda Sprite Sheet_45: -8404799282911020268
+      Red Panda Sprite Sheet_46: -7572450811144065612
+      Red Panda Sprite Sheet_47: -3868117244599031814
+      Red Panda Sprite Sheet_48: -6502584257461312137
+      Red Panda Sprite Sheet_5: 9124331991502321180
+      Red Panda Sprite Sheet_6: 1911556580117271490
+      Red Panda Sprite Sheet_7: -4835205588363601020
+      Red Panda Sprite Sheet_8: -7713417895751828622
+      Red Panda Sprite Sheet_9: 2207552309590012676
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

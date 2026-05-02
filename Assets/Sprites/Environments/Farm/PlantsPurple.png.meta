@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 2fac2631241f914488d7f25276e22a5c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4851315269742162767
+    second: PlantsPurple_0
+  - first:
+      213: -8704093312739074419
+    second: PlantsPurple_1
+  - first:
+      213: -3324593935009478346
+    second: PlantsPurple_2
+  - first:
+      213: 4468701434233653239
+    second: PlantsPurple_3
+  - first:
+      213: 1875950292306479565
+    second: PlantsPurple_4
+  - first:
+      213: -3501750092800668080
+    second: PlantsPurple_5
+  - first:
+      213: 3295040404840157857
+    second: PlantsPurple_6
+  - first:
+      213: -1919343763460039984
+    second: PlantsPurple_7
+  - first:
+      213: -9036989234572125483
+    second: PlantsPurple_8
+  - first:
+      213: 3867549123542536577
+    second: PlantsPurple_9
+  - first:
+      213: 5195148951598833530
+    second: PlantsPurple_10
+  - first:
+      213: 3314390642173013492
+    second: PlantsPurple_11
+  - first:
+      213: 7140625887231011755
+    second: PlantsPurple_12
+  - first:
+      213: -2401026892650439384
+    second: PlantsPurple_13
+  - first:
+      213: -7724311886540645064
+    second: PlantsPurple_14
+  - first:
+      213: -8716502731212468969
+    second: PlantsPurple_15
+  - first:
+      213: 3426135853344831437
+    second: PlantsPurple_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlantsPurple_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 71
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f43f862d885535340800000000000000
+      internalID: 4851315269742162767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsPurple_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 71
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e95529f39d43780800000000000000
+      internalID: -8704093312739074419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsPurple_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 71
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63987593e6bacd1d0800000000000000
+      internalID: -3324593935009478346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsPurple_3
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 54
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f786ca3744040e30800000000000000
+      internalID: 4468701434233653239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsPurple_4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 48
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9c7350ad6b80a10800000000000000
+      internalID: 1875950292306479565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsPurple_5
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 45
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ecc6af7d8476fc0800000000000000
+      internalID: -3501750092800668080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsPurple_6
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 42
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a29e035ac55abd20800000000000000
+      internalID: 3295040404840157857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsPurple_7
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 37
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da5a19240f1d55e0800000000000000
+      internalID: -1919343763460039984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsPurple_8
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 43
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da9c42db2a269280800000000000000
+      internalID: -9036989234572125483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsPurple_9
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 40
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181502ccf6b4ca530800000000000000
+      internalID: 3867549123542536577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsPurple_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 11
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f9a474270e81840800000000000000
+      internalID: 5195148951598833530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsPurple_11
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 3
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fde9998ab41ffd20800000000000000
+      internalID: 3314390642173013492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsPurple_12
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 7
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: babec5a6969981360800000000000000
+      internalID: 7140625887231011755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsPurple_13
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 8
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d196723c6ddaed0800000000000000
+      internalID: -2401026892650439384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsPurple_14
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 3
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83dda6ca34bbdc490800000000000000
+      internalID: -7724311886540645064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsPurple_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 14
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71dcb5ea2f2c80780800000000000000
+      internalID: -8716502731212468969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsPurple_16
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 6
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc739daf7641c8f20800000000000000
+      internalID: 3426135853344831437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PlantsPurple_0: 4851315269742162767
+      PlantsPurple_1: -8704093312739074419
+      PlantsPurple_10: 5195148951598833530
+      PlantsPurple_11: 3314390642173013492
+      PlantsPurple_12: 7140625887231011755
+      PlantsPurple_13: -2401026892650439384
+      PlantsPurple_14: -7724311886540645064
+      PlantsPurple_15: -8716502731212468969
+      PlantsPurple_16: 3426135853344831437
+      PlantsPurple_2: -3324593935009478346
+      PlantsPurple_3: 4468701434233653239
+      PlantsPurple_4: 1875950292306479565
+      PlantsPurple_5: -3501750092800668080
+      PlantsPurple_6: 3295040404840157857
+      PlantsPurple_7: -1919343763460039984
+      PlantsPurple_8: -9036989234572125483
+      PlantsPurple_9: 3867549123542536577
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

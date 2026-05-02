@@ -18,7 +18,7 @@ public class Target : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.CompareTag("Garbage"))
+        if (collider.CompareTag("Obstacles"))
         {
             gameManager.UpdateScore(1);
         }
@@ -26,7 +26,7 @@ public class Target : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collider)
     {
-        if (collider.CompareTag("Garbage"))
+        if (collider.CompareTag("Obstacles"))
         {
             gameManager.UpdateScore(-1);
         }

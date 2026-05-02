@@ -1,0 +1,1378 @@
+fileFormatVersion: 2
+guid: ba487143afe936c4f8dab289c5220ac3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5510235362071268221
+    second: Koala Sprite Sheet_0
+  - first:
+      213: -4961571042517800262
+    second: Koala Sprite Sheet_1
+  - first:
+      213: -7091722600675718248
+    second: Koala Sprite Sheet_2
+  - first:
+      213: -4087927810523091495
+    second: Koala Sprite Sheet_3
+  - first:
+      213: 6160565589236717237
+    second: Koala Sprite Sheet_4
+  - first:
+      213: 128195316538877968
+    second: Koala Sprite Sheet_5
+  - first:
+      213: -1235972472185315758
+    second: Koala Sprite Sheet_6
+  - first:
+      213: -2651694289396986082
+    second: Koala Sprite Sheet_7
+  - first:
+      213: -643924565750403897
+    second: Koala Sprite Sheet_8
+  - first:
+      213: -5584280228382156818
+    second: Koala Sprite Sheet_9
+  - first:
+      213: -537949818550998965
+    second: Koala Sprite Sheet_10
+  - first:
+      213: 2262278849669919525
+    second: Koala Sprite Sheet_11
+  - first:
+      213: 4710636603601048891
+    second: Koala Sprite Sheet_12
+  - first:
+      213: 8721963188639285183
+    second: Koala Sprite Sheet_13
+  - first:
+      213: -7170574727729760833
+    second: Koala Sprite Sheet_14
+  - first:
+      213: -5156107065580240433
+    second: Koala Sprite Sheet_15
+  - first:
+      213: -2714582742509878990
+    second: Koala Sprite Sheet_16
+  - first:
+      213: -2236991871385093427
+    second: Koala Sprite Sheet_17
+  - first:
+      213: 5388328075096381402
+    second: Koala Sprite Sheet_18
+  - first:
+      213: -7414791568644371663
+    second: Koala Sprite Sheet_19
+  - first:
+      213: 1671541855024616454
+    second: Koala Sprite Sheet_20
+  - first:
+      213: -245077288263817342
+    second: Koala Sprite Sheet_21
+  - first:
+      213: 3749703661990570536
+    second: Koala Sprite Sheet_22
+  - first:
+      213: -1149673756464535829
+    second: Koala Sprite Sheet_23
+  - first:
+      213: -7204817232877850454
+    second: Koala Sprite Sheet_24
+  - first:
+      213: -9035974027547014034
+    second: Koala Sprite Sheet_25
+  - first:
+      213: -1902256498141469620
+    second: Koala Sprite Sheet_26
+  - first:
+      213: -6469669236341044691
+    second: Koala Sprite Sheet_27
+  - first:
+      213: 8564066456053775951
+    second: Koala Sprite Sheet_28
+  - first:
+      213: 6017916861012842564
+    second: Koala Sprite Sheet_29
+  - first:
+      213: 1743680861219892549
+    second: Koala Sprite Sheet_30
+  - first:
+      213: 8370250013671715192
+    second: Koala Sprite Sheet_31
+  - first:
+      213: 2171623337501171764
+    second: Koala Sprite Sheet_32
+  - first:
+      213: -5346151613756774785
+    second: Koala Sprite Sheet_33
+  - first:
+      213: 6837199848661621512
+    second: Koala Sprite Sheet_34
+  - first:
+      213: -91656764347670227
+    second: Koala Sprite Sheet_35
+  - first:
+      213: -417122744930167096
+    second: Koala Sprite Sheet_36
+  - first:
+      213: 5163946598296959455
+    second: Koala Sprite Sheet_37
+  - first:
+      213: -4033960481946489556
+    second: Koala Sprite Sheet_38
+  - first:
+      213: 444249542474224007
+    second: Koala Sprite Sheet_39
+  - first:
+      213: 6804074782350414360
+    second: Koala Sprite Sheet_40
+  - first:
+      213: 9085276611593168264
+    second: Koala Sprite Sheet_41
+  - first:
+      213: -7367310606133390479
+    second: Koala Sprite Sheet_42
+  - first:
+      213: -7908021890692072226
+    second: Koala Sprite Sheet_43
+  - first:
+      213: -2901819829227178437
+    second: Koala Sprite Sheet_44
+  - first:
+      213: 4836376894730453258
+    second: Koala Sprite Sheet_45
+  - first:
+      213: 8463193137219655863
+    second: Koala Sprite Sheet_46
+  - first:
+      213: 6726387831231658473
+    second: Koala Sprite Sheet_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 105
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38432f6f126b783b0800000000000000
+      internalID: -5510235362071268221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 105
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abaacd2ac65f42bb0800000000000000
+      internalID: -4961571042517800262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 105
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b4d154ed3259d90800000000000000
+      internalID: -7091722600675718248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 105
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dda45aa053c447c0800000000000000
+      internalID: -4087927810523091495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 105
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b613f963c9be7550800000000000000
+      internalID: 6160565589236717237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 105
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0182b2016f077c100800000000000000
+      internalID: 128195316538877968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 105
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e9b33c591f8dee0800000000000000
+      internalID: -1235972472185315758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 105
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f8f83d71a433bd0800000000000000
+      internalID: -2651694289396986082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 105
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ccac44e4025017f0800000000000000
+      internalID: -643924565750403897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 105
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee75b0518b6a082b0800000000000000
+      internalID: -5584280228382156818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 105
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48284e7d71d888f0800000000000000
+      internalID: -537949818550998965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 105
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5237471b0aa356f10800000000000000
+      internalID: 2262278849669919525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 73
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35d79f680b8f5140800000000000000
+      internalID: 4710636603601048891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 73
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbfb0e22f43aa0970800000000000000
+      internalID: 8721963188639285183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 73
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb53646c6400d7c90800000000000000
+      internalID: -7170574727729760833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 73
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1453c21f3d178b0800000000000000
+      internalID: -5156107065580240433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 73
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2310b4fc06dd35ad0800000000000000
+      internalID: -2714582742509878990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 73
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcab7acbebb94f0e0800000000000000
+      internalID: -2236991871385093427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 73
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad75261f5df27ca40800000000000000
+      internalID: 5388328075096381402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 73
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b04638a5e591990800000000000000
+      internalID: -7414791568644371663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 73
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60490fff572823710800000000000000
+      internalID: 1671541855024616454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 73
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287e48a318f499cf0800000000000000
+      internalID: -245077288263817342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 73
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82aede12d9f990430800000000000000
+      internalID: 3749703661990570536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 73
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6a75a4fc98b00f0800000000000000
+      internalID: -1149673756464535829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 41
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa0f3b246e8530c90800000000000000
+      internalID: -7204817232877850454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 40
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c87602f75c99280800000000000000
+      internalID: -9035974027547014034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 41
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4469942bc3d995e0800000000000000
+      internalID: -1902256498141469620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 41
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a8e997b1e1736a0800000000000000
+      internalID: -6469669236341044691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 41
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e7ce1411da9d670800000000000000
+      internalID: 8564066456053775951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 40
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4481184308fe38350800000000000000
+      internalID: 6017916861012842564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 41
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54da8ae318cc23810800000000000000
+      internalID: 1743680861219892549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 41
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8717c1a3a0a192470800000000000000
+      internalID: 8370250013671715192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 41
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430a4b17be7232e10800000000000000
+      internalID: 2171623337501171764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 40
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7665a2be67aec5b0800000000000000
+      internalID: -5346151613756774785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 41
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b94dd890d92ee50800000000000000
+      internalID: 6837199848661621512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 41
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d21abcf88ae5abef0800000000000000
+      internalID: -91656764347670227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 9
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c693b0d215163af0800000000000000
+      internalID: -417122744930167096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 9
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9b39642160aa740800000000000000
+      internalID: 5163946598296959455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 9
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2dad93805e7408c0800000000000000
+      internalID: -4033960481946489556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 9
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7815ecaea9a4a2600800000000000000
+      internalID: 444249542474224007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 9
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812903b07fdec6e50800000000000000
+      internalID: 6804074782350414360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 9
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885ec2041f2651e70800000000000000
+      internalID: 9085276611593168264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 9
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1739373990e02c990800000000000000
+      internalID: -7367310606133390479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 9
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc39492dff014290800000000000000
+      internalID: -7908021890692072226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 9
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36bab46d3aaab7d0800000000000000
+      internalID: -2901819829227178437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 9
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a01c05a59234e1340800000000000000
+      internalID: 4836376894730453258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 9
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b85081815d437570800000000000000
+      internalID: 8463193137219655863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 9
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9b216381ee85d50800000000000000
+      internalID: 6726387831231658473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Koala Sprite Sheet_0: -5510235362071268221
+      Koala Sprite Sheet_1: -4961571042517800262
+      Koala Sprite Sheet_10: -537949818550998965
+      Koala Sprite Sheet_11: 2262278849669919525
+      Koala Sprite Sheet_12: 4710636603601048891
+      Koala Sprite Sheet_13: 8721963188639285183
+      Koala Sprite Sheet_14: -7170574727729760833
+      Koala Sprite Sheet_15: -5156107065580240433
+      Koala Sprite Sheet_16: -2714582742509878990
+      Koala Sprite Sheet_17: -2236991871385093427
+      Koala Sprite Sheet_18: 5388328075096381402
+      Koala Sprite Sheet_19: -7414791568644371663
+      Koala Sprite Sheet_2: -7091722600675718248
+      Koala Sprite Sheet_20: 1671541855024616454
+      Koala Sprite Sheet_21: -245077288263817342
+      Koala Sprite Sheet_22: 3749703661990570536
+      Koala Sprite Sheet_23: -1149673756464535829
+      Koala Sprite Sheet_24: -7204817232877850454
+      Koala Sprite Sheet_25: -9035974027547014034
+      Koala Sprite Sheet_26: -1902256498141469620
+      Koala Sprite Sheet_27: -6469669236341044691
+      Koala Sprite Sheet_28: 8564066456053775951
+      Koala Sprite Sheet_29: 6017916861012842564
+      Koala Sprite Sheet_3: -4087927810523091495
+      Koala Sprite Sheet_30: 1743680861219892549
+      Koala Sprite Sheet_31: 8370250013671715192
+      Koala Sprite Sheet_32: 2171623337501171764
+      Koala Sprite Sheet_33: -5346151613756774785
+      Koala Sprite Sheet_34: 6837199848661621512
+      Koala Sprite Sheet_35: -91656764347670227
+      Koala Sprite Sheet_36: -417122744930167096
+      Koala Sprite Sheet_37: 5163946598296959455
+      Koala Sprite Sheet_38: -4033960481946489556
+      Koala Sprite Sheet_39: 444249542474224007
+      Koala Sprite Sheet_4: 6160565589236717237
+      Koala Sprite Sheet_40: 6804074782350414360
+      Koala Sprite Sheet_41: 9085276611593168264
+      Koala Sprite Sheet_42: -7367310606133390479
+      Koala Sprite Sheet_43: -7908021890692072226
+      Koala Sprite Sheet_44: -2901819829227178437
+      Koala Sprite Sheet_45: 4836376894730453258
+      Koala Sprite Sheet_46: 8463193137219655863
+      Koala Sprite Sheet_47: 6726387831231658473
+      Koala Sprite Sheet_5: 128195316538877968
+      Koala Sprite Sheet_6: -1235972472185315758
+      Koala Sprite Sheet_7: -2651694289396986082
+      Koala Sprite Sheet_8: -643924565750403897
+      Koala Sprite Sheet_9: -5584280228382156818
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

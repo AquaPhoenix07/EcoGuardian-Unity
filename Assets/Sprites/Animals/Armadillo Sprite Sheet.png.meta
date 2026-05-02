@@ -1,0 +1,806 @@
+fileFormatVersion: 2
+guid: a03993adbc6d7964698cd15f6cbbb306
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8302594009530093923
+    second: Armadillo Sprite Sheet_0
+  - first:
+      213: -6604403792501859257
+    second: Armadillo Sprite Sheet_1
+  - first:
+      213: 8950453341462978969
+    second: Armadillo Sprite Sheet_2
+  - first:
+      213: 3569392750576692304
+    second: Armadillo Sprite Sheet_3
+  - first:
+      213: -2875056981049836078
+    second: Armadillo Sprite Sheet_4
+  - first:
+      213: 506605583835372718
+    second: Armadillo Sprite Sheet_5
+  - first:
+      213: -2050320473847553622
+    second: Armadillo Sprite Sheet_6
+  - first:
+      213: 3506985475692334460
+    second: Armadillo Sprite Sheet_7
+  - first:
+      213: 6403414740469748525
+    second: Armadillo Sprite Sheet_8
+  - first:
+      213: -3619547827927369957
+    second: Armadillo Sprite Sheet_9
+  - first:
+      213: 5122179469900268365
+    second: Armadillo Sprite Sheet_10
+  - first:
+      213: -540223141618373296
+    second: Armadillo Sprite Sheet_11
+  - first:
+      213: 731873631399055020
+    second: Armadillo Sprite Sheet_12
+  - first:
+      213: -8029661646672579928
+    second: Armadillo Sprite Sheet_13
+  - first:
+      213: -1598093773331362911
+    second: Armadillo Sprite Sheet_14
+  - first:
+      213: 3432172495587631265
+    second: Armadillo Sprite Sheet_15
+  - first:
+      213: 5338404476935115885
+    second: Armadillo Sprite Sheet_16
+  - first:
+      213: 9024040571892133786
+    second: Armadillo Sprite Sheet_17
+  - first:
+      213: 6070376154357275174
+    second: Armadillo Sprite Sheet_18
+  - first:
+      213: 239130966983369320
+    second: Armadillo Sprite Sheet_19
+  - first:
+      213: -2227989706052715761
+    second: Armadillo Sprite Sheet_20
+  - first:
+      213: -855501169934526765
+    second: Armadillo Sprite Sheet_21
+  - first:
+      213: -5124662835214125944
+    second: Armadillo Sprite Sheet_22
+  - first:
+      213: -7638353517428550469
+    second: Armadillo Sprite Sheet_23
+  - first:
+      213: 455295609435111477
+    second: Armadillo Sprite Sheet_24
+  - first:
+      213: -1970390961564360910
+    second: Armadillo Sprite Sheet_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Armadillo Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 127
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e2ca3ccb247cc80800000000000000
+      internalID: -8302594009530093923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadillo Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 127
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c1faa0eb17854a0800000000000000
+      internalID: -6604403792501859257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadillo Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 127
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991eb9c74e5663c70800000000000000
+      internalID: 8950453341462978969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadillo Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 127
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c6af19bc7098130800000000000000
+      internalID: 3569392750576692304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadillo Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 127
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd748f88eeb918d0800000000000000
+      internalID: -2875056981049836078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadillo Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 127
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac9cb92813d70700800000000000000
+      internalID: 506605583835372718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadillo Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 127
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa12b90646ccb83e0800000000000000
+      internalID: -2050320473847553622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadillo Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 127
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d881795b05ba030800000000000000
+      internalID: 3506985475692334460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadillo Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 95
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23133b97cf7dd850800000000000000
+      internalID: 6403414740469748525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadillo Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 95
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b173adc7d68c4cdc0800000000000000
+      internalID: -3619547827927369957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadillo Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 95
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d434433e613a51740800000000000000
+      internalID: 5122179469900268365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadillo Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 95
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d24683aedb088f0800000000000000
+      internalID: -540223141618373296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadillo Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 63
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae040ca033282a00800000000000000
+      internalID: 731873631399055020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadillo Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 63
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2b08b7649e09090800000000000000
+      internalID: -8029661646672579928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadillo Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 63
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab02d22e2e62d9e0800000000000000
+      internalID: -1598093773331362911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadillo Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 65
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a0ed5743b681af20800000000000000
+      internalID: 3432172495587631265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadillo Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 66
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6492137692d51a40800000000000000
+      internalID: 5338404476935115885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadillo Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 64
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9fe756b615db3d70800000000000000
+      internalID: 9024040571892133786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadillo Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 63
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a977d33fe4e3450800000000000000
+      internalID: 6070376154357275174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadillo Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 63
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862e6d5f850915300800000000000000
+      internalID: 239130966983369320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadillo Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 31
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b308faa279411e0800000000000000
+      internalID: -2227989706052715761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadillo Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 31
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d61f15f736a024f0800000000000000
+      internalID: -855501169934526765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadillo Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 31
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8847a619d4a81e8b0800000000000000
+      internalID: -5124662835214125944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadillo Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4d0d412fd1ff590800000000000000
+      internalID: -7638353517428550469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadillo Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530cc2cc1f8815600800000000000000
+      internalID: 455295609435111477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armadillo Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23fd05b2cd3c7a4e0800000000000000
+      internalID: -1970390961564360910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Armadillo Sprite Sheet_0: -8302594009530093923
+      Armadillo Sprite Sheet_1: -6604403792501859257
+      Armadillo Sprite Sheet_10: 5122179469900268365
+      Armadillo Sprite Sheet_11: -540223141618373296
+      Armadillo Sprite Sheet_12: 731873631399055020
+      Armadillo Sprite Sheet_13: -8029661646672579928
+      Armadillo Sprite Sheet_14: -1598093773331362911
+      Armadillo Sprite Sheet_15: 3432172495587631265
+      Armadillo Sprite Sheet_16: 5338404476935115885
+      Armadillo Sprite Sheet_17: 9024040571892133786
+      Armadillo Sprite Sheet_18: 6070376154357275174
+      Armadillo Sprite Sheet_19: 239130966983369320
+      Armadillo Sprite Sheet_2: 8950453341462978969
+      Armadillo Sprite Sheet_20: -2227989706052715761
+      Armadillo Sprite Sheet_21: -855501169934526765
+      Armadillo Sprite Sheet_22: -5124662835214125944
+      Armadillo Sprite Sheet_23: -7638353517428550469
+      Armadillo Sprite Sheet_24: 455295609435111477
+      Armadillo Sprite Sheet_25: -1970390961564360910
+      Armadillo Sprite Sheet_3: 3569392750576692304
+      Armadillo Sprite Sheet_4: -2875056981049836078
+      Armadillo Sprite Sheet_5: 506605583835372718
+      Armadillo Sprite Sheet_6: -2050320473847553622
+      Armadillo Sprite Sheet_7: 3506985475692334460
+      Armadillo Sprite Sheet_8: 6403414740469748525
+      Armadillo Sprite Sheet_9: -3619547827927369957
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

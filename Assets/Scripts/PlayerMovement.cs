@@ -51,13 +51,9 @@ public class PlayerMovement : MonoBehaviour
 
     private bool CanMoveTo(Vector3 direction)
     {
-        //Do chỉnh pivot là bottomleft nên phải có phần bù vào
-        Vector3 centerOffset = new Vector3(0.5f, 0.5f, 0);
-        
-        //transform.position trả ra toạ độ  ở bottom left nên phải cộng thêm offset
-        Vector3 startPos = transform.position + centerOffset;
+        //transform.position trả ra toạ độ  ở center
+        Vector3 startPos = transform.position;
         Vector3 endPos = startPos + direction;
-        
         
         //Vẽ tạm cái raycast
         Debug.DrawLine(startPos, endPos, Color.red, 0.5f);
@@ -77,20 +73,19 @@ public class PlayerMovement : MonoBehaviour
         return false;
     }
 
-    private bool TryPush(GameObject garbage, Vector3 direction)
+    private bool TryPush(GameObject Obstacles, Vector3 direction)
     {
-        Vector3 centerOffset = new Vector3(0.5f, 0.5f, 0);
-        Vector3 startPos = garbage.transform.position + centerOffset;
+        Vector3 startPos = Obstacles.transform.position;
         Vector3 endPos = startPos + direction;
         
         Debug.DrawLine(startPos, endPos, Color.red, 0.5f);
-        garbage.GetComponent<BoxCollider2D>().enabled = false;
+        Obstacles.GetComponent<BoxCollider2D>().enabled = false;
         RaycastHit2D hit = Physics2D.Linecast(startPos, endPos, obstacleLayer);
-        garbage.GetComponent<BoxCollider2D>().enabled = true;
+        Obstacles.GetComponent<BoxCollider2D>().enabled = true;
         
         if (hit.collider == null )
         {
-            garbage.transform.position = endPos - centerOffset;
+            Obstacles.transform.position = endPos;
             return true;
         }
         return false;

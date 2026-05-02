@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: fea4ad622f222c543bd6f0a5cfe4c239
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4458550283008162968
+    second: PlantsOrange_0
+  - first:
+      213: -1459635393082318120
+    second: PlantsOrange_1
+  - first:
+      213: 2783653564681023674
+    second: PlantsOrange_2
+  - first:
+      213: -977427572092598082
+    second: PlantsOrange_3
+  - first:
+      213: -2228565779022529634
+    second: PlantsOrange_4
+  - first:
+      213: 5084952329107029038
+    second: PlantsOrange_5
+  - first:
+      213: -2810572287542151471
+    second: PlantsOrange_6
+  - first:
+      213: 8849911558481155676
+    second: PlantsOrange_7
+  - first:
+      213: 5612583732857001205
+    second: PlantsOrange_8
+  - first:
+      213: -6377802124497607699
+    second: PlantsOrange_9
+  - first:
+      213: 9164450531027238783
+    second: PlantsOrange_10
+  - first:
+      213: 1548396539976899587
+    second: PlantsOrange_11
+  - first:
+      213: -6134834312289365027
+    second: PlantsOrange_12
+  - first:
+      213: 2604614757213352885
+    second: PlantsOrange_13
+  - first:
+      213: 177507968416359709
+    second: PlantsOrange_14
+  - first:
+      213: -4027939829850531561
+    second: PlantsOrange_15
+  - first:
+      213: 5586225432378694708
+    second: PlantsOrange_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlantsOrange_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 71
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863c418d32c0022c0800000000000000
+      internalID: -4458550283008162968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsOrange_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 71
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2adbde7555ebbe0800000000000000
+      internalID: -1459635393082318120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsOrange_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 71
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0ff8c2b2681a620800000000000000
+      internalID: 2783653564681023674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsOrange_3
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 54
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb88fb34dca7f62f0800000000000000
+      internalID: -977427572092598082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsOrange_4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 48
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b35ce3b3b8211e0800000000000000
+      internalID: -2228565779022529634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsOrange_5
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 45
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c383cb331619640800000000000000
+      internalID: 5084952329107029038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsOrange_6
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 42
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d63e714567def8d0800000000000000
+      internalID: -2810572287542151471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsOrange_7
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 37
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5694e07ca331da70800000000000000
+      internalID: 8849911558481155676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsOrange_8
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 43
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4d3151b27e3ed40800000000000000
+      internalID: 5612583732857001205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsOrange_9
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 40
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3a69142ce7d77a0800000000000000
+      internalID: -6377802124497607699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsOrange_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 11
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7fb48fd33bae2f70800000000000000
+      internalID: 9164450531027238783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsOrange_11
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 3
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c54c803720d7510800000000000000
+      internalID: 1548396539976899587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsOrange_12
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 7
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd35d1c52b0bcdaa0800000000000000
+      internalID: -6134834312289365027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsOrange_13
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 8
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b331746253752420800000000000000
+      internalID: 2604614757213352885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsOrange_14
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 3
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15224a8e82a67200800000000000000
+      internalID: 177507968416359709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsOrange_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 14
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7199c11d012e918c0800000000000000
+      internalID: -4027939829850531561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantsOrange_16
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 6
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c5f240f62468d40800000000000000
+      internalID: 5586225432378694708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PlantsOrange_0: -4458550283008162968
+      PlantsOrange_1: -1459635393082318120
+      PlantsOrange_10: 9164450531027238783
+      PlantsOrange_11: 1548396539976899587
+      PlantsOrange_12: -6134834312289365027
+      PlantsOrange_13: 2604614757213352885
+      PlantsOrange_14: 177507968416359709
+      PlantsOrange_15: -4027939829850531561
+      PlantsOrange_16: 5586225432378694708
+      PlantsOrange_2: 2783653564681023674
+      PlantsOrange_3: -977427572092598082
+      PlantsOrange_4: -2228565779022529634
+      PlantsOrange_5: 5084952329107029038
+      PlantsOrange_6: -2810572287542151471
+      PlantsOrange_7: 8849911558481155676
+      PlantsOrange_8: 5612583732857001205
+      PlantsOrange_9: -6377802124497607699
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
