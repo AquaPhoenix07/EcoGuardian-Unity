@@ -4,8 +4,10 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Garbage
   - Wall
+  - Items
+  - Target
+  - Shelter
   layers:
   - Default
   - TransparentFX

@@ -83,7 +83,7 @@ public class GameManager : MonoBehaviour
             {
                 Vector3 currentPos = map.CellToWorld(pos);
                 Instantiate(shelterPrefab, currentPos, shelterPrefab.transform.rotation);
-                map.SetTile(pos,null);
+                map.SetTile(pos,null);  
             }
         }
     }
