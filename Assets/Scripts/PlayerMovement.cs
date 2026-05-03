@@ -4,10 +4,16 @@ using UnityEngine.PlayerLoop;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private LayerMask obstacleLayer;
+    private Animator animator;
+    private AudioSource playerAudio;
+
+    public AudioClip finishSound;
+    public AudioClip footStepSound;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        playerAudio = GetComponent<AudioSource>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -18,33 +24,32 @@ public class PlayerMovement : MonoBehaviour
 
     private void MovementSetting()
     {
+        Vector3 direction = Vector3.zero;
         if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
         {
-            if (CanMoveTo(Vector3.up))
-            {
-                transform.position += Vector3.up;
-            }
+                direction = Vector3.up;
         }
         else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            if (CanMoveTo(Vector3.left))
-            {
-                transform.position += Vector3.left;
-            }
+                direction = Vector3.left;
         }
 
         else if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
         {
-            if (CanMoveTo(Vector3.right))
-            {
-                transform.position += Vector3.right;
-            }
+                direction = Vector3.right;
         }
         else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
         {
-            if (CanMoveTo(Vector3.down))
+                direction = Vector3.down;
+        }
+        if (direction != Vector3.zero)
+        {
+            animator.SetFloat("MoveX", direction.x);
+            animator.SetFloat("MoveY", direction.y);
+            if (CanMoveTo(direction))
             {
-                transform.position += Vector3.down;
+                playerAudio.PlayOneShot(footStepSound,1.0f);
+                transform.position += direction;
             }
         }
     }
