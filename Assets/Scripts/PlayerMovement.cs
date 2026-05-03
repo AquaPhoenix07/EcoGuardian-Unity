@@ -10,17 +10,17 @@ public class PlayerMovement : MonoBehaviour
 
     public AudioClip finishSound;
     public AudioClip footStepSound;
-
+    
+    //Chỉ để khoá bàn phím chớ không có ben Animator
     private bool lockKey_WhenMove = false;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    
     void Start()
     {
         playerAudio = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
         animator.SetBool("IsIdle", true);
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         if (lockKey_WhenMove) return;
@@ -54,6 +54,7 @@ public class PlayerMovement : MonoBehaviour
             animator.SetFloat("MoveY", direction.y);
             if (CanMoveTo(direction))
             {
+                // Làm mượt movement
                 StartCoroutine(SmoothMovement(direction));
             }
         }
@@ -68,9 +69,20 @@ public class PlayerMovement : MonoBehaviour
         Vector3 startPos = transform.position;
         Vector3 endPos = startPos + direction;
         
-        //elapseTime:
+        //elapseTime: giống cái đồng hồ đếm giờ
         float elapsedTime = 0;
         float timeToMove = 0.3f;
+        
+        /*
+         Hàm Lerp (Linear Interpolation - Nội suy tuyến tính):
+            + Hàm này dùng để tìm một điểm nằm giữa hai điểm khác dựa trên một tỷ lệ phần trăm.  
+            Cú pháp: Vector3.Lerp(Điểm_A, Điểm_B, t)
+                Đối số t: Là một con số từ 0 đến 1.
+                Nếu $t = 0$: Kết quả là Điểm A.
+                Nếu t = 1: Kết quả là Điểm B.
+                Nếu t = 0.5: Kết quả là điểm chính giữa A và B. 
+            --> Tạo ra chuyển động mượt mà hơn
+         */
         while (elapsedTime < timeToMove)
         {
             transform.position = Vector3.Lerp(startPos, endPos, elapsedTime / timeToMove);
@@ -82,6 +94,34 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("IsIdle", true);
         lockKey_WhenMove = false;
     }
+
+    private IEnumerator SmoothPush(GameObject obstacle, Vector3 direction)
+    {
+        lockKey_WhenMove = true;
+        animator.SetTrigger("PushTrigger");
+        
+        Vector3 startPos = obstacle.transform.position;
+        Vector3 endPos = startPos + direction;
+
+        float elapsedTime = 0;
+        float timeToMove = 0.3f;
+        while (elapsedTime < timeToMove)
+        {
+            if (obstacle == null)
+            {
+                yield break;
+            }
+            obstacle.transform.position = Vector3.Lerp(startPos, endPos, elapsedTime / timeToMove);
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        obstacle.transform.position = endPos;
+        animator.SetBool("IsIdle", true);
+        lockKey_WhenMove = false;
+    }
+    
+    
     private bool CanMoveTo(Vector3 direction)
     {
         //transform.position trả ra toạ độ  ở center
@@ -118,7 +158,7 @@ public class PlayerMovement : MonoBehaviour
         
         if (hit.collider == null )
         {
-            Obstacles.transform.position = endPos;
+            StartCoroutine(SmoothPush(Obstacles, direction));
             return true;
         }
         return false;
