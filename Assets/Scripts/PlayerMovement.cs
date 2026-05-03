@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 using UnityEngine.PlayerLoop;
 
 public class PlayerMovement : MonoBehaviour
@@ -9,16 +10,20 @@ public class PlayerMovement : MonoBehaviour
 
     public AudioClip finishSound;
     public AudioClip footStepSound;
+
+    private bool lockKey_WhenMove = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         playerAudio = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
+        animator.SetBool("IsIdle", true);
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (lockKey_WhenMove) return;
         MovementSetting();
     }
 
@@ -42,18 +47,41 @@ public class PlayerMovement : MonoBehaviour
         {
                 direction = Vector3.down;
         }
+        
         if (direction != Vector3.zero)
         {
             animator.SetFloat("MoveX", direction.x);
             animator.SetFloat("MoveY", direction.y);
             if (CanMoveTo(direction))
             {
-                playerAudio.PlayOneShot(footStepSound,1.0f);
-                transform.position += direction;
+                StartCoroutine(SmoothMovement(direction));
             }
         }
     }
 
+    private IEnumerator SmoothMovement(Vector3 direction)
+    {
+        lockKey_WhenMove = true;
+        animator.SetBool("IsIdle", false);
+        playerAudio.PlayOneShot(footStepSound,1.0f);
+
+        Vector3 startPos = transform.position;
+        Vector3 endPos = startPos + direction;
+        
+        //elapseTime:
+        float elapsedTime = 0;
+        float timeToMove = 0.3f;
+        while (elapsedTime < timeToMove)
+        {
+            transform.position = Vector3.Lerp(startPos, endPos, elapsedTime / timeToMove);
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        transform.position = endPos;
+        animator.SetBool("IsIdle", true);
+        lockKey_WhenMove = false;
+    }
     private bool CanMoveTo(Vector3 direction)
     {
         //transform.position trả ra toạ độ  ở center
