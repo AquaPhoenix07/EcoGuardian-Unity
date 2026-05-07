@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: FarmTilesGreen_0
+  m_Name: FarmTilesOrange_29
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 4578080066512177855, guid: 7d3059fbc0141aa4d940ace601395dfa, type: 3}
+  m_Sprite: {fileID: 1923756468, guid: c8c9b1e3d52383b4baea48df01429033, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
