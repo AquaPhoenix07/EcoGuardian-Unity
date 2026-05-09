@@ -30,21 +30,26 @@ public class AnimalAI : MonoBehaviour
     {
         while (targetShelter == null)
         {
-            
+            GameObject myShelter = GameObject.FindWithTag(targetShelterTag);
+            if (myShelter != null)
+            {
+                targetShelter = myShelter;
+            }
+            yield return new WaitForSeconds(moveDelay);
         }
         while (true)
         {
             yield return new WaitForSeconds(moveDelay);
-            if (!isMoving && shelterTarget != null)
+            if (!isMoving && targetShelter != null)
             {
-                if (Vector3.Distance(shelterTarget.position, transform.position) < 0.1f)
+                if (Vector3.Distance(targetShelter.transform.position, transform.position) < 0.1f)
                 {
                     Debug.Log("Về Đích");
                     yield break;
                 }
             }
             
-            resultPath = aStarManager.FindPath(transform.position, shelterTarget.position);
+            resultPath = aStarManager.FindPath(transform.position, targetShelter.transform.position);
             if (resultPath != null && resultPath.Count > 0)
             {
                 Vector3 nextPos = resultPath[0];
