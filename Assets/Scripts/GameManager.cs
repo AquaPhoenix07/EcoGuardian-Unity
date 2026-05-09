@@ -6,12 +6,21 @@ public class GameManager : MonoBehaviour
     [Header("Map Settings")] // Tạo ra một header trong bảng Inspector
     public Tilemap map;
     //Box Tile
+    [Header("Box Tile")]
+    //LEFT
     public TileBase garbageTile;
     public GameObject garbagePrefab;
-    
     public TileBase fertilizerTile;
     public GameObject fertilizerPrefab;
+    //RIGHT
+    public TileBase freshWaterTile;
+    public GameObject freshWaterPrefab;
+    public TileBase magicSeedTile;
+    public GameObject magicSeedPrefab;
+    
     //Target Tile
+    [Header("Target")]
+    //LEFT
     public TileBase trashcanTile;
     public GameObject emptyTrashcanPrefab;
     public GameObject trashcanPrefab;
@@ -19,10 +28,22 @@ public class GameManager : MonoBehaviour
     public TileBase trunkTile;
     public GameObject trunkPrefab;
     public GameObject treePrefab;
+    //RIGHT
+    public TileBase holeToPlantTile;
+    public GameObject holeToPlantPrefab;
+    public GameObject fullPlantPrefab;
+
+    public TileBase posionLakeTile;
+    public GameObject posionLakePrefab;
+    public GameObject healthyLakePrefab;
     
     // Shelter Tile
-    public TileBase shelterTile;
-    public GameObject shelterPrefab;
+    [Header("Shelter")]
+    public TileBase caveTile;
+    public GameObject cavePrefab;
+
+    public TileBase treeHouseTile;
+    public GameObject treeHousePrefab;
     //Target
     private int Target = 0;
     private int currentTarget = 0; 
@@ -51,6 +72,9 @@ public class GameManager : MonoBehaviour
         foreach (var pos in bounds.allPositionsWithin) 
         {
             TileBase currentTile = map.GetTile(pos);
+            
+            
+            //Đổi tile thành GameObject cho Items
             if (currentTile == garbageTile)
             { 
                 // Trả về toạ độ gốc của ô trong world map từ toạ độ số thứ tự ô trong Cell
@@ -66,6 +90,21 @@ public class GameManager : MonoBehaviour
                 Instantiate(fertilizerPrefab, currentPos, fertilizerPrefab.transform.rotation);
                 map.SetTile(pos, null);
             }
+            else if (currentTile == freshWaterTile)
+            {
+                Vector3 currentPos = map.CellToWorld(pos);
+                Instantiate(freshWaterPrefab, currentPos, freshWaterPrefab.transform.rotation);
+                map.SetTile(pos, null);
+            }
+            else if (currentTile == magicSeedTile)
+            {
+                Vector3 currentPos = map.CellToWorld(pos);
+                Instantiate(magicSeedPrefab, currentPos, magicSeedPrefab.transform.rotation);
+                map.SetTile(pos,null);
+            }
+            
+            
+            // Đổi Tile thành GameObject cho Target
             else if (currentTile == trashcanTile)
             {
                 Vector3 currentPos = map.CellToWorld(pos);
@@ -86,11 +125,34 @@ public class GameManager : MonoBehaviour
                 map.SetTile(pos,null);
                 map.SetTile(upperTile, null);
             }
-            else if (currentTile == shelterTile)
+            else if (currentTile == posionLakeTile)
             {
                 Vector3 currentPos = map.CellToWorld(pos);
-                Instantiate(shelterPrefab, currentPos, shelterPrefab.transform.rotation);
+                Instantiate(posionLakePrefab, currentPos, posionLakePrefab.transform.rotation);
+                Target++;
+                map.SetTile(pos,null);
+            }
+            else if (currentTile == holeToPlantTile)
+            {
+                Vector3 currentPos = map.CellToWorld(pos);
+                Instantiate(holeToPlantPrefab, currentPos, holeToPlantPrefab.transform.rotation);
+                Target++;
+                map.SetTile(pos,null);
+            }
+            
+            
+            // Đổi Tile thành GameObject cho Shelter
+            else if (currentTile == caveTile)
+            {
+                Vector3 currentPos = map.CellToWorld(pos);
+                Instantiate(cavePrefab, currentPos, cavePrefab.transform.rotation);
                 map.SetTile(pos,null);  
+            }
+            else if (currentTile == treeHouseTile)
+            {
+                Vector3 currentPos = map.CellToWorld(pos);
+                Instantiate(treeHousePrefab, currentPos, treeHousePrefab.transform.rotation);
+                map.SetTile(pos,null);
             }
         }
     }

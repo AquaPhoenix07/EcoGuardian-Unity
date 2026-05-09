@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Trunk_0
+  m_Name: pond_pollution
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 8875259160252788232, guid: 4c2a845801d2b2f42be236ab655afab7, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 5817799449637031085, guid: a176ca20763d0bd4bbf7aa06e91e5e11, type: 3}
+  m_Color: {r: 0.6169608, g: 1, b: 0.4433962, a: 1}
   m_Transform:
     e00: 1
     e01: 0
