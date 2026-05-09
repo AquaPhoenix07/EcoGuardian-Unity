@@ -29,6 +29,10 @@ PrefabInstance:
       value: 0.57169807
       objectReference: {fileID: 0}
     - target: {fileID: 513290267288954047, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 513290267288954047, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
@@ -64,6 +68,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PoisionLake
       objectReference: {fileID: 0}
+    - target: {fileID: 7749081147550464326, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: completedSprite
+      value: 
+      objectReference: {fileID: 5817799449637031085, guid: a176ca20763d0bd4bbf7aa06e91e5e11, type: 3}
     - target: {fileID: 7780620409679885057, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
