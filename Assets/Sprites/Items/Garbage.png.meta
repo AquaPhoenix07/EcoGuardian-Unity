@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bf19ba2d08449034c9861cc1358f7670
+guid: 17bd5ca3c1b79fe4785e1a303f3d2f44
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,10 +116,10 @@ TextureImporter:
       name: Garbage_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 30
-        width: 212
-        height: 181
+        x: 2
+        y: 0
+        width: 28
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
