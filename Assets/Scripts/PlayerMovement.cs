@@ -109,6 +109,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (obstacle == null)
             {
+                lockKey_WhenMove = false;
                 yield break;
             }
             obstacle.transform.position = Vector3.Lerp(startPos, endPos, elapsedTime / timeToMove);
@@ -129,7 +130,7 @@ public class PlayerMovement : MonoBehaviour
         Vector3 endPos = startPos + direction;
         
         //Vẽ tạm cái raycast
-        Debug.DrawLine(startPos, endPos, Color.red, 0.5f);
+        //Debug.DrawLine(startPos, endPos, Color.red, 0.5f);
         RaycastHit2D hit = Physics2D.Linecast(startPos, endPos, obstacleLayer);
         if (hit.collider == null)
         {
@@ -151,7 +152,7 @@ public class PlayerMovement : MonoBehaviour
         Vector3 startPos = Obstacles.transform.position;
         Vector3 endPos = startPos + direction;
         
-        Debug.DrawLine(startPos, endPos, Color.red, 0.5f);
+        //Debug.DrawLine(startPos, endPos, Color.red, 0.5f);
         Obstacles.GetComponent<BoxCollider2D>().enabled = false;
         RaycastHit2D hit = Physics2D.Linecast(startPos, endPos, obstacleLayer);
         Obstacles.GetComponent<BoxCollider2D>().enabled = true;

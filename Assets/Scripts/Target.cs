@@ -4,15 +4,14 @@ using UnityEngine;
 public class Target : MonoBehaviour
 {
     private GameManager gameManager;
-    private SpriteRenderer sprite;
-    public Sprite completedSprite;
+    public GameObject completedObject;
 
     private bool isCompleted = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
-        sprite = GetComponent<SpriteRenderer>();
+        
     }
 
     // Update is called once per frame
@@ -24,18 +23,14 @@ public class Target : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collider)
     {
         if(isCompleted) return;
-        if (collider.CompareTag("Garbage"))
+        string tag = collider.gameObject.tag;
+        if (tag == "Garbage" || tag == "Fertilizer" || tag == "FreshWater" || tag == "MagicSeed")
         {
+            isCompleted = true; 
             Destroy(collider.gameObject); 
-            sprite.sprite = completedSprite;
+            Instantiate(completedObject, transform.position, completedObject.transform.rotation);
             gameManager.UpdateScore(1);
+            Destroy(gameObject); 
         }
-        else if (collider.CompareTag("Fertilizer"))
-        {
-            Destroy(collider.gameObject);
-            sprite.sprite = completedSprite;
-            gameManager.UpdateScore(1);
-        }
-        isCompleted = true;
     }
 }

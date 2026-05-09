@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &7907706817756128078
+--- !u!1001 &3529934598789719069
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -9,25 +9,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 513290267288954047, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5625
+      objectReference: {fileID: 0}
+    - target: {fileID: 513290267288954047, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_Size.y
-      value: 0.9375
+      value: 0.84765625
       objectReference: {fileID: 0}
     - target: {fileID: 513290267288954047, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 5817799449637031085, guid: a176ca20763d0bd4bbf7aa06e91e5e11, type: 3}
-    - target: {fileID: 513290267288954047, guid: c151b947d185264449da2a9c5819cde0, type: 3}
-      propertyPath: m_Color.b
-      value: 0.59348434
-      objectReference: {fileID: 0}
-    - target: {fileID: 513290267288954047, guid: c151b947d185264449da2a9c5819cde0, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 513290267288954047, guid: c151b947d185264449da2a9c5819cde0, type: 3}
-      propertyPath: m_Color.r
-      value: 0.57169807
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -6111566192836516748, guid: 3ca60ecc1afc9e94b99f62691475a96e, type: 3}
     - target: {fileID: 513290267288954047, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -35,6 +27,22 @@ PrefabInstance:
     - target: {fileID: 513290267288954047, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356408166180774597, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: m_Size.x
+      value: 0.6920953
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356408166180774597, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: m_Size.y
+      value: 0.82456577
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356408166180774597, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.01790142
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356408166180774597, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.0053705573
       objectReference: {fileID: 0}
     - target: {fileID: 1356408166180774597, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.x
@@ -46,19 +54,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1356408166180774597, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 1
+      value: 0.5625
       objectReference: {fileID: 0}
     - target: {fileID: 1356408166180774597, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
-      value: 0.9375
+      value: 0.84765625
       objectReference: {fileID: 0}
     - target: {fileID: 1356408166180774597, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 1
+      value: 0.60150373
       objectReference: {fileID: 0}
     - target: {fileID: 1356408166180774597, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 0.9375
+      value: 0.90601504
       objectReference: {fileID: 0}
     - target: {fileID: 1356408166180774597, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_SpriteTilingProperty.adaptiveTilingThreshold
@@ -66,12 +74,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6579157904388343742, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_Name
-      value: PoisionLake
+      value: Empty_TrashCan
       objectReference: {fileID: 0}
+    - target: {fileID: 7749081147550464326, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: completedObject
+      value: 
+      objectReference: {fileID: 4553379511016210, guid: 3701344ddbc55d348984846f588b54c8, type: 3}
     - target: {fileID: 7749081147550464326, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: completedSprite
       value: 
-      objectReference: {fileID: 5817799449637031085, guid: a176ca20763d0bd4bbf7aa06e91e5e11, type: 3}
+      objectReference: {fileID: 2731001722924673131, guid: 92c41d29e94fc0d499f1adbb7b25b30f, type: 3}
     - target: {fileID: 7780620409679885057, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

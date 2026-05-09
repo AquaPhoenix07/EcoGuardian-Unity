@@ -8,9 +8,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1179825224359765706, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3667634721683261907, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
       propertyPath: m_Name
       value: FreshWater_Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3667634721683261907, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
+      propertyPath: m_TagString
+      value: FreshWater
       objectReference: {fileID: 0}
     - target: {fileID: 4123188628462589632, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -68,21 +76,25 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6317308693039912390, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
+      propertyPath: m_TagString
+      value: FreshWater
+      objectReference: {fileID: 0}
     - target: {fileID: 8209456690975928473, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
       propertyPath: m_Size.x
-      value: 0.99283177
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8209456690975928473, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
       propertyPath: m_Size.y
-      value: 0.9926065
+      value: 0.90859723
       objectReference: {fileID: 0}
     - target: {fileID: 8209456690975928473, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
       propertyPath: m_Offset.x
-      value: -0.000000029802322
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8209456690975928473, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
       propertyPath: m_Offset.y
-      value: 0.002644956
+      value: -0.045701385
       objectReference: {fileID: 0}
     - target: {fileID: 8209456690975928473, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.x

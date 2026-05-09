@@ -24,8 +24,8 @@ public class AStarManager : MonoBehaviour
         PathNode startNode = new PathNode(startPos);
         PathNode targetNode = new PathNode(targetPos);
         
-        List<PathNode> frontierList = new List<PathNode> {startNode};
-        List<PathNode> closedList = new List<PathNode>();
+        List<PathNode> frontierList = new List<PathNode> {startNode}; // Danh sách các Node đang xét (neighbors)
+        List<PathNode> closedList = new List<PathNode>(); //Danh sách các node đã xem xong
 
         while (frontierList.Count > 0)
         {
@@ -44,7 +44,7 @@ public class AStarManager : MonoBehaviour
             {
                 Vector3 neighborPos = currentNode.position + direction;
                 
-                // Kiểm tra nếu là vật cản hoặc đã check rồi ( nằm trong closedList)
+                // Kiểm tra nếu là vật cản hoặc đã check rồi --> không đi lại đường cũ ( nằm trong closedList)
                 if (!IsWalkable(neighborPos) || IsPositionInList(neighborPos, closedList)) continue;
                
                 int newGCost = currentNode.GCost + 10;

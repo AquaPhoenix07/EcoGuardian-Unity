@@ -76,6 +76,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: TreeHouse_Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 6579157904388343742, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: m_TagString
+      value: Tree_Shelter
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193853486077216271, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: m_TagString
+      value: Tree_Shelter
+      objectReference: {fileID: 0}
     - target: {fileID: 7780620409679885057, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

@@ -80,7 +80,44 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Garbage
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8209456690975928473, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209456690975928473, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209456690975928473, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209456690975928473, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209456690975928473, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 0.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209456690975928473, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209456690975928473, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209456690975928473, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209456690975928473, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
+      propertyPath: m_SpriteTilingProperty.adaptiveTilingThreshold
+      value: 0.5
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8209456690975928473, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -127,7 +164,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.010740876, y: -0.0017901361}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -137,5 +174,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.86394906, y: 0.9964197}
   m_EdgeRadius: 0

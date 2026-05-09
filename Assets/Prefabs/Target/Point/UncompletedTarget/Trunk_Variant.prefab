@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &7604058891820033284
+--- !u!1001 &5218913019730203873
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -9,13 +9,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 513290267288954047, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 513290267288954047, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_Size.y
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 513290267288954047, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1729011574, guid: e3c8dc55adc4b8843b7c091090de452c, type: 3}
+      objectReference: {fileID: -793100320, guid: e3c8dc55adc4b8843b7c091090de452c, type: 3}
     - target: {fileID: 513290267288954047, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -23,6 +27,22 @@ PrefabInstance:
     - target: {fileID: 513290267288954047, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356408166180774597, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: m_Size.x
+      value: 0.71761405
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356408166180774597, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6433772
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356408166180774597, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.021722019
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356408166180774597, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.017186627
       objectReference: {fileID: 0}
     - target: {fileID: 1356408166180774597, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.x
@@ -38,7 +58,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1356408166180774597, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1356408166180774597, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -54,8 +74,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6579157904388343742, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_Name
-      value: Full Tree_Variant
+      value: Trunk_Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 7272996414888779274, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272996414888779274, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7749081147550464326, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: completedObject
+      value: 
+      objectReference: {fileID: 3659972975937987258, guid: d45e1c68f0e704749aad0d2257230c78, type: 3}
+    - target: {fileID: 7749081147550464326, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: completedSprite
+      value: 
+      objectReference: {fileID: 1729011574, guid: e3c8dc55adc4b8843b7c091090de452c, type: 3}
     - target: {fileID: 7780620409679885057, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

@@ -4,10 +4,10 @@ using System.Collections;
 
 public class AnimalAI : MonoBehaviour
 {
-    public Transform shelterTarget;
-
+    public string targetShelterTag;
+    private GameObject targetShelter;
+    
     public float moveDelay = 0.5f;
-
     private AStarManager aStarManager;
     private bool isMoving = false;
     private List<Vector3> resultPath;
@@ -28,6 +28,10 @@ public class AnimalAI : MonoBehaviour
 
     private IEnumerator ThinkAndMoveRoutine()
     {
+        while (targetShelter == null)
+        {
+            
+        }
         while (true)
         {
             yield return new WaitForSeconds(moveDelay);

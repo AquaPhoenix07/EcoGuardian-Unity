@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MagicSeed_Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 3667634721683261907, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
+      propertyPath: m_TagString
+      value: MagicSeed
+      objectReference: {fileID: 0}
     - target: {fileID: 4123188628462589632, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -72,21 +76,25 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6317308693039912390, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
+      propertyPath: m_TagString
+      value: MagicSeed
+      objectReference: {fileID: 0}
     - target: {fileID: 8209456690975928473, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
       propertyPath: m_Size.x
-      value: 0.8141319
+      value: 0.82569164
       objectReference: {fileID: 0}
     - target: {fileID: 8209456690975928473, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
       propertyPath: m_Size.y
-      value: 0.90688866
+      value: 0.90703565
       objectReference: {fileID: 0}
     - target: {fileID: 8209456690975928473, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
       propertyPath: m_Offset.x
-      value: -0.00031527877
+      value: 0.000000029802322
       objectReference: {fileID: 0}
     - target: {fileID: 8209456690975928473, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
       propertyPath: m_Offset.y
-      value: 0.003990501
+      value: -0.000000029802322
       objectReference: {fileID: 0}
     - target: {fileID: 8209456690975928473, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.x

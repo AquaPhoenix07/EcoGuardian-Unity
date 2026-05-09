@@ -10,6 +10,8 @@ TagManager:
   - Shelter
   - Fertilizer
   - Garbage
+  - FreshWater
+  - MagicSeed
   layers:
   - Default
   - TransparentFX

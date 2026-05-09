@@ -23,19 +23,15 @@ public class GameManager : MonoBehaviour
     //LEFT
     public TileBase trashcanTile;
     public GameObject emptyTrashcanPrefab;
-    public GameObject trashcanPrefab;
     
     public TileBase trunkTile;
     public GameObject trunkPrefab;
-    public GameObject treePrefab;
     //RIGHT
     public TileBase holeToPlantTile;
     public GameObject holeToPlantPrefab;
-    public GameObject fullPlantPrefab;
 
     public TileBase posionLakeTile;
     public GameObject posionLakePrefab;
-    public GameObject healthyLakePrefab;
     
     // Shelter Tile
     [Header("Shelter")]
@@ -119,7 +115,7 @@ public class GameManager : MonoBehaviour
                 Vector3Int upperTile = map.WorldToCell(upperPos);
                 Vector3 currentPos = map.CellToWorld(pos);
                 
-                Instantiate(trunkPrefab, currentPos, treePrefab.transform.rotation);
+                Instantiate(trunkPrefab, currentPos, trunkPrefab.transform.rotation);
                 Target++; 
                 
                 map.SetTile(pos,null);
