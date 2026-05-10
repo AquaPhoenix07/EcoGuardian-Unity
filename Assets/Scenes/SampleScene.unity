@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 386137046}
   m_Layer: 2
   m_Name: Armadillo Skin
-  m_TagString: Untagged
+  m_TagString: Armadillo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5101,6 +5101,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1578326137}
   - component: {fileID: 1578326138}
+  - component: {fileID: 1578326139}
   m_Layer: 2
   m_Name: RedPanda
   m_TagString: RedPanda
@@ -5183,6 +5184,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1578326139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578326136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c322881c4907bb84b94a325aa7ca4a01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimalAI
+  targetShelterTag: Tree_Shelter
 --- !u!1 &1886700075
 GameObject:
   m_ObjectHideFlags: 0
@@ -8452,7 +8466,7 @@ GameObject:
   - component: {fileID: 2027463198}
   m_Layer: 2
   m_Name: RedPanda Skin
-  m_TagString: Untagged
+  m_TagString: RedPanda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
