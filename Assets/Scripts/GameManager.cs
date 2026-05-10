@@ -41,8 +41,8 @@ public class GameManager : MonoBehaviour
     public TileBase treeHouseTile;
     public GameObject treeHousePrefab;
     //Target
-    private int Target = 0;
-    private int currentTarget = 0; 
+    public int Target = 0;
+    public int currentTarget = 0; 
     
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created

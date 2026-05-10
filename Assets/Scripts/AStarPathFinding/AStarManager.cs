@@ -108,13 +108,13 @@ public class AStarManager : MonoBehaviour
         while (currentNode != null)
         {
             path.Add(currentNode.position);
-            if (currentNode == startNode) break;
+            if (Vector3.Distance(currentNode.position, startNode.position) < 0.1f) break;
             currentNode = currentNode.previousNode;
         }
         path.Reverse();
         return path;
     }
-
+    
     private bool IsPositionInList(Vector3 pos, List<PathNode> list)
     {
         foreach (var node in list)
@@ -135,5 +135,4 @@ public class AStarManager : MonoBehaviour
         }
         return null;
     }
-
 }
