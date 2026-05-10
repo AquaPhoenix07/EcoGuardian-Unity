@@ -42,13 +42,15 @@ public class GameManager : MonoBehaviour
     public GameObject treeHousePrefab;
     //Target
     public int Target = 0;
-    public int currentTarget = 0; 
+    public int currentTarget = 0;
+    public bool isMapReady;
     
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         ScanMap();
+        isMapReady = true;
         
     }
 

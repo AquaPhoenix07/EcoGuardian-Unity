@@ -31,7 +31,7 @@ public class AnimalAI : MonoBehaviour
         StartCoroutine(ThinkAndMoveRoutine());
         
         //Random Emotion
-        InvokeRepeating("RandomEmotion", 5.0f, 7.0f);
+        InvokeRepeating("RandomEmotion", 3.0f, 3.0f);
     }
 
     // Update is called once per frame
@@ -43,7 +43,9 @@ public class AnimalAI : MonoBehaviour
     private IEnumerator ThinkAndMoveRoutine()
     {
         isMoving = false;
-        yield return new WaitUntil(() => gameManager.Target == gameManager.currentTarget);
+        yield return new WaitUntil(() => 
+            gameManager.Target == gameManager.currentTarget && 
+            gameManager.isMapReady);
         isMoving = true;
         targetShelter = GameObject.FindWithTag(targetShelterTag);
         if (targetShelter == null) {
@@ -67,7 +69,7 @@ public class AnimalAI : MonoBehaviour
                     Vector3 nextPos = resultPath[1];
                     yield return StartCoroutine(SmoothMovement(nextPos));
                 }
-                yield return new WaitForSeconds(1.0f);
+                yield return new WaitForSeconds(0.25f);
             }
     }
     
@@ -99,22 +101,55 @@ public class AnimalAI : MonoBehaviour
     //Random Emotion
     private void RandomEmotion()
     {
-        int randomIndex = Random.Range(0, 2);
+        
         if (!isMoving)
         {
-            switch (randomIndex)
+            if (gameObject.CompareTag("Armadillo"))
             {
-                case 0:
+                int randomIndex = Random.Range(0, 2);
+                switch (randomIndex)
                 {
-                    animator.SetTrigger("Spin_Trigger");
-                    break;
-                }
-                case 1:
-                {
-                    animator.SetTrigger("Sleep_Trigger");
-                    break;
+                    case 0:
+                    {
+                        animator.SetTrigger("Spin_Trigger");
+                        break;
+                    }
+                    case 1:
+                    {
+                        animator.SetTrigger("Sleep_Trigger");
+                        break;
+                    }
                 }
             }
+
+            if (gameObject.CompareTag("RedPanda"))
+            {
+                int randomIndex = Random.Range(0, 4);
+                switch (randomIndex)
+                {
+                    case 0:
+                    {
+                        animator.SetTrigger("StepUp_Trigger");
+                        break;
+                    }
+                    case 1:
+                    {
+                        animator.SetTrigger("Lay_Trigger");
+                        break;
+                    }
+                    case 2:
+                    {
+                        animator.SetTrigger("CoverFace_Trigger");
+                        break;
+                    }
+                    case 3:
+                    {
+                        animator.SetTrigger("Sleep_Trigger");
+                        break;
+                    }
+                }
+            }
+            
         }
     }
 }
