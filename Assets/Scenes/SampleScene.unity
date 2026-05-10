@@ -129,8 +129,10 @@ GameObject:
   m_Component:
   - component: {fileID: 386137044}
   - component: {fileID: 386137043}
-  m_Layer: 0
-  m_Name: Amardilo Skin
+  - component: {fileID: 386137045}
+  - component: {fileID: 386137046}
+  m_Layer: 2
+  m_Name: Amardillo Skin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -210,6 +212,74 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1122513745}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &386137045
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386137042}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d61edd42d61e12a41a00e61a212da404, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!61 &386137046
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386137042}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.8125, y: 0.40625}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.40522957, y: 0.40625}
+  m_EdgeRadius: 0
 --- !u!1 &435486435
 GameObject:
   m_ObjectHideFlags: 0
@@ -221,7 +291,7 @@ GameObject:
   - component: {fileID: 435486436}
   - component: {fileID: 435486438}
   - component: {fileID: 435486437}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Decoration
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -290,7 +360,7 @@ TilemapRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -1094,7 +1164,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
@@ -1278,8 +1348,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1122513745}
   - component: {fileID: 1122513746}
-  m_Layer: 0
-  m_Name: Amardilo
+  m_Layer: 2
+  m_Name: Amardillo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1314,8 +1384,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnimalAI
   targetShelterTag: Cave_Shelter
-  moveDelay: 0.5
-  moveSpeed: 3
 --- !u!1 &1161924798
 GameObject:
   m_ObjectHideFlags: 0
@@ -2386,6 +2454,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 0, y: -1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 48
+      m_TileSpriteIndex: 13
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 3
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 1, y: -1, z: 0}
     second:
       serializedVersion: 2
@@ -2521,16 +2599,6 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 39
       m_TileSpriteIndex: 39
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 3
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 0, y: 0, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 38
       m_TileMatrixIndex: 0
       m_TileColorIndex: 3
       m_TileObjectToInstantiateIndex: 65535
@@ -3846,7 +3914,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 256869852b4d4514eacf694242ca078c, type: 2}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: c87b913b06c11e04889331135679168c, type: 2}
-  - m_RefCount: 2
+  - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: d9ff85ff8b6570a498c0a5a3f158ae78, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 93cb15faecf5fa340955a148958e9791, type: 2}
@@ -3874,8 +3942,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 6d3b2b18a2db0704fbcd398e70ad35ef, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 709fc6f0dbf1edb4a9b951dc3cef4469, type: 2}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 706c5fb3305858543b2ae79820ffa1b2, type: 2}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: f8bdf887304a97e498d9c0fe25bd29e8, type: 2}
   - m_RefCount: 1
@@ -3927,8 +3995,8 @@ Tilemap:
     m_Data: {fileID: -79740714, guid: e33a07dce6dfa8d419283d3efac2d849, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: 1625754452, guid: e33a07dce6dfa8d419283d3efac2d849, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 1021384123, guid: 09fa8619ad1355b4593de37c51bf967a, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: 347515884, guid: e33a07dce6dfa8d419283d3efac2d849, type: 3}
   - m_RefCount: 1
@@ -3977,7 +4045,7 @@ Tilemap:
     m_Data: {fileID: -1651866629, guid: 09122adeb05ab194b8eb47e577167d67, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 143843263, guid: 09fa8619ad1355b4593de37c51bf967a, type: 3}
-  - m_RefCount: 2
+  - m_RefCount: 1
     m_Data: {fileID: 2079390943, guid: 09fa8619ad1355b4593de37c51bf967a, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: -589829111, guid: 09fa8619ad1355b4593de37c51bf967a, type: 3}
@@ -4422,17 +4490,17 @@ CompositeCollider2D:
         Y: 9375000
       - X: 35625000
         Y: 10000000
-      - X: 1875000
+      - X: 10000000
         Y: 10000000
-      - X: 0
-        Y: 7500000
-      - X: 0
-        Y: 0
       - X: 10000000
+        Y: -1250000
+      - X: 9375000
         Y: 0
-      - X: 10000000
-        Y: -13125000
-      - X: 6250000
+      - X: 625000
+        Y: 0
+      - X: 0
+        Y: -1250000
+      - X: 0
         Y: -10000000
       - X: 1250000
         Y: -10000000
@@ -4560,6 +4628,14 @@ CompositeCollider2D:
         Y: 31875000
       - X: -57500000
         Y: 30000000
+    - - X: 6250000
+        Y: -10000000
+      - X: 9375000
+        Y: -10000000
+      - X: 10000000
+        Y: -8750000
+      - X: 10000000
+        Y: -13125000
     - - X: 9375000
         Y: -20000000
       - X: 10000000
@@ -4598,17 +4674,17 @@ CompositeCollider2D:
         Y: -45625000
       - X: -6875000
         Y: -45625000
-    - - X: 39375000
-        Y: -50000000
-      - X: 40000000
-        Y: -49375000
-      - X: 40000000
-        Y: -50000000
     - - X: -70625000
         Y: -50000000
       - X: -70000000
         Y: -49375000
       - X: -70000000
+        Y: -50000000
+    - - X: 39375000
+        Y: -50000000
+      - X: 40000000
+        Y: -49375000
+      - X: 40000000
         Y: -50000000
   m_CompositePaths:
     m_Paths:
@@ -4761,14 +4837,14 @@ CompositeCollider2D:
       - {x: 3.9999232, y: 0.5626541}
       - {x: 3.8124886, y: 0.93750304}
       - {x: 3.5624971, y: 1}
-      - {x: 0.1874921, y: 0.9999894}
-      - {x: 0, y: 0.74999154}
-      - {x: 0.000029300001, y: 0}
-      - {x: 1, y: -0.0000294}
-      - {x: 0.9999424, y: -1.312452}
-      - {x: 0.6249907, y: -1}
-      - {x: 0.1249922, y: -1.0000118}
-      - {x: 0, y: -1.1875079}
+      - {x: 1, y: 0.99997073}
+      - {x: 0.999923, y: -0.1248459}
+      - {x: 0.93748343, y: 0}
+      - {x: 0.0624924, y: -0.0000149}
+      - {x: 0, y: -0.1250059}
+      - {x: 0.000029300001, y: -1}
+      - {x: 0.1249648, y: -1.0000528}
+      - {x: 0, y: -1.1875077}
       - {x: 0.000029300001, y: -2}
       - {x: 0.1874695, y: -2.0000508}
       - {x: 0, y: -2.312507}
@@ -4833,6 +4909,10 @@ CompositeCollider2D:
       - {x: -6.2499967, y: 3.187501}
       - {x: -6, y: 3.2499604}
       - {x: -5.9999895, y: 3.1874921}
+    - - {x: 1, y: -1.3124251}
+      - {x: 0.625103, y: -1}
+      - {x: 0.9375076, y: -0.9999851}
+      - {x: 1, y: -0.8751723}
     - - {x: 1, y: -2.1872344}
       - {x: 0.9375437, y: -2}
       - {x: 1, y: -2.0000293}
@@ -5019,8 +5099,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1578326137}
-  - component: {fileID: 1578326138}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: RedPanda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5043,21 +5122,6 @@ Transform:
   - {fileID: 2027463197}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1578326138
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1578326136}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c322881c4907bb84b94a325aa7ca4a01, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AnimalAI
-  targetShelterTag: Tree_Shelter
-  moveDelay: 0.5
-  moveSpeed: 3
 --- !u!1 &1886700075
 GameObject:
   m_ObjectHideFlags: 0
@@ -8324,7 +8388,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2027463197}
   - component: {fileID: 2027463196}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: RedPanda Skin
   m_TagString: Untagged
   m_Icon: {fileID: 0}

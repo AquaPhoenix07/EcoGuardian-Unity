@@ -90,7 +90,9 @@ public class AStarManager : MonoBehaviour
     
     private bool IsWalkable(Vector3 checkNode)
     {
-        Collider2D hit  = Physics2D.OverlapPoint(checkNode, obstacleLayer);
+        // Nếu lấy pivot là bottomleft thì đụng dính đồ bên dưới --> có bù
+        Vector3 offset = new Vector3(0.5f, 0.5f, 0);
+        Collider2D hit  = Physics2D.OverlapCircle(checkNode + offset,0.1f,obstacleLayer);
         return hit == null;
     }
 

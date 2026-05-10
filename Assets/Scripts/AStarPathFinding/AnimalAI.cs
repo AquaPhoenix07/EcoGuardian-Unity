@@ -10,11 +10,13 @@ public class AnimalAI : MonoBehaviour
     private GameObject targetShelter;
 
     private float timeToMove = 0.3f;
+    private bool isMoving;
     
     //Other Class 
     private AStarManager aStarManager;
     private GameManager gameManager;
     private Animator animator;
+    private SpriteRenderer spriteRenderer;
     
     private List<Vector3> resultPath;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -23,8 +25,13 @@ public class AnimalAI : MonoBehaviour
         aStarManager = FindObjectOfType<AStarManager>();
         gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
         animator = GetComponentInChildren<Animator>();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        
         // Bắt đầu chu kỳ suy nghĩ và di chuyển
         StartCoroutine(ThinkAndMoveRoutine());
+        
+        //Random Emotion
+        InvokeRepeating("RandomEmotion", 5.0f, 7.0f);
     }
 
     // Update is called once per frame
@@ -32,9 +39,12 @@ public class AnimalAI : MonoBehaviour
     {
         
     }
+    
     private IEnumerator ThinkAndMoveRoutine()
     {
+        isMoving = false;
         yield return new WaitUntil(() => gameManager.Target == gameManager.currentTarget);
+        isMoving = true;
         targetShelter = GameObject.FindWithTag(targetShelterTag);
         if (targetShelter == null) {
             Debug.LogError("Không tìm thấy Shelter với Tag: " + targetShelterTag);
@@ -45,6 +55,8 @@ public class AnimalAI : MonoBehaviour
                 if (targetShelter != null && Vector3.Distance(transform.position, targetShelter.transform.position) < 0.1f)
                 {
                     Debug.Log(gameObject.name + " đã về đích an toàn!");
+                    animator.SetBool("IsMoving", false);
+                    isMoving = false;
                     yield break; 
                 }
                 // Đường về
@@ -55,22 +67,32 @@ public class AnimalAI : MonoBehaviour
                     Vector3 nextPos = resultPath[1];
                     yield return StartCoroutine(SmoothMovement(nextPos));
                 }
-                yield return new WaitForSeconds(3.0f);
+                yield return new WaitForSeconds(1.0f);
             }
     }
     
     private IEnumerator SmoothMovement(Vector3 endPos)
     {
+        animator.SetBool("IsMoving", true);
         Vector3 startPos = transform.position;
+        //Xoay mặt cho Animal
+        if (endPos.x < startPos.x)
+        {
+            spriteRenderer.flipX = true;
+        }
+        else if (endPos.x > startPos.x)
+        {
+            spriteRenderer.flipX = false;
+        }
         float elapseTime = 0;
         float timeToMove = 0.3f;
+        
         while (elapseTime < timeToMove)
         {
             transform.position = Vector3.Lerp(startPos, endPos, elapseTime / timeToMove);
             elapseTime += Time.deltaTime;
             yield return null;
         }
-        animator.SetBool("IsMoving", true);
         transform.position = endPos;
     }
     
@@ -78,17 +100,20 @@ public class AnimalAI : MonoBehaviour
     private void RandomEmotion()
     {
         int randomIndex = Random.Range(0, 2);
-        switch (randomIndex)
+        if (!isMoving)
         {
-            case 0:
+            switch (randomIndex)
             {
-                animator.SetTrigger("Spin_Trigger");
-                break;
-            }
-            case 1:
-            {
-                animator.SetTrigger("Sleep_Trigger");
-                break;
+                case 0:
+                {
+                    animator.SetTrigger("Spin_Trigger");
+                    break;
+                }
+                case 1:
+                {
+                    animator.SetTrigger("Sleep_Trigger");
+                    break;
+                }
             }
         }
     }
