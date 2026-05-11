@@ -2,12 +2,15 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Serialization;
+
 public class ChangeGreen : MonoBehaviour
 {
     private GameManager gameManager;
     [Header("Map Change")]
     public Tilemap groundTilemap;
     public Tilemap wallTilemap;
+    [FormerlySerializedAs("pipeTilemap")] public Tilemap waterTilemap;
     
     [Header("TileBase ChangePairs")]
     public List<TileBase> oldGroundTiles;
@@ -15,6 +18,8 @@ public class ChangeGreen : MonoBehaviour
     
     public List<TileBase> oldWallTiles;
     public List<TileBase> newWallTiles;
+
+    [FormerlySerializedAs("oldPipeTiles")] public List<TileBase> oldWaterTiles;
 
     [Header("VisualEffect")] [SerializeField]
     private float spreadSpeed = 0.02f;
@@ -25,6 +30,7 @@ public class ChangeGreen : MonoBehaviour
         gameManager = FindObjectOfType<GameManager>();
         StartCoroutine("SpreadGrassGround");
         StartCoroutine("SpreadGrassWall");
+        StartCoroutine("SpreadWaterGround");
     }
 
     // Update is called once per frame
@@ -35,7 +41,9 @@ public class ChangeGreen : MonoBehaviour
 // Thay TileBase cho ground
     private IEnumerator SpreadGrassGround()
     {
-        yield return new WaitUntil(() => gameManager.Target == gameManager.currentTarget);
+        // yield return new WaitUntil(() => 
+        //     gameManager.Target == gameManager.currentTarget &&
+        //     gameManager.isMapReady);
         
         List<TileChangeData> tilesToChange = new List<TileChangeData>();
         BoundsInt bounds = groundTilemap.cellBounds;
@@ -67,10 +75,13 @@ public class ChangeGreen : MonoBehaviour
 // Thay TileBase cho Wall 
     private IEnumerator SpreadGrassWall()
     {
-        yield return new WaitUntil(() => gameManager.Target == gameManager.currentTarget);
+        // yield return new WaitUntil(() => 
+        //     gameManager.Target == gameManager.currentTarget && 
+        //     gameManager.isMapReady);
         
         List<TileChangeData> tilesToChange = new List<TileChangeData>();
         BoundsInt bounds = wallTilemap.cellBounds;
+        
         foreach (var pos in bounds.allPositionsWithin)
         {
             TileBase currentTile = wallTilemap.GetTile(pos);
@@ -94,6 +105,38 @@ public class ChangeGreen : MonoBehaviour
             wallTilemap.SetTile(tile.position, tile.newTile);
             yield return new WaitForSeconds(spreadSpeed);
         }
+    }
+    //Thay TileBase cho hồ nước bẩn 
+    private IEnumerator SpreadWaterGround()
+    {
+        // yield return new WaitUntil(() => 
+        //     gameManager.Target == gameManager.currentTarget &&
+        //     gameManager.isMapReady);
+        List<TileChangeData> tilesToChange = new List<TileChangeData>();
+        BoundsInt bounds = waterTilemap.cellBounds;
+        foreach (var pos in bounds.allPositionsWithin)
+        {
+            TileBase currentTile = waterTilemap.GetTile(pos);
+            if (currentTile == null) continue;
+            for (int i = 0; i < oldWaterTiles.Count; i++)
+            {
+                if (currentTile == oldWaterTiles[i])
+                {
+                    tilesToChange.Add(new TileChangeData
+                    {
+                        position = pos,
+                        newTile = null
+                    });
+                    break;
+                }
+            }
+        }
+        foreach (var tile in tilesToChange)
+        {
+            waterTilemap.SetTile(tile.position, tile.newTile);
+            yield return new WaitForSeconds(spreadSpeed);
+        }
+        
     }
 
     private class TileChangeData
