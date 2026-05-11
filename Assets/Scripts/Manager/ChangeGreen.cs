@@ -41,9 +41,9 @@ public class ChangeGreen : MonoBehaviour
 // Thay TileBase cho ground
     private IEnumerator SpreadGrassGround()
     {
-        // yield return new WaitUntil(() => 
-        //     gameManager.Target == gameManager.currentTarget &&
-        //     gameManager.isMapReady);
+        yield return new WaitUntil(() => 
+            gameManager.Target == gameManager.currentTarget &&
+            gameManager.isMapReady);
         
         List<TileChangeData> tilesToChange = new List<TileChangeData>();
         BoundsInt bounds = groundTilemap.cellBounds;
@@ -75,9 +75,9 @@ public class ChangeGreen : MonoBehaviour
 // Thay TileBase cho Wall 
     private IEnumerator SpreadGrassWall()
     {
-        // yield return new WaitUntil(() => 
-        //     gameManager.Target == gameManager.currentTarget && 
-        //     gameManager.isMapReady);
+        yield return new WaitUntil(() => 
+            gameManager.Target == gameManager.currentTarget && 
+            gameManager.isMapReady);
         
         List<TileChangeData> tilesToChange = new List<TileChangeData>();
         BoundsInt bounds = wallTilemap.cellBounds;
@@ -109,9 +109,10 @@ public class ChangeGreen : MonoBehaviour
     //Thay TileBase cho hồ nước bẩn 
     private IEnumerator SpreadWaterGround()
     {
-        // yield return new WaitUntil(() => 
-        //     gameManager.Target == gameManager.currentTarget &&
-        //     gameManager.isMapReady);
+        yield return new WaitUntil(() => 
+            gameManager.Target == gameManager.currentTarget &&
+            gameManager.isMapReady);
+        
         List<TileChangeData> tilesToChange = new List<TileChangeData>();
         BoundsInt bounds = waterTilemap.cellBounds;
         foreach (var pos in bounds.allPositionsWithin)

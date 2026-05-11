@@ -6,17 +6,12 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private LayerMask obstacleLayer;
     private Animator animator;
-    private AudioSource playerAudio;
-
-    public AudioClip finishSound;
-    public AudioClip footStepSound;
     
     //Chỉ để khoá bàn phím chớ không có ben Animator
     private bool lockKey_WhenMove = false;
     
     void Start()
     {
-        playerAudio = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
         animator.SetBool("IsIdle", true);
     }
@@ -64,7 +59,6 @@ public class PlayerMovement : MonoBehaviour
     {
         lockKey_WhenMove = true;
         animator.SetBool("IsIdle", false);
-        playerAudio.PlayOneShot(footStepSound,1.0f);
 
         Vector3 startPos = transform.position;
         Vector3 endPos = startPos + direction;
@@ -130,7 +124,7 @@ public class PlayerMovement : MonoBehaviour
         Vector3 endPos = startPos + direction;
         
         //Vẽ tạm cái raycast
-        //Debug.DrawLine(startPos, endPos, Color.red, 0.5f);
+        Debug.DrawLine(startPos, endPos, Color.red, 0.5f);
         RaycastHit2D hit = Physics2D.Linecast(startPos, endPos, obstacleLayer);
         if (hit.collider == null)
         {
@@ -152,7 +146,7 @@ public class PlayerMovement : MonoBehaviour
         Vector3 startPos = Obstacles.transform.position;
         Vector3 endPos = startPos + direction;
         
-        //Debug.DrawLine(startPos, endPos, Color.red, 0.5f);
+        Debug.DrawLine(startPos, endPos, Color.red, 0.5f);
         Obstacles.GetComponent<BoxCollider2D>().enabled = false;
         RaycastHit2D hit = Physics2D.Linecast(startPos, endPos, obstacleLayer);
         Obstacles.GetComponent<BoxCollider2D>().enabled = true;

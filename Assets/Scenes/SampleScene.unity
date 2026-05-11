@@ -360,7 +360,7 @@ TilemapRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -1395,32 +1395,15 @@ GameObject:
   - component: {fileID: 1161924802}
   - component: {fileID: 1161924801}
   - component: {fileID: 1161924800}
-  - component: {fileID: 1161924799}
   - component: {fileID: 1161924803}
+  - component: {fileID: 1161924804}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Skin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1161924799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161924798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db469ad86290a1345ad9e99e1e6ccd05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 192
-  finishSound: {fileID: 0}
-  footStepSound: {fileID: 0}
 --- !u!61 &1161924800
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1534,8 +1517,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161924798}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -1.5, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.5, y: -0.5, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1563,6 +1546,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1161924804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161924798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db469ad86290a1345ad9e99e1e6ccd05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 192
 --- !u!1 &1309844805
 GameObject:
   m_ObjectHideFlags: 0
@@ -5048,8 +5046,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1426805291}
   - component: {fileID: 1426805292}
-  - component: {fileID: 1426805293}
   - component: {fileID: 1426805294}
+  - component: {fileID: 1426805295}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -5108,21 +5106,6 @@ MonoBehaviour:
   Target: 0
   currentTarget: 0
   isMapReady: 0
---- !u!114 &1426805293
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1426805290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c249aa1470bf1b46bda0ee351b99ef7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AStarManager
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 192
 --- !u!114 &1426805294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5315,6 +5298,21 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2dabcb357a597f64385f5690405c9015, type: 2}
   - {fileID: 11400000, guid: 41156c0ccf0bc9043991bbb1469b6d26, type: 2}
   spreadSpeed: 0.02
+--- !u!114 &1426805295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426805290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c249aa1470bf1b46bda0ee351b99ef7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AStarManager
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 192
 --- !u!1 &1578326136
 GameObject:
   m_ObjectHideFlags: 0
@@ -8799,6 +8797,6 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 1982832586}
   - {fileID: 1426805291}
-  - {fileID: 1161924802}
   - {fileID: 1122513745}
   - {fileID: 1578326137}
+  - {fileID: 1161924802}
