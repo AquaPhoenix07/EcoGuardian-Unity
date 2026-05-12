@@ -1,8 +1,5 @@
 using UnityEngine;
 using System.Collections.Generic;
-using UnityEditor.Experimental.GraphView;
-using UnityEditor.TerrainTools;
-
 public class AStarManager : MonoBehaviour
 {
     public LayerMask obstacleLayer;
