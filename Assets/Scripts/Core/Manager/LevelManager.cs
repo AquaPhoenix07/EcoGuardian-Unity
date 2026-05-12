@@ -7,10 +7,17 @@ public class LevelManager : MonoBehaviour
     public Canvas canvas;
     public GameObject SettingMenu;
     public GameObject MissionMenu;
+    
+    //Sound Manager
+    private AudioSource backgroundMusic;
+    private AudioSource audioSource;
+    public AudioClip clickSound;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        backgroundMusic = GameObject.Find("Main Camera").GetComponent<AudioSource>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -49,12 +56,12 @@ public class LevelManager : MonoBehaviour
     {
         if (isOn)
         {
-            AudioListener.pause = true;
+            backgroundMusic.Pause(); 
         }
 
         if (!isOn)
         {
-            AudioListener.pause = false;
+            backgroundMusic.UnPause();
         }
     }
     
@@ -66,6 +73,11 @@ public class LevelManager : MonoBehaviour
     public void Exit_Button()
     {
         SceneManager.LoadScene(0);
+    }
+
+    public void ClickSound()
+    {
+        audioSource.PlayOneShot(clickSound);
     }
 
     
