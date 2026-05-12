@@ -21,7 +21,7 @@ public class LevelManager : MonoBehaviour
             RestartLevel();
         }
     }
-
+    // LEFT TOOL
     public void RestartLevel()
     {
         string currentSceneName = SceneManager.GetActiveScene().name;
@@ -37,7 +37,14 @@ public class LevelManager : MonoBehaviour
     {
         SettingMenu.SetActive(false);
     }
+    
+    public void OpenMission()
+    {
+        MissionMenu.SetActive(true);
+    }
 
+    //SETTING BUTTONS
+    
     public void OnToggleSound(bool isOn)
     {
         if (isOn)
@@ -50,16 +57,17 @@ public class LevelManager : MonoBehaviour
             AudioListener.pause = false;
         }
     }
-
-    public void OpenMission()
-    {
-        MissionMenu.SetActive(true);
-    }
-
+    
     public void CloseMission()
     {
         MissionMenu.SetActive(false);
     }
 
+    public void Exit_Button()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    
 
 }
