@@ -6,6 +6,7 @@ public class LevelManager : MonoBehaviour
 {
     public Canvas canvas;
     public GameObject SettingMenu;
+    public GameObject MissionMenu;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -48,6 +49,16 @@ public class LevelManager : MonoBehaviour
         {
             AudioListener.pause = false;
         }
+    }
+
+    public void OpenMission()
+    {
+        MissionMenu.SetActive(true);
+    }
+
+    public void CloseMission()
+    {
+        MissionMenu.SetActive(false);
     }
 
 
