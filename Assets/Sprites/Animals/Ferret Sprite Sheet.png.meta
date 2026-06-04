@@ -1,0 +1,1898 @@
+fileFormatVersion: 2
+guid: 6311d83985e35f94eb9708f53544af76
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2047270503941516700
+    second: Ferret Sprite Sheet_0
+  - first:
+      213: -5326706861725329151
+    second: Ferret Sprite Sheet_1
+  - first:
+      213: -2941613720408423516
+    second: Ferret Sprite Sheet_2
+  - first:
+      213: -4149069865747323894
+    second: Ferret Sprite Sheet_3
+  - first:
+      213: 7042833495448100481
+    second: Ferret Sprite Sheet_4
+  - first:
+      213: -8342223180772784278
+    second: Ferret Sprite Sheet_5
+  - first:
+      213: 8780637868130712335
+    second: Ferret Sprite Sheet_6
+  - first:
+      213: 2730899065571692457
+    second: Ferret Sprite Sheet_7
+  - first:
+      213: 8602143760589499653
+    second: Ferret Sprite Sheet_8
+  - first:
+      213: 1868687451138330635
+    second: Ferret Sprite Sheet_9
+  - first:
+      213: 4844571185055401260
+    second: Ferret Sprite Sheet_10
+  - first:
+      213: -7949131208205652160
+    second: Ferret Sprite Sheet_11
+  - first:
+      213: -728742808579697594
+    second: Ferret Sprite Sheet_12
+  - first:
+      213: 1929039616076679574
+    second: Ferret Sprite Sheet_13
+  - first:
+      213: 5206768222434157742
+    second: Ferret Sprite Sheet_14
+  - first:
+      213: -8368034792735755552
+    second: Ferret Sprite Sheet_15
+  - first:
+      213: -4787157536416582811
+    second: Ferret Sprite Sheet_16
+  - first:
+      213: 6215825383481051440
+    second: Ferret Sprite Sheet_17
+  - first:
+      213: -5318833614438522921
+    second: Ferret Sprite Sheet_18
+  - first:
+      213: -2701627516336981872
+    second: Ferret Sprite Sheet_19
+  - first:
+      213: -8819466586366013780
+    second: Ferret Sprite Sheet_20
+  - first:
+      213: -5152559569318893646
+    second: Ferret Sprite Sheet_21
+  - first:
+      213: -9099616253246074489
+    second: Ferret Sprite Sheet_22
+  - first:
+      213: 5650642634968676086
+    second: Ferret Sprite Sheet_23
+  - first:
+      213: 3619576244839814119
+    second: Ferret Sprite Sheet_24
+  - first:
+      213: -5161722809465209498
+    second: Ferret Sprite Sheet_25
+  - first:
+      213: 578301515713255131
+    second: Ferret Sprite Sheet_26
+  - first:
+      213: 7700166887225284631
+    second: Ferret Sprite Sheet_27
+  - first:
+      213: 7677752754723498122
+    second: Ferret Sprite Sheet_28
+  - first:
+      213: 3274930006775334114
+    second: Ferret Sprite Sheet_29
+  - first:
+      213: -4469648897110875224
+    second: Ferret Sprite Sheet_30
+  - first:
+      213: -8144866061904711234
+    second: Ferret Sprite Sheet_31
+  - first:
+      213: 4047866798268131778
+    second: Ferret Sprite Sheet_32
+  - first:
+      213: -5698232930634878217
+    second: Ferret Sprite Sheet_33
+  - first:
+      213: -624361580660123653
+    second: Ferret Sprite Sheet_34
+  - first:
+      213: -1148948102039394179
+    second: Ferret Sprite Sheet_35
+  - first:
+      213: 1786266795278289089
+    second: Ferret Sprite Sheet_36
+  - first:
+      213: -873229129030705352
+    second: Ferret Sprite Sheet_37
+  - first:
+      213: 6395272028052261275
+    second: Ferret Sprite Sheet_38
+  - first:
+      213: -8107782907322585934
+    second: Ferret Sprite Sheet_39
+  - first:
+      213: -836730739473938224
+    second: Ferret Sprite Sheet_40
+  - first:
+      213: 5330665673560040645
+    second: Ferret Sprite Sheet_41
+  - first:
+      213: -5117253376902279934
+    second: Ferret Sprite Sheet_42
+  - first:
+      213: 7143562856623348285
+    second: Ferret Sprite Sheet_43
+  - first:
+      213: -933846155041057220
+    second: Ferret Sprite Sheet_44
+  - first:
+      213: -5275908564790867519
+    second: Ferret Sprite Sheet_45
+  - first:
+      213: 8502901173067292880
+    second: Ferret Sprite Sheet_46
+  - first:
+      213: 6699942544684865920
+    second: Ferret Sprite Sheet_47
+  - first:
+      213: 8461328789165248692
+    second: Ferret Sprite Sheet_48
+  - first:
+      213: 8306723520131502455
+    second: Ferret Sprite Sheet_49
+  - first:
+      213: -5316694599676209587
+    second: Ferret Sprite Sheet_50
+  - first:
+      213: -6284963003002296932
+    second: Ferret Sprite Sheet_51
+  - first:
+      213: 3097557094728121466
+    second: Ferret Sprite Sheet_52
+  - first:
+      213: 1457972813520768673
+    second: Ferret Sprite Sheet_53
+  - first:
+      213: 8667021886785453477
+    second: Ferret Sprite Sheet_54
+  - first:
+      213: -2147698169755591369
+    second: Ferret Sprite Sheet_55
+  - first:
+      213: 4606957050393763735
+    second: Ferret Sprite Sheet_56
+  - first:
+      213: 7391069626681572922
+    second: Ferret Sprite Sheet_57
+  - first:
+      213: -2984617811746718904
+    second: Ferret Sprite Sheet_58
+  - first:
+      213: 2323335023266209845
+    second: Ferret Sprite Sheet_59
+  - first:
+      213: 3556778311111327834
+    second: Ferret Sprite Sheet_60
+  - first:
+      213: -2158785463581522808
+    second: Ferret Sprite Sheet_61
+  - first:
+      213: -1527309550661591588
+    second: Ferret Sprite Sheet_62
+  - first:
+      213: 3448130308306110189
+    second: Ferret Sprite Sheet_63
+  - first:
+      213: 7712407241808115578
+    second: Ferret Sprite Sheet_64
+  - first:
+      213: -3358409625410458010
+    second: Ferret Sprite Sheet_65
+  - first:
+      213: 8339316039836346795
+    second: Ferret Sprite Sheet_66
+  - first:
+      213: 3265197359649964080
+    second: Ferret Sprite Sheet_67
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 255
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4625e65d252a693e0800000000000000
+      internalID: -2047270503941516700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 255
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109d934d45cb316b0800000000000000
+      internalID: -5326706861725329151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 255
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a304a818e94d27d0800000000000000
+      internalID: -2941613720408423516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 255
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a046ad790fa8b66c0800000000000000
+      internalID: -4149069865747323894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 255
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e1864efbb2db160800000000000000
+      internalID: 7042833495448100481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 255
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67420157387a3c80800000000000000
+      internalID: -8342223180772784278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 255
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b36478e971bd970800000000000000
+      internalID: 8780637868130712335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 255
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9afc8d03b3a16e520800000000000000
+      internalID: 2730899065571692457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 223
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50da7c49c24f06770800000000000000
+      internalID: 8602143760589499653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 223
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0094590659eee910800000000000000
+      internalID: 1868687451138330635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 223
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25025e33df5b3340800000000000000
+      internalID: 4844571185055401260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 223
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f2eed48430fa190800000000000000
+      internalID: -7949131208205652160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 223
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6449cf1d64cf2e5f0800000000000000
+      internalID: -728742808579697594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 223
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69908e17f4355ca10800000000000000
+      internalID: 1929039616076679574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 223
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4eaf59c18224840800000000000000
+      internalID: 5206768222434157742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 223
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e230e611b4cedb80800000000000000
+      internalID: -8368034792735755552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 191
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5633e068599909db0800000000000000
+      internalID: -4787157536416582811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 193
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0398e30e04c034650800000000000000
+      internalID: 6215825383481051440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 191
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df1cff0205bf26b0800000000000000
+      internalID: -5318833614438522921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 191
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09830557614e18ad0800000000000000
+      internalID: -2701627516336981872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 191
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae0a330ed5fa9580800000000000000
+      internalID: -8819466586366013780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 193
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b725b20f5e6e78b0800000000000000
+      internalID: -5152559569318893646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 191
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78195e0ca3ba7b180800000000000000
+      internalID: -9099616253246074489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 191
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f63cf1c98d1b6e40800000000000000
+      internalID: 5650642634968676086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 159
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e39e17da615b3230800000000000000
+      internalID: 3619576244839814119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 159
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d7bc8e370ed58b0800000000000000
+      internalID: -5161722809465209498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 159
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd698212a2a860800800000000000000
+      internalID: 578301515713255131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 159
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718d9489cfc7cda60800000000000000
+      internalID: 7700166887225284631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 159
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a882292b37bdc8a60800000000000000
+      internalID: 7677752754723498122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 159
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e48c166d73e27d20800000000000000
+      internalID: 3274930006775334114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 159
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a36df0620e98f1c0800000000000000
+      internalID: -4469648897110875224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 159
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1f805587f97fe80800000000000000
+      internalID: -8144866061904711234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 127
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9aed01869ec2830800000000000000
+      internalID: 4047866798268131778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 129
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f23312175fcbe0b0800000000000000
+      internalID: -5698232930634878217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 130
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf71a5d4372d557f0800000000000000
+      internalID: -624361580660123653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 127
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d782590e9cd1e00f0800000000000000
+      internalID: -1148948102039394179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 127
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c843aeaf281ac810800000000000000
+      internalID: 1786266795278289089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 127
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fd994dbbaa1e3f0800000000000000
+      internalID: -873229129030705352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 127
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b990c02a60290c850800000000000000
+      internalID: 6395272028052261275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 95
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bcad05176e5b7f80800000000000000
+      internalID: -8107782907322585934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 97
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d8810d53d55364f0800000000000000
+      internalID: -836730739473938224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 98
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c42ae0ef245af940800000000000000
+      internalID: 5330665673560040645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 95
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d42148a2ddbf8b0800000000000000
+      internalID: -5117253376902279934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 95
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a95b3e198032360800000000000000
+      internalID: 7143562856623348285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 95
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36d9e5aedf4a03f0800000000000000
+      internalID: -933846155041057220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 95
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c903300d1538c6b0800000000000000
+      internalID: -5275908564790867519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 95
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0adec019f500670800000000000000
+      internalID: 8502901173067292880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 31
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089d77f1f3afafc50800000000000000
+      internalID: 6699942544684865920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 63
+        width: 43
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b01bf524bdac6570800000000000000
+      internalID: 8461328789165248692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 63
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77112d8d709674370800000000000000
+      internalID: 8306723520131502455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 63
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46df0f3e6e4736b0800000000000000
+      internalID: -5316694599676209587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 63
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95639ba27357c8a0800000000000000
+      internalID: -6284963003002296932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 63
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7cb2ce14cbbcfa20800000000000000
+      internalID: 3097557094728121466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 31
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae051a9c82cb3410800000000000000
+      internalID: 1457972813520768673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 31
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5adf1667c72774870800000000000000
+      internalID: 8667021886785453477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 31
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d16f2c4e7d132e0800000000000000
+      internalID: -2147698169755591369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 31
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f933457033fef30800000000000000
+      internalID: 4606957050393763735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 31
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3eb8887aaa529660800000000000000
+      internalID: 7391069626681572922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 31
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b7884d9e18496d0800000000000000
+      internalID: -2984617811746718904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 31
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530a104e4e42e3020800000000000000
+      internalID: 2323335023266209845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50ca9287073c5130800000000000000
+      internalID: 3556778311111327834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88442f00f047a02e0800000000000000
+      internalID: -2158785463581522808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd11c24e08edcae0800000000000000
+      internalID: -1527309550661591588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 33
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de608d51f383adf20800000000000000
+      internalID: 3448130308306110189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a777f1b3689f70b60800000000000000
+      internalID: 7712407241808115578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e28234d388461d0800000000000000
+      internalID: -3358409625410458010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9a92031c33bb370800000000000000
+      internalID: 8339316039836346795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ferret Sprite Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 0
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030ca77e2bf405d20800000000000000
+      internalID: 3265197359649964080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ferret Sprite Sheet_0: -2047270503941516700
+      Ferret Sprite Sheet_1: -5326706861725329151
+      Ferret Sprite Sheet_10: 4844571185055401260
+      Ferret Sprite Sheet_11: -7949131208205652160
+      Ferret Sprite Sheet_12: -728742808579697594
+      Ferret Sprite Sheet_13: 1929039616076679574
+      Ferret Sprite Sheet_14: 5206768222434157742
+      Ferret Sprite Sheet_15: -8368034792735755552
+      Ferret Sprite Sheet_16: -4787157536416582811
+      Ferret Sprite Sheet_17: 6215825383481051440
+      Ferret Sprite Sheet_18: -5318833614438522921
+      Ferret Sprite Sheet_19: -2701627516336981872
+      Ferret Sprite Sheet_2: -2941613720408423516
+      Ferret Sprite Sheet_20: -8819466586366013780
+      Ferret Sprite Sheet_21: -5152559569318893646
+      Ferret Sprite Sheet_22: -9099616253246074489
+      Ferret Sprite Sheet_23: 5650642634968676086
+      Ferret Sprite Sheet_24: 3619576244839814119
+      Ferret Sprite Sheet_25: -5161722809465209498
+      Ferret Sprite Sheet_26: 578301515713255131
+      Ferret Sprite Sheet_27: 7700166887225284631
+      Ferret Sprite Sheet_28: 7677752754723498122
+      Ferret Sprite Sheet_29: 3274930006775334114
+      Ferret Sprite Sheet_3: -4149069865747323894
+      Ferret Sprite Sheet_30: -4469648897110875224
+      Ferret Sprite Sheet_31: -8144866061904711234
+      Ferret Sprite Sheet_32: 4047866798268131778
+      Ferret Sprite Sheet_33: -5698232930634878217
+      Ferret Sprite Sheet_34: -624361580660123653
+      Ferret Sprite Sheet_35: -1148948102039394179
+      Ferret Sprite Sheet_36: 1786266795278289089
+      Ferret Sprite Sheet_37: -873229129030705352
+      Ferret Sprite Sheet_38: 6395272028052261275
+      Ferret Sprite Sheet_39: -8107782907322585934
+      Ferret Sprite Sheet_4: 7042833495448100481
+      Ferret Sprite Sheet_40: -836730739473938224
+      Ferret Sprite Sheet_41: 5330665673560040645
+      Ferret Sprite Sheet_42: -5117253376902279934
+      Ferret Sprite Sheet_43: 7143562856623348285
+      Ferret Sprite Sheet_44: -933846155041057220
+      Ferret Sprite Sheet_45: -5275908564790867519
+      Ferret Sprite Sheet_46: 8502901173067292880
+      Ferret Sprite Sheet_47: 6699942544684865920
+      Ferret Sprite Sheet_48: 8461328789165248692
+      Ferret Sprite Sheet_49: 8306723520131502455
+      Ferret Sprite Sheet_5: -8342223180772784278
+      Ferret Sprite Sheet_50: -5316694599676209587
+      Ferret Sprite Sheet_51: -6284963003002296932
+      Ferret Sprite Sheet_52: 3097557094728121466
+      Ferret Sprite Sheet_53: 1457972813520768673
+      Ferret Sprite Sheet_54: 8667021886785453477
+      Ferret Sprite Sheet_55: -2147698169755591369
+      Ferret Sprite Sheet_56: 4606957050393763735
+      Ferret Sprite Sheet_57: 7391069626681572922
+      Ferret Sprite Sheet_58: -2984617811746718904
+      Ferret Sprite Sheet_59: 2323335023266209845
+      Ferret Sprite Sheet_6: 8780637868130712335
+      Ferret Sprite Sheet_60: 3556778311111327834
+      Ferret Sprite Sheet_61: -2158785463581522808
+      Ferret Sprite Sheet_62: -1527309550661591588
+      Ferret Sprite Sheet_63: 3448130308306110189
+      Ferret Sprite Sheet_64: 7712407241808115578
+      Ferret Sprite Sheet_65: -3358409625410458010
+      Ferret Sprite Sheet_66: 8339316039836346795
+      Ferret Sprite Sheet_67: 3265197359649964080
+      Ferret Sprite Sheet_7: 2730899065571692457
+      Ferret Sprite Sheet_8: 8602143760589499653
+      Ferret Sprite Sheet_9: 1868687451138330635
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1014 @@
+fileFormatVersion: 2
+guid: 6ea9298f0998e3247b65dc6e056d0b26
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2608986225627496447
+    second: Squirrel Sprite Sheet_0
+  - first:
+      213: -6155719286758732910
+    second: Squirrel Sprite Sheet_1
+  - first:
+      213: -2804256816875275188
+    second: Squirrel Sprite Sheet_2
+  - first:
+      213: -5624521145821932418
+    second: Squirrel Sprite Sheet_3
+  - first:
+      213: 8376195000850100044
+    second: Squirrel Sprite Sheet_4
+  - first:
+      213: -9100437117511000744
+    second: Squirrel Sprite Sheet_5
+  - first:
+      213: 4264200889283680831
+    second: Squirrel Sprite Sheet_6
+  - first:
+      213: 5558506841246731162
+    second: Squirrel Sprite Sheet_7
+  - first:
+      213: 1320925676779571709
+    second: Squirrel Sprite Sheet_8
+  - first:
+      213: -2934210006099357024
+    second: Squirrel Sprite Sheet_9
+  - first:
+      213: 5500495427234657368
+    second: Squirrel Sprite Sheet_10
+  - first:
+      213: 1940894044667613439
+    second: Squirrel Sprite Sheet_11
+  - first:
+      213: 8153040993719557126
+    second: Squirrel Sprite Sheet_12
+  - first:
+      213: -3893954694753064843
+    second: Squirrel Sprite Sheet_13
+  - first:
+      213: -4452556241087651091
+    second: Squirrel Sprite Sheet_14
+  - first:
+      213: -1760047074270662718
+    second: Squirrel Sprite Sheet_15
+  - first:
+      213: -3155561306578391421
+    second: Squirrel Sprite Sheet_16
+  - first:
+      213: -2366446593900788009
+    second: Squirrel Sprite Sheet_17
+  - first:
+      213: -5455597487204120082
+    second: Squirrel Sprite Sheet_18
+  - first:
+      213: 113792430807481557
+    second: Squirrel Sprite Sheet_19
+  - first:
+      213: 8974834869118386002
+    second: Squirrel Sprite Sheet_20
+  - first:
+      213: -1545242796473637145
+    second: Squirrel Sprite Sheet_21
+  - first:
+      213: 175151363544511671
+    second: Squirrel Sprite Sheet_22
+  - first:
+      213: 2601919943743340665
+    second: Squirrel Sprite Sheet_23
+  - first:
+      213: -7963993032899980927
+    second: Squirrel Sprite Sheet_24
+  - first:
+      213: -2824011076315872437
+    second: Squirrel Sprite Sheet_25
+  - first:
+      213: -5853135294382994433
+    second: Squirrel Sprite Sheet_26
+  - first:
+      213: 3567368563838681995
+    second: Squirrel Sprite Sheet_27
+  - first:
+      213: 5074559355690481433
+    second: Squirrel Sprite Sheet_28
+  - first:
+      213: 7912060055768083354
+    second: Squirrel Sprite Sheet_29
+  - first:
+      213: -4229581670668546825
+    second: Squirrel Sprite Sheet_30
+  - first:
+      213: -8033138257803178339
+    second: Squirrel Sprite Sheet_31
+  - first:
+      213: -2198838117710778936
+    second: Squirrel Sprite Sheet_32
+  - first:
+      213: -4461847209134693950
+    second: Squirrel Sprite Sheet_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 191
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100069dc9d40bcbd0800000000000000
+      internalID: -2608986225627496447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 191
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b89bf4ced729aa0800000000000000
+      internalID: -6155719286758732910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 191
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c7e2b58474519d0800000000000000
+      internalID: -2804256816875275188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 191
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e745c9f51dfa1f1b0800000000000000
+      internalID: -5624521145821932418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 191
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4fa21b69f83e3470800000000000000
+      internalID: 8376195000850100044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 191
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d1af568a0c4b180800000000000000
+      internalID: -9100437117511000744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 159
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a98a8bd1c7d2b30800000000000000
+      internalID: 4264200889283680831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 159
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b071a9588c32d40800000000000000
+      internalID: 5558506841246731162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 159
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9832b87eed45210800000000000000
+      internalID: 1320925676779571709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 159
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a21d0aab879747d0800000000000000
+      internalID: -2934210006099357024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 159
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8547bfcb27fa55c40800000000000000
+      internalID: 5500495427234657368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 159
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0951fa9d07fea10800000000000000
+      internalID: 1940894044667613439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 127
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c1add469b652170800000000000000
+      internalID: 8153040993719557126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 129
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57867cf06d4e5f9c0800000000000000
+      internalID: -3893954694753064843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 131
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2a58b70b75532c0800000000000000
+      internalID: -4452556241087651091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 128
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cfa126d28e0397e0800000000000000
+      internalID: -1760047074270662718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 127
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e6d66e5b13534d0800000000000000
+      internalID: -3155561306578391421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 129
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d64c9e5c51b82fd0800000000000000
+      internalID: -2366446593900788009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 131
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee94fa98df2d944b0800000000000000
+      internalID: -5455597487204120082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 130
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc7868ec95449100800000000000000
+      internalID: 113792430807481557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 95
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f379343c40d8c70800000000000000
+      internalID: 8974834869118386002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 95
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e625781dd13e8ae0800000000000000
+      internalID: -1545242796473637145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 95
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4fef5bc334e6200800000000000000
+      internalID: 175151363544511671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 95
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97083dc3760eb1420800000000000000
+      internalID: 2601919943743340665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 63
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1819f4818863a7190800000000000000
+      internalID: -7963993032899980927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 63
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b438c6a63e81fc8d0800000000000000
+      internalID: -2824011076315872437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 31
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb0004067c75cea0800000000000000
+      internalID: -5853135294382994433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 33
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83008edec6d18130800000000000000
+      internalID: 3567368563838681995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 34
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917f09b09d47c6640800000000000000
+      internalID: 5074559355690481433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 33
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b2d9963b84dcd60800000000000000
+      internalID: 7912060055768083354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc4c4b31e18d45c0800000000000000
+      internalID: -4229581670668546825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e8a00e05f848090800000000000000
+      internalID: -8033138257803178339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cda243c1682c71e0800000000000000
+      internalID: -2198838117710778936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squirrel Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c165796a955412c0800000000000000
+      internalID: -4461847209134693950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Squirrel Sprite Sheet_0: -2608986225627496447
+      Squirrel Sprite Sheet_1: -6155719286758732910
+      Squirrel Sprite Sheet_10: 5500495427234657368
+      Squirrel Sprite Sheet_11: 1940894044667613439
+      Squirrel Sprite Sheet_12: 8153040993719557126
+      Squirrel Sprite Sheet_13: -3893954694753064843
+      Squirrel Sprite Sheet_14: -4452556241087651091
+      Squirrel Sprite Sheet_15: -1760047074270662718
+      Squirrel Sprite Sheet_16: -3155561306578391421
+      Squirrel Sprite Sheet_17: -2366446593900788009
+      Squirrel Sprite Sheet_18: -5455597487204120082
+      Squirrel Sprite Sheet_19: 113792430807481557
+      Squirrel Sprite Sheet_2: -2804256816875275188
+      Squirrel Sprite Sheet_20: 8974834869118386002
+      Squirrel Sprite Sheet_21: -1545242796473637145
+      Squirrel Sprite Sheet_22: 175151363544511671
+      Squirrel Sprite Sheet_23: 2601919943743340665
+      Squirrel Sprite Sheet_24: -7963993032899980927
+      Squirrel Sprite Sheet_25: -2824011076315872437
+      Squirrel Sprite Sheet_26: -5853135294382994433
+      Squirrel Sprite Sheet_27: 3567368563838681995
+      Squirrel Sprite Sheet_28: 5074559355690481433
+      Squirrel Sprite Sheet_29: 7912060055768083354
+      Squirrel Sprite Sheet_3: -5624521145821932418
+      Squirrel Sprite Sheet_30: -4229581670668546825
+      Squirrel Sprite Sheet_31: -8033138257803178339
+      Squirrel Sprite Sheet_32: -2198838117710778936
+      Squirrel Sprite Sheet_33: -4461847209134693950
+      Squirrel Sprite Sheet_4: 8376195000850100044
+      Squirrel Sprite Sheet_5: -9100437117511000744
+      Squirrel Sprite Sheet_6: 4264200889283680831
+      Squirrel Sprite Sheet_7: 5558506841246731162
+      Squirrel Sprite Sheet_8: 1320925676779571709
+      Squirrel Sprite Sheet_9: -2934210006099357024
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

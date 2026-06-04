@@ -16,6 +16,10 @@ TagManager:
   - Tree_Shelter
   - Armadillo
   - RedPanda
+  - EmptyTrashCan
+  - DeathTree
+  - HoleToPlant
+  - PoisionousLake
   layers:
   - Default
   - TransparentFX

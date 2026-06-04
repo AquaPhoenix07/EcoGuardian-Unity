@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 22119f5231cc87d43bf0ee309d00f6c3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2020580355358186292
+    second: Hedgehog Sprite Sheet_0
+  - first:
+      213: -3690732609748156944
+    second: Hedgehog Sprite Sheet_1
+  - first:
+      213: -4663460916374090018
+    second: Hedgehog Sprite Sheet_2
+  - first:
+      213: 4431351593142689561
+    second: Hedgehog Sprite Sheet_3
+  - first:
+      213: 857979625568063556
+    second: Hedgehog Sprite Sheet_4
+  - first:
+      213: 3456779411944085131
+    second: Hedgehog Sprite Sheet_5
+  - first:
+      213: 4006399270587182978
+    second: Hedgehog Sprite Sheet_6
+  - first:
+      213: -5187111510877286020
+    second: Hedgehog Sprite Sheet_7
+  - first:
+      213: 4032593146210300297
+    second: Hedgehog Sprite Sheet_8
+  - first:
+      213: 3879507820948291712
+    second: Hedgehog Sprite Sheet_9
+  - first:
+      213: 8940671435244545911
+    second: Hedgehog Sprite Sheet_10
+  - first:
+      213: 5798366150665757884
+    second: Hedgehog Sprite Sheet_11
+  - first:
+      213: -7521667789299211455
+    second: Hedgehog Sprite Sheet_12
+  - first:
+      213: 279380878964086253
+    second: Hedgehog Sprite Sheet_13
+  - first:
+      213: -2913140329748803017
+    second: Hedgehog Sprite Sheet_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hedgehog Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 95
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43bd141b02b8a0c10800000000000000
+      internalID: 2020580355358186292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hedgehog Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 95
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fdb20bee32e7ccc0800000000000000
+      internalID: -3690732609748156944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hedgehog Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 95
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edeca9f210f084fb0800000000000000
+      internalID: -4663460916374090018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hedgehog Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 95
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f9120bbc25f7d30800000000000000
+      internalID: 4431351593142689561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hedgehog Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 63
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440d1867ce728eb00800000000000000
+      internalID: 857979625568063556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hedgehog Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 63
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b869fc37f82f8ff20800000000000000
+      internalID: 3456779411944085131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hedgehog Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 63
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28fabb7e8e6999730800000000000000
+      internalID: 4006399270587182978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hedgehog Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 63
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71d1d7309da308b0800000000000000
+      internalID: -5187111510877286020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hedgehog Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 31
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9813a83d916a6f730800000000000000
+      internalID: 4032593146210300297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hedgehog Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 31
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08009f20fc7c6d530800000000000000
+      internalID: 3879507820948291712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hedgehog Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 31
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 777ab37fc45a31c70800000000000000
+      internalID: 8940671435244545911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hedgehog Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 31
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4e4100b4fe77050800000000000000
+      internalID: 5798366150665757884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hedgehog Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143a2544ffaad9790800000000000000
+      internalID: -7521667789299211455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hedgehog Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5d0bfdd6f80e300800000000000000
+      internalID: 279380878964086253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hedgehog Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7325578fd427297d0800000000000000
+      internalID: -2913140329748803017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Hedgehog Sprite Sheet_0: 2020580355358186292
+      Hedgehog Sprite Sheet_1: -3690732609748156944
+      Hedgehog Sprite Sheet_10: 8940671435244545911
+      Hedgehog Sprite Sheet_11: 5798366150665757884
+      Hedgehog Sprite Sheet_12: -7521667789299211455
+      Hedgehog Sprite Sheet_13: 279380878964086253
+      Hedgehog Sprite Sheet_14: -2913140329748803017
+      Hedgehog Sprite Sheet_2: -4663460916374090018
+      Hedgehog Sprite Sheet_3: 4431351593142689561
+      Hedgehog Sprite Sheet_4: 857979625568063556
+      Hedgehog Sprite Sheet_5: 3456779411944085131
+      Hedgehog Sprite Sheet_6: 4006399270587182978
+      Hedgehog Sprite Sheet_7: -5187111510877286020
+      Hedgehog Sprite Sheet_8: 4032593146210300297
+      Hedgehog Sprite Sheet_9: 3879507820948291712
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

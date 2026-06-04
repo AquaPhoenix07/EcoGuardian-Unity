@@ -84,6 +84,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PoisionLake
       objectReference: {fileID: 0}
+    - target: {fileID: 6579157904388343742, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: m_TagString
+      value: PoisionousLake
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193853486077216271, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: m_TagString
+      value: PoisionousLake
+      objectReference: {fileID: 0}
     - target: {fileID: 7749081147550464326, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: completedObject
       value: 

@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: b4f44a9eb45c90540820e5cca8f3f6df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7491300741837745030
+    second: Porcupine Sprite Sheet_0
+  - first:
+      213: -456556730306476930
+    second: Porcupine Sprite Sheet_1
+  - first:
+      213: -6952236421383494930
+    second: Porcupine Sprite Sheet_2
+  - first:
+      213: -5271806759042227690
+    second: Porcupine Sprite Sheet_3
+  - first:
+      213: 5172965429940773052
+    second: Porcupine Sprite Sheet_4
+  - first:
+      213: 457081646574225153
+    second: Porcupine Sprite Sheet_5
+  - first:
+      213: 5503189837954054131
+    second: Porcupine Sprite Sheet_6
+  - first:
+      213: 9160870009274981120
+    second: Porcupine Sprite Sheet_7
+  - first:
+      213: -2865388522953071361
+    second: Porcupine Sprite Sheet_8
+  - first:
+      213: 4057257154113652333
+    second: Porcupine Sprite Sheet_9
+  - first:
+      213: 4005795137137229050
+    second: Porcupine Sprite Sheet_10
+  - first:
+      213: 6477009405398519507
+    second: Porcupine Sprite Sheet_11
+  - first:
+      213: -5211396906345823483
+    second: Porcupine Sprite Sheet_12
+  - first:
+      213: -97778181213506797
+    second: Porcupine Sprite Sheet_13
+  - first:
+      213: 232578456084000655
+    second: Porcupine Sprite Sheet_14
+  - first:
+      213: 8925035089356165215
+    second: Porcupine Sprite Sheet_15
+  - first:
+      213: -90058296562460723
+    second: Porcupine Sprite Sheet_16
+  - first:
+      213: -4077564197309529182
+    second: Porcupine Sprite Sheet_17
+  - first:
+      213: 5703662863657361734
+    second: Porcupine Sprite Sheet_18
+  - first:
+      213: 5058513340089669814
+    second: Porcupine Sprite Sheet_19
+  - first:
+      213: -6510249512936449347
+    second: Porcupine Sprite Sheet_20
+  - first:
+      213: -6645840776943324525
+    second: Porcupine Sprite Sheet_21
+  - first:
+      213: -6891766505934019612
+    second: Porcupine Sprite Sheet_22
+  - first:
+      213: 5808717816194356825
+    second: Porcupine Sprite Sheet_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Porcupine Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 127
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7414297aad890890800000000000000
+      internalID: -7491300741837745030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Porcupine Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 127
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e74c44e921cf9a9f0800000000000000
+      internalID: -456556730306476930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Porcupine Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 127
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee267ec2fc1b48f90800000000000000
+      internalID: -6952236421383494930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Porcupine Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 127
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612e8c21fa7c6d6b0800000000000000
+      internalID: -5271806759042227690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Porcupine Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 127
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb0eef6a6a01ac740800000000000000
+      internalID: 5172965429940773052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Porcupine Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 95
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1074869f551e75600800000000000000
+      internalID: 457081646574225153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Porcupine Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 95
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f77ace10024f5c40800000000000000
+      internalID: 5503189837954054131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Porcupine Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 68
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b5d50bcb2f12f70800000000000000
+      internalID: 9160870009274981120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Porcupine Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 95
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4a6e1e1581c38d0800000000000000
+      internalID: -2865388522953071361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Porcupine Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 95
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d664b59a2e54e4830800000000000000
+      internalID: 4057257154113652333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Porcupine Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 76
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc3d002471779730800000000000000
+      internalID: 4005795137137229050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Porcupine Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 84
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de84afccb5f2e950800000000000000
+      internalID: 6477009405398519507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Porcupine Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 83
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50300b5ff166da7b0800000000000000
+      internalID: -5211396906345823483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Porcupine Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 88
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3133cf1234f94aef0800000000000000
+      internalID: -97778181213506797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Porcupine Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 76
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8fab41afd84a3300800000000000000
+      internalID: 232578456084000655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Porcupine Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 65
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5098fc70281cdb70800000000000000
+      internalID: 8925035089356165215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Porcupine Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 68
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc75158d47c00cef0800000000000000
+      internalID: -90058296562460723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Porcupine Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 31
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3c38667f49967c0800000000000000
+      internalID: -4077564197309529182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Porcupine Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 32
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64162eab72b772f40800000000000000
+      internalID: 5703662863657361734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Porcupine Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 34
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b89e97e413733640800000000000000
+      internalID: 5058513340089669814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Porcupine Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 32
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba534e8f82f6a5a0800000000000000
+      internalID: -6510249512936449347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Porcupine Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 31
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 392bc78460b35c3a0800000000000000
+      internalID: -6645840776943324525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Porcupine Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e32ed280e68b50a0800000000000000
+      internalID: -6891766505934019612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Porcupine Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9565fb2f316bc9050800000000000000
+      internalID: 5808717816194356825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Porcupine Sprite Sheet_0: -7491300741837745030
+      Porcupine Sprite Sheet_1: -456556730306476930
+      Porcupine Sprite Sheet_10: 4005795137137229050
+      Porcupine Sprite Sheet_11: 6477009405398519507
+      Porcupine Sprite Sheet_12: -5211396906345823483
+      Porcupine Sprite Sheet_13: -97778181213506797
+      Porcupine Sprite Sheet_14: 232578456084000655
+      Porcupine Sprite Sheet_15: 8925035089356165215
+      Porcupine Sprite Sheet_16: -90058296562460723
+      Porcupine Sprite Sheet_17: -4077564197309529182
+      Porcupine Sprite Sheet_18: 5703662863657361734
+      Porcupine Sprite Sheet_19: 5058513340089669814
+      Porcupine Sprite Sheet_2: -6952236421383494930
+      Porcupine Sprite Sheet_20: -6510249512936449347
+      Porcupine Sprite Sheet_21: -6645840776943324525
+      Porcupine Sprite Sheet_22: -6891766505934019612
+      Porcupine Sprite Sheet_23: 5808717816194356825
+      Porcupine Sprite Sheet_3: -5271806759042227690
+      Porcupine Sprite Sheet_4: 5172965429940773052
+      Porcupine Sprite Sheet_5: 457081646574225153
+      Porcupine Sprite Sheet_6: 5503189837954054131
+      Porcupine Sprite Sheet_7: 9160870009274981120
+      Porcupine Sprite Sheet_8: -2865388522953071361
+      Porcupine Sprite Sheet_9: 4057257154113652333
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
