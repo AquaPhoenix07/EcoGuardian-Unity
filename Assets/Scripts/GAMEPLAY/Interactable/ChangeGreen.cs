@@ -7,10 +7,11 @@ using UnityEngine.Serialization;
 public class ChangeGreen : MonoBehaviour
 {
     private GameManager gameManager;
+    private GameObject smoke;
     [Header("Map Change")]
     public Tilemap groundTilemap;
     public Tilemap wallTilemap;
-    [FormerlySerializedAs("pipeTilemap")] public Tilemap waterTilemap;
+    public Tilemap decoratedTilemap;
     
     [Header("TileBase ChangePairs")]
     public List<TileBase> oldGroundTiles;
@@ -19,7 +20,8 @@ public class ChangeGreen : MonoBehaviour
     public List<TileBase> oldWallTiles;
     public List<TileBase> newWallTiles;
 
-    [FormerlySerializedAs("oldPipeTiles")] public List<TileBase> oldWaterTiles;
+    public List<TileBase> oldDecoratedTiles;
+    public List<TileBase> newDecoratedTiles;
 
     [Header("VisualEffect")] [SerializeField]
     private float spreadSpeed = 0.02f;
@@ -28,9 +30,9 @@ public class ChangeGreen : MonoBehaviour
     void Start()
     {
         gameManager = FindObjectOfType<GameManager>();
+        smoke = GameObject.Find("Smoke");
         StartCoroutine("SpreadGrassGround");
         StartCoroutine("SpreadGrassWall");
-        StartCoroutine("SpreadWaterGround");
     }
 
     // Update is called once per frame
@@ -44,7 +46,7 @@ public class ChangeGreen : MonoBehaviour
         yield return new WaitUntil(() => 
             gameManager.Target == gameManager.currentTarget &&
             gameManager.isMapReady);
-        
+        smoke.SetActive(false);
         List<TileChangeData> tilesToChange = new List<TileChangeData>();
         BoundsInt bounds = groundTilemap.cellBounds;
 
@@ -105,28 +107,29 @@ public class ChangeGreen : MonoBehaviour
             wallTilemap.SetTile(tile.position, tile.newTile);
             yield return new WaitForSeconds(spreadSpeed);
         }
+        StartCoroutine("SpreadDecoration");
     }
     //Thay TileBase cho hồ nước bẩn 
-    private IEnumerator SpreadWaterGround()
+    private IEnumerator SpreadDecoration()
     {
         yield return new WaitUntil(() => 
             gameManager.Target == gameManager.currentTarget &&
             gameManager.isMapReady);
         
         List<TileChangeData> tilesToChange = new List<TileChangeData>();
-        BoundsInt bounds = waterTilemap.cellBounds;
+        BoundsInt bounds = decoratedTilemap.cellBounds;
         foreach (var pos in bounds.allPositionsWithin)
         {
-            TileBase currentTile = waterTilemap.GetTile(pos);
+            TileBase currentTile = decoratedTilemap.GetTile(pos);
             if (currentTile == null) continue;
-            for (int i = 0; i < oldWaterTiles.Count; i++)
+            for (int i = 0; i < oldDecoratedTiles.Count; i++)
             {
-                if (currentTile == oldWaterTiles[i])
+                if (currentTile == oldDecoratedTiles[i])
                 {
                     tilesToChange.Add(new TileChangeData
                     {
                         position = pos,
-                        newTile = null
+                        newTile = newDecoratedTiles[i]
                     });
                     break;
                 }
@@ -134,7 +137,7 @@ public class ChangeGreen : MonoBehaviour
         }
         foreach (var tile in tilesToChange)
         {
-            waterTilemap.SetTile(tile.position, tile.newTile);
+            decoratedTilemap.SetTile(tile.position, tile.newTile);
             yield return new WaitForSeconds(spreadSpeed);
         }
         

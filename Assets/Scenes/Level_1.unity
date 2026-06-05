@@ -1501,7 +1501,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 3
-      m_TileSpriteIndex: 21
+      m_TileSpriteIndex: 22
       m_TileMatrixIndex: 1
       m_TileColorIndex: 4
       m_TileObjectToInstantiateIndex: 65535
@@ -1511,7 +1511,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 4
-      m_TileSpriteIndex: 19
+      m_TileSpriteIndex: 21
       m_TileMatrixIndex: 1
       m_TileColorIndex: 4
       m_TileObjectToInstantiateIndex: 65535
@@ -1521,7 +1521,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 5
-      m_TileSpriteIndex: 18
+      m_TileSpriteIndex: 19
       m_TileMatrixIndex: 1
       m_TileColorIndex: 4
       m_TileObjectToInstantiateIndex: 65535
@@ -1531,7 +1531,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 1
-      m_TileSpriteIndex: 17
+      m_TileSpriteIndex: 18
       m_TileMatrixIndex: 1
       m_TileColorIndex: 4
       m_TileObjectToInstantiateIndex: 65535
@@ -1697,18 +1697,18 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 2142337618, guid: 09fa8619ad1355b4593de37c51bf967a, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -400214439, guid: 09fa8619ad1355b4593de37c51bf967a, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 430329562, guid: 686f5950a1fb08f4098089a38b92d356, type: 3}
-  - m_RefCount: 1
     m_Data: {fileID: -944057196, guid: 09122adeb05ab194b8eb47e577167d67, type: 3}
   - m_RefCount: 1
+    m_Data: {fileID: 430329562, guid: 686f5950a1fb08f4098089a38b92d356, type: 3}
+  - m_RefCount: 1
     m_Data: {fileID: -660465594, guid: 686f5950a1fb08f4098089a38b92d356, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: -39981765, guid: 09122adeb05ab194b8eb47e577167d67, type: 3}
   - m_RefCount: 1
@@ -7872,30 +7872,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   map: {fileID: 435486438}
-  garbageTile: {fileID: 11400000, guid: 36ee8a8854858e342b107e4d221b5271, type: 2}
-  garbagePrefab: {fileID: 4731349075546535521, guid: e0d87b238387dbf4ebf522d5704a4a46, type: 3}
-  fertilizerTile: {fileID: 11400000, guid: 118c348724ab05a4e98f0610b64fb7e3, type: 2}
-  fertilizerPrefab: {fileID: 64287562922050337, guid: c80ea0a52c8edfb43bd9886fe2e1a7a0, type: 3}
-  freshWaterTile: {fileID: 11400000, guid: 30334630737cac94cbf8c8157bff3f04, type: 2}
-  freshWaterPrefab: {fileID: 4281718781330831402, guid: be1531badf5e9204f8b06b5f38d36b51, type: 3}
-  magicSeedTile: {fileID: 11400000, guid: 2a92d4bb2ccb8cb49ae50f91aecfa6d2, type: 2}
-  magicSeedPrefab: {fileID: 3498110401239780140, guid: f3327338529c7934f81d03595e4009e3, type: 3}
-  trashcanTile: {fileID: 11400000, guid: b0e953268b904594989fa90f8d3b86df, type: 2}
-  emptyTrashcanPrefab: {fileID: 7759989753893462947, guid: 9afb25532982fa94696df6828b30c221, type: 3}
-  trunkTile: {fileID: 11400000, guid: 11eb7bb9653757d4e9a607dc4c524129, type: 2}
-  trunkPrefab: {fileID: 1378260898433160031, guid: 19ba675f342f9b74cb46039cc696c4d3, type: 3}
-  holeToPlantTile: {fileID: 11400000, guid: 2b2c8c7f221ff7143a66a95978be122e, type: 2}
-  holeToPlantPrefab: {fileID: 4761775175360931730, guid: 861f0892b06206545bc9e0834c6395fa, type: 3}
-  posionLakeTile: {fileID: 11400000, guid: faeeb8cc1af7adc47bfbd5dba635901f, type: 2}
-  posionLakePrefab: {fileID: 3958677496916649200, guid: ff75751349005eb45b1495306da13223, type: 3}
-  caveTile: {fileID: 11400000, guid: e5c6458160337c649b70e257452cf1cd, type: 2}
-  cavePrefab: {fileID: 4844779822458532051, guid: 5a3960f70b0409e4cb264bfbaacbbee1, type: 3}
-  treeHouseTile: {fileID: 11400000, guid: 2cbc38bdc055e00498e48dbfae6b1f33, type: 2}
-  treeHousePrefab: {fileID: 5571399668260683487, guid: 703c80b4613f0d84caaaf0b3c764b6cc, type: 3}
+  mapElements: []
   Target: 0
   currentTarget: 0
   isMapReady: 0
-  ticketToRoll: 0
 --- !u!114 &1426805294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7910,7 +7890,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ChangeGreen
   groundTilemap: {fileID: 1886700078}
   wallTilemap: {fileID: 1309844808}
-  waterTilemap: {fileID: 435486438}
+  decoratedTilemap: {fileID: 435486438}
   oldGroundTiles:
   - {fileID: 11400000, guid: b615fd69d8342a04ca5237aaec46c22c, type: 2}
   - {fileID: 11400000, guid: 2389f78d3dc248d419e938b5f4623c6f, type: 2}

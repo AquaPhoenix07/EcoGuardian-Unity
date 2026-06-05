@@ -23,9 +23,19 @@ public class AStarManager : MonoBehaviour
         
         List<PathNode> frontierList = new List<PathNode> {startNode}; // Danh sách các Node đang xét (neighbors)
         List<PathNode> closedList = new List<PathNode>(); //Danh sách các node đã xem xong
-
+        
+        // BỔ SUNG 2: Tạo một bộ đếm để khống chế số ô quét tối đa
+        int iterations = 0;
+        int maxIterations = 1000; // Nếu quét quá 1000 ô mà không ra thì dừng lại, game không bị treo
         while (frontierList.Count > 0)
         {
+            iterations++;
+            if (iterations > maxIterations)
+            {
+                Debug.LogWarning("A* Đã quét quá giới hạn nhưng không tìm thấy đường đi! Đã tự động ngắt để tránh treo máy.");
+                return null; 
+            }
+            
             PathNode currentNode = GetBestNodeFrontier(frontierList);
             
             // 1. Kiểm tra nếu đã chạm đích

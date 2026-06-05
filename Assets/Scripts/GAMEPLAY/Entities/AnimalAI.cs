@@ -149,6 +149,30 @@ public class AnimalAI : MonoBehaviour
                     }
                 }
             }
+
+            if (gameObject.CompareTag("Ferret"))
+            {
+                int randomIndex = Random.Range(0, 4);
+                switch (randomIndex)
+                {
+                    case 1:
+                    {
+                        animator.SetTrigger("Sleep");
+                        break;
+                    }
+                    case 2:
+                    {
+                        animator.SetTrigger("Idle");
+                        break;
+                    }
+                    case 3:
+                    {
+                        animator.SetTrigger("Dig");
+                        break;
+                    }
+                }
+            }
+                
             
         }
     }
