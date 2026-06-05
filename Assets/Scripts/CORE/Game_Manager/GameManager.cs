@@ -7,6 +7,7 @@ using System.Linq;
 // Cho phép mở khoá các class và chỉnh sửa thông tin trong nó
 public class MapElement
 {
+    // Biến string đầu tiên sẽ được lấy đặt tên cho element trong danh sách
     public string elementName;
     public TileBase tileToScan;
     public GameObject prefabToSpawn;

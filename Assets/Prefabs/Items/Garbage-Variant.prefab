@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4897213041723610482, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
+      propertyPath: myItemType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3667634721683261907, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
       propertyPath: m_Name
       value: Garbage-Variant

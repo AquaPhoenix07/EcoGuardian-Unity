@@ -59,7 +59,7 @@ public class PlayerMovement : MonoBehaviour
     {
         lockKey_WhenMove = true;
         animator.SetBool("IsIdle", false);
-
+        
         Vector3 startPos = transform.position;
         Vector3 endPos = startPos + direction;
         
@@ -124,13 +124,18 @@ public class PlayerMovement : MonoBehaviour
         Vector3 endPos = startPos + direction;
         
         //Vẽ tạm cái raycast
-        Debug.DrawLine(startPos, endPos, Color.red, 0.5f);
+        // Debug.DrawLine(startPos, endPos, Color.red, 0.5f);
         RaycastHit2D hit = Physics2D.Linecast(startPos, endPos, obstacleLayer);
         if (hit.collider == null)
         {
             return true;
         }
         if (hit.collider.gameObject.layer == LayerMask.NameToLayer("Wall"))
+        {
+            return false;
+        }
+
+        if (hit.collider.gameObject.layer == LayerMask.NameToLayer("Target"))
         {
             return false;
         }
@@ -143,15 +148,35 @@ public class PlayerMovement : MonoBehaviour
 
     private bool TryPush(GameObject Obstacles, Vector3 direction)
     {
-        Vector3 startPos = Obstacles.transform.position;
-        Vector3 endPos = startPos + direction;
+        // Lấy Collider ra trước
+        BoxCollider2D col = Obstacles.GetComponent<BoxCollider2D>();
+    
+        // BẮT ĐẦU TIA TỪ TÂM CỦA CÁI KHUNG XANH LÁ (col.bounds.center)
+        // TÂM NÀY CHẮC CHẮN NẰM GIỮA THÙNG NƯỚC, BẤT CHẤP PIVOT NẰM Ở ĐÂU
+        Vector3 rayStartPos = col.bounds.center; 
+        Vector3 rayEndPos = rayStartPos + direction;
+    
+        // Tắt collider để tia không chạm vào chính nó
+        col.enabled = false;
+        RaycastHit2D hit = Physics2D.Linecast(rayStartPos, rayEndPos, obstacleLayer);
+        col.enabled = true;
+    
+        // Debug để thấy tia đỏ bắn từ giữa ngực thùng nước ra
+        Debug.DrawLine(rayStartPos, rayEndPos, Color.red, 2f);
         
-        Debug.DrawLine(startPos, endPos, Color.red, 0.5f);
-        Obstacles.GetComponent<BoxCollider2D>().enabled = false;
-        RaycastHit2D hit = Physics2D.Linecast(startPos, endPos, obstacleLayer);
-        Obstacles.GetComponent<BoxCollider2D>().enabled = true;
+        if (hit.collider != null)
+        {
+            Debug.Log($"Thùng nước đang bị cản bởi: {hit.collider.gameObject.name} | Thuộc Layer: {LayerMask.LayerToName(hit.collider.gameObject.layer)}");
+        }
+        // --------------------------------------
         
         if (hit.collider == null )
+        {
+            StartCoroutine(SmoothPush(Obstacles, direction));
+            return true;
+        }
+
+        if (hit.collider.gameObject.layer == LayerMask.NameToLayer("Target"))
         {
             StartCoroutine(SmoothPush(Obstacles, direction));
             return true;

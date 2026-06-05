@@ -1,39 +1,58 @@
-using Unity.VisualScripting;
+using GAMEPLAY.Interactable;
 using UnityEngine;
 
 public class Target : MonoBehaviour
 {
+    [Header("Accepted Item ID")]
+    public ItemType acceptedType; 
+    
+    public GameObject completedObject; // Vật sinh ra sau khi lấp (VD: Cỏ, Cây)
     private GameManager gameManager;
-    public GameObject completedObject;
-
     private bool isCompleted = false;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Start()
     {
         gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
-        
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
-    }
+        // Nếu đã hoàn thành rồi thì bỏ qua, không xét nữa
+        if (isCompleted) return;
 
-    private void OnTriggerEnter2D(Collider2D collider)
-    {
-        if(isCompleted) return;
-        string itemTag = collider.gameObject.tag;
-        string objectTag = gameObject.tag;
-        if ((itemTag == "Garbage" && objectTag == "EmptyTrashCan") || (itemTag == "Fertilizer" && objectTag == "DeathTree")
-                                                                 || (itemTag == "FreshWater" && objectTag == "PoisionousLake")
-                                                                 || (itemTag == "MagicSeed" && objectTag =="HoleToPlant" ))
+        Debug.Log($"Có vật thể chạm vào Target: {collision.gameObject.name}");
+
+        // 1. Kiểm tra xem vật chạm vào có script PushableItem không
+        PushableItem pushedItem = collision.GetComponent<PushableItem>();
+        
+        if (pushedItem != null)
         {
-            isCompleted = true; 
-            Destroy(collider.gameObject); 
-            Instantiate(completedObject, transform.position, completedObject.transform.rotation);
-            gameManager.UpdateScore(1);
-            Destroy(gameObject); 
+            // 2. Đối chiếu mã vạch (Enum)
+            if (pushedItem.myItemType == acceptedType)
+            {
+                isCompleted = true; 
+                
+                // Xóa vật thể đẩy (Ví dụ: Khúc gỗ)
+                Destroy(pushedItem.gameObject); 
+                
+                // Sinh ra vật thể mới (Ví dụ: Cầu gỗ bắt ngang)
+                if (completedObject != null)
+                {
+                    Instantiate(completedObject, transform.position, completedObject.transform.rotation);
+                }
+                
+                // Cộng điểm
+                gameManager.UpdateScore(1);
+                Destroy(gameObject); 
+            }
+            else
+            {
+                Debug.Log($"Sai vật thể! Cần {acceptedType} nhưng lại đẩy {pushedItem.myItemType} vào.");
+            }
+        }
+        else
+        {
+            Debug.Log($"Vật thể {collision.gameObject.name} không có script PushableItem!");
         }
     }
 }
