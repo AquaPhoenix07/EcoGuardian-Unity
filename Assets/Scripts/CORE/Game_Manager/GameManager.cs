@@ -44,7 +44,6 @@ public class GameManager : MonoBehaviour
     public int Target = 0;
     public int currentTarget = 0;
     public bool isMapReady;
-    public int ticketToRoll; 
     
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -162,7 +161,6 @@ public class GameManager : MonoBehaviour
         if (Target == currentTarget)
         {
             Debug.Log("You win");
-            ticketToRoll++;
         }
     }
 
