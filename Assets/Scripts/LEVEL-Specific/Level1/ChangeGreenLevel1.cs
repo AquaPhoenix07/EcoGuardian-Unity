@@ -4,10 +4,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.Serialization;
 
-public class ChangeGreen : MonoBehaviour
+public class ChangeGreenLevel1 : MonoBehaviour
 {
     private GameManager gameManager;
-    private GameObject smoke;
     [Header("Map Change")]
     public Tilemap groundTilemap;
     public Tilemap wallTilemap;
@@ -21,7 +20,6 @@ public class ChangeGreen : MonoBehaviour
     public List<TileBase> newWallTiles;
 
     public List<TileBase> oldDecoratedTiles;
-    public List<TileBase> newDecoratedTiles;
 
     [Header("VisualEffect")] [SerializeField]
     private float spreadSpeed = 0.02f;
@@ -30,7 +28,6 @@ public class ChangeGreen : MonoBehaviour
     void Start()
     {
         gameManager = FindObjectOfType<GameManager>();
-        smoke = GameObject.Find("Smoke");
         StartCoroutine("SpreadGrassGround");
         StartCoroutine("SpreadGrassWall");
     }
@@ -44,10 +41,9 @@ public class ChangeGreen : MonoBehaviour
     private IEnumerator SpreadGrassGround()
     {
         yield return new WaitUntil(() => 
-            // gameManager.Target == gameManager.currentTarget &&
+            gameManager.Target == gameManager.currentTarget &&
             gameManager.isMapReady);
-        smoke.SetActive(false);
-        List<TileChangeData> tilesToChange = new List<TileChangeData>();
+        List<TileChangeData1> tilesToChange = new List<TileChangeData1>();
         BoundsInt bounds = groundTilemap.cellBounds;
 
         foreach (var pos in bounds.allPositionsWithin)
@@ -58,7 +54,7 @@ public class ChangeGreen : MonoBehaviour
             {
                 if (currentTile == oldGroundTiles[i])
                 {
-                    tilesToChange.Add(new TileChangeData
+                    tilesToChange.Add(new TileChangeData1
                     {
                         position = pos,
                         newTile = newGroundTiles[i]
@@ -78,10 +74,10 @@ public class ChangeGreen : MonoBehaviour
     private IEnumerator SpreadGrassWall()
     {
         yield return new WaitUntil(() => 
-            // gameManager.Target == gameManager.currentTarget && 
+            gameManager.Target == gameManager.currentTarget && 
             gameManager.isMapReady);
         
-        List<TileChangeData> tilesToChange = new List<TileChangeData>();
+        List<TileChangeData1> tilesToChange = new List<TileChangeData1>();
         BoundsInt bounds = wallTilemap.cellBounds;
         
         foreach (var pos in bounds.allPositionsWithin)
@@ -92,7 +88,7 @@ public class ChangeGreen : MonoBehaviour
             {
                 if (currentTile == oldWallTiles[i])
                 {
-                    tilesToChange.Add(new TileChangeData
+                    tilesToChange.Add(new TileChangeData1
                     {
                         position = pos,
                         newTile = newWallTiles[i]
@@ -113,10 +109,10 @@ public class ChangeGreen : MonoBehaviour
     private IEnumerator SpreadDecoration()
     {
         yield return new WaitUntil(() => 
-            // gameManager.Target == gameManager.currentTarget &&
+            gameManager.Target == gameManager.currentTarget &&
             gameManager.isMapReady);
         
-        List<TileChangeData> tilesToChange = new List<TileChangeData>();
+        List<TileChangeData1> tilesToChange = new List<TileChangeData1>();
         BoundsInt bounds = decoratedTilemap.cellBounds;
         foreach (var pos in bounds.allPositionsWithin)
         {
@@ -126,10 +122,10 @@ public class ChangeGreen : MonoBehaviour
             {
                 if (currentTile == oldDecoratedTiles[i])
                 {
-                    tilesToChange.Add(new TileChangeData
+                    tilesToChange.Add(new TileChangeData1
                     {
                         position = pos,
-                        newTile = newDecoratedTiles[i]
+                        newTile = null
                     });
                     break;
                 }
@@ -143,7 +139,7 @@ public class ChangeGreen : MonoBehaviour
         
     }
 
-    private class TileChangeData
+    private class TileChangeData1
     {
         public Vector3Int position;
         public TileBase newTile;

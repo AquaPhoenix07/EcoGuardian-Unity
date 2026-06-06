@@ -12,6 +12,22 @@ PrefabInstance:
       propertyPath: myItemType
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1857392565042232606, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
+      propertyPath: m_Size.x
+      value: 0.6535897
+      objectReference: {fileID: 0}
+    - target: {fileID: 1857392565042232606, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
+      propertyPath: m_Size.y
+      value: 0.86059105
+      objectReference: {fileID: 0}
+    - target: {fileID: 1857392565042232606, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.4942683
+      objectReference: {fileID: 0}
+    - target: {fileID: 1857392565042232606, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.5724216
+      objectReference: {fileID: 0}
     - target: {fileID: 3667634721683261907, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
       propertyPath: m_Name
       value: MagicSeed_Variant
@@ -74,7 +90,7 @@ PrefabInstance:
       objectReference: {fileID: 1638264613940256298, guid: b035752467ab83a459a97bd7a4088754, type: 3}
     - target: {fileID: 4362148364889858118, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4362148364889858118, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
       propertyPath: m_WasSpriteAssigned

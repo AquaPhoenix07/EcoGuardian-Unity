@@ -8,6 +8,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 193372504928886142, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5401617
+      objectReference: {fileID: 0}
+    - target: {fileID: 193372504928886142, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: m_Size.y
+      value: 0.49139088
+      objectReference: {fileID: 0}
+    - target: {fileID: 193372504928886142, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.5174181
+      objectReference: {fileID: 0}
+    - target: {fileID: 193372504928886142, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.4372948
+      objectReference: {fileID: 0}
     - target: {fileID: 513290267288954047, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_Size.x
       value: 0.5625
@@ -78,11 +94,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7272996414888779274, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7272996414888779274, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7780620409679885057, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -149,4 +165,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee12fc9debc70784ca9f9e73c1264101, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Target
+  acceptedType: 0
   completedObject: {fileID: 0}

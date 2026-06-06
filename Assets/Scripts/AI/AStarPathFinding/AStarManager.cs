@@ -52,6 +52,9 @@ public class AStarManager : MonoBehaviour
             {
                 Vector3 neighborPos = currentNode.position + direction;
                 
+                bool isTargetNode = Vector3.Distance(neighborPos, snappedTarget) < 0.1f;
+                if ((!IsWalkable(neighborPos) && !isTargetNode) || IsPositionInList(neighborPos, closedList)) continue;
+                
                 int newGCost = currentNode.GCost + 10;
                 PathNode neighborNode = GetNodeInList(neighborPos, frontierList);
                 

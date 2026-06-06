@@ -19,7 +19,7 @@ PrefabInstance:
     - target: {fileID: 513290267288954047, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -793100320, guid: e3c8dc55adc4b8843b7c091090de452c, type: 3}
+      objectReference: {fileID: 1111373011, guid: e3c8dc55adc4b8843b7c091090de452c, type: 3}
     - target: {fileID: 513290267288954047, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -140,6 +140,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8669711882439869293, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: acceptedType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8669711882439869293, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: completedObject
+      value: 
+      objectReference: {fileID: 3659972975937987258, guid: d45e1c68f0e704749aad0d2257230c78, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

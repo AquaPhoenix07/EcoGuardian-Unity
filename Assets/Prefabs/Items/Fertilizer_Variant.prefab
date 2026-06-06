@@ -12,6 +12,22 @@ PrefabInstance:
       propertyPath: myItemType
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1857392565042232606, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
+      propertyPath: m_Size.x
+      value: 0.6246734
+      objectReference: {fileID: 0}
+    - target: {fileID: 1857392565042232606, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
+      propertyPath: m_Size.y
+      value: 0.51743674
+      objectReference: {fileID: 0}
+    - target: {fileID: 1857392565042232606, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.46469036
+      objectReference: {fileID: 0}
+    - target: {fileID: 1857392565042232606, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.50490403
+      objectReference: {fileID: 0}
     - target: {fileID: 3667634721683261907, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
       propertyPath: m_Name
       value: Fertilizer_Variant
@@ -78,7 +94,7 @@ PrefabInstance:
       objectReference: {fileID: -8287857883673496598, guid: c24e692f5a95b19459e99978997fed73, type: 3}
     - target: {fileID: 4362148364889858118, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4362148364889858118, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
       propertyPath: m_WasSpriteAssigned
@@ -124,59 +140,5 @@ PrefabInstance:
     - {fileID: 8209456690975928473, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6317308693039912390, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8902955486040790745}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
---- !u!1 &7325665147052203828 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6317308693039912390, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
-  m_PrefabInstance: {fileID: 3603560756078971634}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &8902955486040790745
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7325665147052203828}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.9375, y: 0.6875}
-    newSize: {x: 0.9375, y: 0.6875}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.9375, y: 0.6875}
-  m_EdgeRadius: 0

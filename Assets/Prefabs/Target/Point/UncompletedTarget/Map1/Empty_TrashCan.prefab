@@ -22,7 +22,7 @@ PrefabInstance:
       objectReference: {fileID: -6111566192836516748, guid: 3ca60ecc1afc9e94b99f62691475a96e, type: 3}
     - target: {fileID: 513290267288954047, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 513290267288954047, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_WasSpriteAssigned
@@ -78,7 +78,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6579157904388343742, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6579157904388343742, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_TagString
@@ -86,7 +86,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7193853486077216271, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7193853486077216271, guid: c151b947d185264449da2a9c5819cde0, type: 3}
       propertyPath: m_TagString
@@ -140,6 +140,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8669711882439869293, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: acceptedType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8669711882439869293, guid: c151b947d185264449da2a9c5819cde0, type: 3}
+      propertyPath: completedObject
+      value: 
+      objectReference: {fileID: 4553379511016210, guid: 3701344ddbc55d348984846f588b54c8, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
