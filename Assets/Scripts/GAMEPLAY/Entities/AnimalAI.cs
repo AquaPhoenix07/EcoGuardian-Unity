@@ -24,6 +24,7 @@ public class AnimalAI : MonoBehaviour
     {
         aStarManager = FindObjectOfType<AStarManager>();
         gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
+        
         animator = GetComponentInChildren<Animator>();
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         
@@ -69,7 +70,7 @@ public class AnimalAI : MonoBehaviour
                     Vector3 nextPos = resultPath[1];
                     yield return StartCoroutine(SmoothMovement(nextPos));
                 }
-                yield return new WaitForSeconds(0.25f);
+                yield return new WaitForSeconds(0.2f);
             }
     }
     
@@ -122,7 +123,7 @@ public class AnimalAI : MonoBehaviour
                 }
             }
 
-            if (gameObject.CompareTag("RedPanda"))
+            else if (gameObject.CompareTag("RedPanda"))
             {
                 int randomIndex = Random.Range(0, 4);
                 switch (randomIndex)
@@ -150,7 +151,7 @@ public class AnimalAI : MonoBehaviour
                 }
             }
 
-            if (gameObject.CompareTag("Ferret"))
+            else if (gameObject.CompareTag("Ferret"))
             {
                 int randomIndex = Random.Range(0, 3);
                 switch (randomIndex)
@@ -173,9 +174,9 @@ public class AnimalAI : MonoBehaviour
                 }
             }
 
-            if (gameObject.CompareTag("Fox"))
+            else if (gameObject.CompareTag("Fox"))
             {
-                int randomIndex = Random.Range(0, 3);
+                int randomIndex = Random.Range(0, 2);
                 switch (randomIndex)
                 {
                     case 0:
@@ -184,11 +185,6 @@ public class AnimalAI : MonoBehaviour
                         break;
                     }
                     case 1:
-                    {
-                        animator.SetTrigger("Idle");
-                        break;
-                    }
-                    case 2:
                     {
                         animator.SetTrigger("Growl");
                         break;

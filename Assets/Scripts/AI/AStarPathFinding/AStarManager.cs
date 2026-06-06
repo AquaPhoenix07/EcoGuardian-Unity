@@ -18,8 +18,11 @@ public class AStarManager : MonoBehaviour
 
     public List<Vector3> FindPath(Vector3 startPos, Vector3 targetPos)
     {
-        PathNode startNode = new PathNode(startPos);
-        PathNode targetNode = new PathNode(targetPos);
+        Vector3 snappedStart = new Vector3(Mathf.RoundToInt(startPos.x), Mathf.RoundToInt(startPos.y), 0);
+        Vector3 snappedTarget = new Vector3(Mathf.RoundToInt(targetPos.x), Mathf.RoundToInt(targetPos.y), 0);
+        
+        PathNode startNode = new PathNode(snappedStart);
+        PathNode targetNode = new PathNode(snappedTarget);
         
         List<PathNode> frontierList = new List<PathNode> {startNode}; // Danh sách các Node đang xét (neighbors)
         List<PathNode> closedList = new List<PathNode>(); //Danh sách các node đã xem xong
@@ -39,7 +42,7 @@ public class AStarManager : MonoBehaviour
             PathNode currentNode = GetBestNodeFrontier(frontierList);
             
             // 1. Kiểm tra nếu đã chạm đích
-            if (Vector3.Distance(currentNode.position, targetPos) < 0.1f)
+            if (Vector3.Distance(currentNode.position, snappedTarget) < 0.1f)
             {
                 return RetracePath(startNode, currentNode);
             }
