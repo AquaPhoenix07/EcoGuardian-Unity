@@ -30,6 +30,7 @@ public class ChangeGreen : MonoBehaviour
     void Start()
     {
         gameManager = FindObjectOfType<GameManager>();
+        
         smoke = GameObject.Find("Smoke");
         StartCoroutine("SpreadGrassGround");
         StartCoroutine("SpreadGrassWall");
@@ -44,7 +45,7 @@ public class ChangeGreen : MonoBehaviour
     private IEnumerator SpreadGrassGround()
     {
         yield return new WaitUntil(() => 
-            // gameManager.Target == gameManager.currentTarget &&
+            gameManager.Target == gameManager.currentTarget &&
             gameManager.isMapReady);
         smoke.SetActive(false);
         List<TileChangeData> tilesToChange = new List<TileChangeData>();
@@ -78,7 +79,7 @@ public class ChangeGreen : MonoBehaviour
     private IEnumerator SpreadGrassWall()
     {
         yield return new WaitUntil(() => 
-            // gameManager.Target == gameManager.currentTarget && 
+            gameManager.Target == gameManager.currentTarget && 
             gameManager.isMapReady);
         
         List<TileChangeData> tilesToChange = new List<TileChangeData>();
@@ -113,7 +114,7 @@ public class ChangeGreen : MonoBehaviour
     private IEnumerator SpreadDecoration()
     {
         yield return new WaitUntil(() => 
-            // gameManager.Target == gameManager.currentTarget &&
+            gameManager.Target == gameManager.currentTarget &&
             gameManager.isMapReady);
         
         List<TileChangeData> tilesToChange = new List<TileChangeData>();
@@ -140,6 +141,7 @@ public class ChangeGreen : MonoBehaviour
             decoratedTilemap.SetTile(tile.position, tile.newTile);
             yield return new WaitForSeconds(spreadSpeed);
         }
+        
         
     }
 

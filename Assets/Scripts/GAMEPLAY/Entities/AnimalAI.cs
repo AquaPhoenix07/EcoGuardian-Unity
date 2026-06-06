@@ -44,15 +44,17 @@ public class AnimalAI : MonoBehaviour
     private IEnumerator ThinkAndMoveRoutine()
     {
         isMoving = false;
-        yield return new WaitUntil(() => 
-            gameManager.Target == gameManager.currentTarget && 
-            gameManager.isMapReady);
-        isMoving = true;
+        yield return new WaitUntil(() => (gameManager.currentTarget == gameManager.Target) &&
+        gameManager.isMapReady);
+        
         targetShelter = GameObject.FindWithTag(targetShelterTag);
         if (targetShelter == null) {
             Debug.LogError("Không tìm thấy Shelter với Tag: " + targetShelterTag);
             yield break;
         }
+        
+        isMoving = true;
+        
         while (true)
             {
                 Vector3 roundedShelterPos = new Vector3(
