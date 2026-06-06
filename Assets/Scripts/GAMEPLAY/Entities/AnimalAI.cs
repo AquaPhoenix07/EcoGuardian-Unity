@@ -55,16 +55,22 @@ public class AnimalAI : MonoBehaviour
         }
         while (true)
             {
-                if (targetShelter != null && Vector3.Distance(transform.position, targetShelter.transform.position) < 0.1f)
+                Vector3 roundedShelterPos = new Vector3(
+                    Mathf.RoundToInt(targetShelter.transform.position.x), 
+                    Mathf.RoundToInt(targetShelter.transform.position.y), 
+                    0
+                );
+                
+                if (targetShelter != null && Vector3.Distance(transform.position, roundedShelterPos) < 0.1f)
                 {
                     Debug.Log(gameObject.name + " đã về đích an toàn!");
                     animator.SetBool("IsMoving", false);
                     isMoving = false;
                     yield break; 
                 }
-                // Đường về
-                resultPath = aStarManager.FindPath(transform.position, targetShelter.transform.position);
-                // Kiểm tra danh sách đường đi (phải > 1 vì index [0] là vị trí hiện tại)
+                
+                resultPath = aStarManager.FindPath(transform.position, roundedShelterPos);
+                // Kiểm tra danh sách đường đi
                 if (resultPath != null && resultPath.Count > 1)
                 {
                     Vector3 nextPos = resultPath[1];
@@ -92,6 +98,7 @@ public class AnimalAI : MonoBehaviour
         
         while (elapseTime < timeToMove)
         {
+            Debug.DrawLine(startPos,endPos,Color.red,0.5f);
             transform.position = Vector3.Lerp(startPos, endPos, elapseTime / timeToMove);
             elapseTime += Time.deltaTime;
             yield return null;

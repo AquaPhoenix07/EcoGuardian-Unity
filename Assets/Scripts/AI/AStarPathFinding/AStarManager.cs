@@ -18,30 +18,29 @@ public class AStarManager : MonoBehaviour
 
     public List<Vector3> FindPath(Vector3 startPos, Vector3 targetPos)
     {
+        // Dùng RoundToInt để lafm tron
         Vector3 snappedStart = new Vector3(Mathf.RoundToInt(startPos.x), Mathf.RoundToInt(startPos.y), 0);
         Vector3 snappedTarget = new Vector3(Mathf.RoundToInt(targetPos.x), Mathf.RoundToInt(targetPos.y), 0);
         
         PathNode startNode = new PathNode(snappedStart);
         PathNode targetNode = new PathNode(snappedTarget);
         
-        List<PathNode> frontierList = new List<PathNode> {startNode}; // Danh sách các Node đang xét (neighbors)
-        List<PathNode> closedList = new List<PathNode>(); //Danh sách các node đã xem xong
+        List<PathNode> frontierList = new List<PathNode> {startNode}; 
+        List<PathNode> closedList = new List<PathNode>(); 
         
-        // BỔ SUNG 2: Tạo một bộ đếm để khống chế số ô quét tối đa
         int iterations = 0;
-        int maxIterations = 1000; // Nếu quét quá 1000 ô mà không ra thì dừng lại, game không bị treo
+        int maxIterations = 1000; 
         while (frontierList.Count > 0)
         {
             iterations++;
             if (iterations > maxIterations)
             {
-                Debug.LogWarning("A* Đã quét quá giới hạn nhưng không tìm thấy đường đi! Đã tự động ngắt để tránh treo máy.");
+                Debug.LogWarning("A* Đã quét quá giới hạn nhưng không tìm thấy đường đi!");
                 return null; 
             }
             
             PathNode currentNode = GetBestNodeFrontier(frontierList);
             
-            // 1. Kiểm tra nếu đã chạm đích
             if (Vector3.Distance(currentNode.position, snappedTarget) < 0.1f)
             {
                 return RetracePath(startNode, currentNode);
@@ -49,18 +48,13 @@ public class AStarManager : MonoBehaviour
             frontierList.Remove(currentNode);
             closedList.Add(currentNode);
             
-            //2.Xét các ô láng giêng
             foreach (Vector3 direction in new Vector3[] { Vector3.up, Vector3.down, Vector3.right, Vector3.left })
             {
                 Vector3 neighborPos = currentNode.position + direction;
                 
-                // Kiểm tra nếu là vật cản hoặc đã check rồi --> không đi lại đường cũ ( nằm trong closedList)
-                if (!IsWalkable(neighborPos) || IsPositionInList(neighborPos, closedList)) continue;
-               
                 int newGCost = currentNode.GCost + 10;
                 PathNode neighborNode = GetNodeInList(neighborPos, frontierList);
                 
-                // Nếu ô láng giềng này mới tinh hoặc tìm được đường tới rẻ hơn 
                 if (neighborNode == null || newGCost < neighborNode.GCost)
                 {
                     if (neighborNode == null)
@@ -102,7 +96,7 @@ public class AStarManager : MonoBehaviour
     {
         // Nếu lấy pivot là bottomleft thì đụng dính đồ bên dưới --> có bù
         Vector3 offset = new Vector3(0.5f, 0.5f, 0);
-        Collider2D hit  = Physics2D.OverlapCircle(checkNode + offset,0.1f,obstacleLayer);
+        Collider2D hit  = Physics2D.OverlapCircle(checkNode + offset,0.2f,obstacleLayer);
         return hit == null;
     }
 

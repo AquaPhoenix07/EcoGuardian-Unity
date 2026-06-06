@@ -32,6 +32,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Break_Trap
       objectReference: {fileID: 0}
+    - target: {fileID: 3667634721683261907, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4123188628462589632, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.079
@@ -135,6 +139,10 @@ PrefabInstance:
     - target: {fileID: 4460814326257283417, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
       propertyPath: m_SpriteTilingProperty.adaptiveTilingThreshold
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317308693039912390, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8209456690975928473, guid: ab3756c76ace1f0408d36d07c88f7e2c, type: 3}
       propertyPath: m_Size.x
