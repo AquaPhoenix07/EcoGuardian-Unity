@@ -17,12 +17,13 @@ TagManager:
   - RedPanda
   - Ferret
   - Fox
-  - 3BonFire
-  - Undefined
   - Target
   - AnimalTrap
   - Fire
-  - CampFire
+  - HoleToPlant
+  - DeathTree
+  - EmptyTrashCan
+  - PoisionousLake
   layers:
   - Default
   - TransparentFX

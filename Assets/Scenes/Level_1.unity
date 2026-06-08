@@ -7858,7 +7858,7 @@ MonoBehaviour:
     tallTile: {fileID: 0}
   - elementName: Water
     tileToScan: {fileID: 11400000, guid: 30334630737cac94cbf8c8157bff3f04, type: 2}
-    prefabToSpawn: {fileID: 4281718781330831402, guid: be1531badf5e9204f8b06b5f38d36b51, type: 3}
+    prefabToSpawn: {fileID: 6516682894845174443, guid: 06d450ebe37ee67429a13aeb1ec2f826, type: 3}
     isTarget: 0
     isTallObject: 0
     tallTile: {fileID: 0}
@@ -12157,6 +12157,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3259887741012083348, guid: 8fd6af482c9cdd241b115cc2a415e9d6, type: 3}
+      propertyPath: pushableLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 4103480065467376970, guid: 8fd6af482c9cdd241b115cc2a415e9d6, type: 3}
       propertyPath: m_Name
       value: Player
@@ -12167,7 +12171,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7287731144016913403, guid: 8fd6af482c9cdd241b115cc2a415e9d6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 7287731144016913403, guid: 8fd6af482c9cdd241b115cc2a415e9d6, type: 3}
       propertyPath: m_LocalPosition.z
