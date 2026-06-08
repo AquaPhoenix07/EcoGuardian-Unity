@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using GAMEPLAY.Interactable;
 using UnityEngine.PlayerLoop;
 
 public class PlayerMovement : MonoBehaviour
@@ -9,6 +10,11 @@ public class PlayerMovement : MonoBehaviour
     
     //Chỉ để khoá bàn phím chớ không có ben Animator
     private bool lockKey_WhenMove = false;
+    
+    [Header("Radar Settings")]
+    public float searchRadius = 3f; // Bán kính quét xung quanh người
+    public LayerMask pushableLayer; // Phân biệt layer của vật đẩy được
+    private PushableItem currentNearestItem; // Nhớ vật gần nhất hiện tại
     
     void Start()
     {
@@ -20,6 +26,8 @@ public class PlayerMovement : MonoBehaviour
     {
         if (lockKey_WhenMove) return;
         MovementSetting();
+        
+        CheckNearestHighlight();
     }
 
     private void MovementSetting()
@@ -184,5 +192,53 @@ public class PlayerMovement : MonoBehaviour
         return false;
     }
     
-    
+    private void CheckNearestHighlight()
+    {
+        // Quét 1 vòng tròn quanh Player để lấy tất cả các vật phẩm nằm trên layer được chỉ định
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, searchRadius, pushableLayer);
+
+        PushableItem nearestItem = null;
+        float minDistance = Mathf.Infinity;
+
+        // Lọc ra thằng nào đứng GẦN NHẤT
+        foreach (Collider2D hit in hits)
+        {
+            PushableItem item = hit.GetComponent<PushableItem>();
+            if (item != null)
+            {
+                float dist = Vector3.Distance(transform.position, hit.transform.position);
+                if (dist < minDistance)
+                {
+                    minDistance = dist;
+                    nearestItem = item;
+                }
+            }
+        }
+
+        // NẾU VẬT GẦN NHẤT CÓ SỰ THAY ĐỔI
+        if (nearestItem != currentNearestItem)
+        {
+            // Tắt Highlight của vật CŨ và Đích cũ đi
+            if (currentNearestItem != null)
+            {
+                currentNearestItem.SetHighlight(false);
+            }
+
+            // Ghi nhớ vật MỚI
+            currentNearestItem = nearestItem;
+
+            // Bật Highlight của vật MỚI và Đích mới lên
+            if (currentNearestItem != null)
+            {
+                currentNearestItem.SetHighlight(true);
+            }
+        }
+    }
+
+    // Vẽ cái vòng tròn vàng trong Editor để bạn dễ căn chỉnh bán kính quét
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, searchRadius);
+    }
 }

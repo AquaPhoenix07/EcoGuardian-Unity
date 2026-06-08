@@ -6,7 +6,6 @@ TagManager:
   tags:
   - Wall
   - Items
-  - Target
   - Shelter
   - Fertilizer
   - Garbage
@@ -18,6 +17,12 @@ TagManager:
   - RedPanda
   - Ferret
   - Fox
+  - 3BonFire
+  - Undefined
+  - Target
+  - AnimalTrap
+  - Fire
+  - CampFire
   layers:
   - Default
   - TransparentFX
