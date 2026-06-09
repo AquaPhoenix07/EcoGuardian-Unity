@@ -2646,7 +2646,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -99, y: 192}
+  m_AnchoredPosition: {x: -51, y: 133.83437}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &523557459
@@ -3507,7 +3507,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -50, y: -50}
+  m_AnchoredPosition: {x: -1, y: -106.39557}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &884451403
@@ -8916,6 +8916,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Save_Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 7392622319791265706, guid: 0968dd61290feb7428cb825fc56ddccd, type: 3}
+      propertyPath: currentData.hasGuardianBadge
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7392622319791265706, guid: 0968dd61290feb7428cb825fc56ddccd, type: 3}
+      propertyPath: currentData.unlockedSpecies.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7392622319791265706, guid: 0968dd61290feb7428cb825fc56ddccd, type: 3}
+      propertyPath: 'currentData.unlockedSpecies.Array.data[0]'
+      value: Armadillo
+      objectReference: {fileID: 0}
+    - target: {fileID: 7392622319791265706, guid: 0968dd61290feb7428cb825fc56ddccd, type: 3}
+      propertyPath: 'currentData.unlockedSpecies.Array.data[1]'
+      value: RedPanda
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8982,6 +8998,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelManager
   currentLevelIndex: 1
+  unlockedAnimalsInThisLevel:
+  - RedPanda
+  - Armadillo
+  isFinalLevel: 0
   WinMenu: {fileID: 420363280}
 --- !u!1 &1886700075
 GameObject:
@@ -12526,7 +12546,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -99, y: -361}
+  m_AnchoredPosition: {x: -50.016052, y: -424.95178}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2090749224

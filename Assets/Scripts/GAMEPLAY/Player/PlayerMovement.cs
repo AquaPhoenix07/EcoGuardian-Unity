@@ -16,6 +16,12 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask pushableLayer; // Phân biệt layer của vật đẩy được
     private PushableItem currentNearestItem; // Nhớ vật gần nhất hiện tại
     
+    // Mobile UI
+    [Header("Swipe Controls (Mobile)")]
+    public float minSwipeDistance = 50f; // Quãng đường vuốt tối thiểu để nhận lệnh (chống chạm nhầm)
+    private Vector2 startTouchPosition;
+    private Vector2 endTouchPosition;
+    
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -26,40 +32,21 @@ public class PlayerMovement : MonoBehaviour
     {
         if (lockKey_WhenMove) return;
         MovementSetting();
-        
+        SwipeDetection();  // THÊM DÒNG NÀY: Để nhận diện vuốt trên điện thoại
         CheckNearestHighlight();
     }
 
     private void MovementSetting()
     {
         Vector3 direction = Vector3.zero;
-        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
-        {
-                direction = Vector3.up;
-        }
-        else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
-        {
-                direction = Vector3.left;
-        }
-
-        else if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
-        {
-                direction = Vector3.right;
-        }
-        else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
-        {
-                direction = Vector3.down;
-        }
+        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) direction = Vector3.up;
+        else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)) direction = Vector3.left;
+        else if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)) direction = Vector3.right;
+        else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)) direction = Vector3.down;
         
         if (direction != Vector3.zero)
         {
-            animator.SetFloat("MoveX", direction.x);
-            animator.SetFloat("MoveY", direction.y);
-            if (CanMoveTo(direction))
-            {
-                // Làm mượt movement
-                StartCoroutine(SmoothMovement(direction));
-            }
+            ExecuteMove(direction); // Thay vì gọi thẳng SmoothMovement như trước
         }
     }
 
@@ -240,5 +227,76 @@ public class PlayerMovement : MonoBehaviour
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, searchRadius);
+    }
+    
+    // ==========================================
+    // HỆ THỐNG ĐIỀU KHIỂN VUỐT (SWIPE) CHO ĐIỆN THOẠI
+    // ==========================================
+    private void SwipeDetection()
+    {
+        // Kiểm tra xem có ngón tay nào đang chạm vào màn hình không
+        if (Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+
+            // Ngón tay BẮT ĐẦU chạm vào màn hình
+            if (touch.phase == TouchPhase.Began)
+            {
+                startTouchPosition = touch.position;
+                endTouchPosition = touch.position; 
+            }
+            // Ngón tay NHẤC LÊN khỏi màn hình
+            else if (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled)
+            {
+                endTouchPosition = touch.position;
+                DetectSwipeDirection();
+            }
+        }
+    }
+
+    private void DetectSwipeDirection()
+    {
+        // Tính toán khoảng cách và hướng giữa điểm đặt tay và điểm nhấc tay
+        Vector2 swipeDelta = endTouchPosition - startTouchPosition;
+
+        // Nếu vuốt quá ngắn (như kiểu lỡ chạm nhẹ) thì bỏ qua
+        if (swipeDelta.magnitude >= minSwipeDistance)
+        {
+            Vector3 direction = Vector3.zero;
+
+            // So sánh độ dài trục X và trục Y để biết là vuốt NGANG hay vuốt DỌC
+            if (Mathf.Abs(swipeDelta.x) > Mathf.Abs(swipeDelta.y))
+            {
+                // Vuốt theo trục NGANG
+                if (swipeDelta.x > 0) direction = Vector3.right; // Vuốt sang phải
+                else direction = Vector3.left;                   // Vuốt sang trái
+            }
+            else
+            {
+                // Vuốt theo trục DỌC
+                if (swipeDelta.y > 0) direction = Vector3.up;    // Vuốt lên trên
+                else direction = Vector3.down;                   // Vuốt xuống dưới
+            }
+
+            // Thực thi lệnh di chuyển
+            if (direction != Vector3.zero)
+            {
+                ExecuteMove(direction);
+            }
+        }
+    }
+
+    // Gom chung lệnh thực thi (Cả PC và Điện thoại đều xài chung hàm này)
+    private void ExecuteMove(Vector3 direction)
+    {
+        if (lockKey_WhenMove) return;
+
+        animator.SetFloat("MoveX", direction.x);
+        animator.SetFloat("MoveY", direction.y);
+        
+        if (CanMoveTo(direction))
+        {
+            StartCoroutine(SmoothMovement(direction));
+        }
     }
 }

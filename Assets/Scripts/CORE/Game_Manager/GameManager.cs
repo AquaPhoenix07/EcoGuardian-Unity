@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 using System.Collections.Generic;
 using System.Linq;
+using CORE.Game_Manager;
 
 [System.Serializable]
 // Cho phép mở khoá các class và chỉnh sửa thông tin trong nó
@@ -64,6 +65,7 @@ public class GameManager : MonoBehaviour
     private void CheckTarget()
     {
         Debug.Log($"[GameManager] Điểm hiện tại: {currentTarget} / {Target}");
+        SoundManager.Instance.Target();
         if (Target == currentTarget)
         {
             Debug.Log("You win");

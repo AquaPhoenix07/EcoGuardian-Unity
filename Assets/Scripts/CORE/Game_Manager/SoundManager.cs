@@ -18,7 +18,9 @@ namespace CORE.Game_Manager
         public AudioClip restartSound;
         public AudioClip settingSound;
         public AudioClip missionSound;
+        public AudioClip completeSound;
         public AudioClip targetSound;
+        public AudioClip victorySound;
         
         public AudioClip backgroundMusic;
         
@@ -98,7 +100,17 @@ namespace CORE.Game_Manager
         //ANOTHER SFX
         public void TargetSound()
         {
+            sfxSource.PlayOneShot(completeSound);
+        }
+
+        public void Target()
+        {
             sfxSource.PlayOneShot(targetSound);
+        }
+
+        public void VictorySound()
+        {
+            sfxSource.PlayOneShot(victorySound);
         }
     }
 }
