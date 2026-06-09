@@ -55,6 +55,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 360f416670533e743833f0ef62e887e9, type: 3}
   restartSound: {fileID: 8300000, guid: e1469860e65a00349b9d08818b0bf94a, type: 3}
   settingSound: {fileID: 8300000, guid: 45a71291bbb595b48b871cd444cf9ed1, type: 3}
+  missionSound: {fileID: 8300000, guid: 5a87a324ab24918479fb372e8df4f1e3, type: 3}
+  targetSound: {fileID: 8300000, guid: d2ead90656375c04ead533f05b512415, type: 3}
   backgroundMusic: {fileID: 8300000, guid: 43570011c4909e94aa070c093cf54567, type: 3}
   isBackgroundMusicOn: 1
 --- !u!82 &7225961848559073035

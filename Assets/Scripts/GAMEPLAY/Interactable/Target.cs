@@ -1,3 +1,4 @@
+using CORE.Game_Manager;
 using GAMEPLAY.Interactable;
 using UnityEngine;
 

@@ -3,8 +3,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class LevelManager1 : MonoBehaviour
+public class LevelManager2 : MonoBehaviour
 {
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     [Header("Canvas Settings")]
     public GameObject SettingMenu;
     public GameObject MissionMenu;
@@ -63,12 +64,12 @@ public class LevelManager1 : MonoBehaviour
     //MISSION BUTTON
     public void OpenMission()
     {
-        SoundManager.Instance.SettingButtonClicked();
+        SoundManager.Instance.MissionButtonClicked();
         MissionMenu.SetActive(true);
     }
     public void CloseMission()
     {
-        SoundManager.Instance.SettingButtonClicked();
+        SoundManager.Instance.MissionButtonClicked();
         MissionMenu.SetActive(false);
     }
     //Sound Button
@@ -76,10 +77,5 @@ public class LevelManager1 : MonoBehaviour
     {
         SoundManager.Instance.BackgroundMusicToggle(isOn);
     }
-
-    
-    
-
-    
 
 }

@@ -9,13 +9,14 @@ public class Lobby : MonoBehaviour
     private SoundManager soundManager;
     [Header("UI References")]
     public Toggle musicToggle;
+
+    public GameObject levelImage;
     public void Start()
     {
         soundManager = SoundManager.Instance;
         if (musicToggle != null)
         {
             bool currentMusicState = soundManager.isBackgroundMusicOn;
-            
             // Dùng dấu ! vì logic là nút Mute (Tắt tiếng)
             musicToggle.SetIsOnWithoutNotify(!currentMusicState);
         }
@@ -26,14 +27,25 @@ public class Lobby : MonoBehaviour
         
     }
 
-    public void PlayButtonClicked()
+    public void LevelClicked()
     {
         soundManager.StartCoroutine("PlayButtonClicked");
-        SceneManager.LoadScene("Level_1");
     }
 
     public void BackgroundMusicToggle(bool isOn)
     {
         soundManager.BackgroundMusicToggle(isOn);
     }
+    //NÚT PLAY
+    //Ấn nút home để thoát màn hình chọn màn
+    public void HomeButtonClicked()
+    {
+        levelImage.SetActive(false);
+    }
+    //Ấn nút chơi
+    public void PlayButtonClicked()
+    {
+        levelImage.SetActive(true);
+    }
+    
 }

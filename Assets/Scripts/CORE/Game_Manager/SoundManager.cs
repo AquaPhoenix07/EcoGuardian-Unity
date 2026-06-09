@@ -18,6 +18,7 @@ namespace CORE.Game_Manager
         public AudioClip restartSound;
         public AudioClip settingSound;
         public AudioClip missionSound;
+        public AudioClip targetSound;
         
         public AudioClip backgroundMusic;
         
@@ -47,7 +48,8 @@ namespace CORE.Game_Manager
                 Destroy(gameObject);
             }
         }
-
+        
+        //RIGHT TOOL
         public IEnumerator PlayButtonClicked()
         {
             foreach (var clip in welcomeSound)
@@ -56,6 +58,22 @@ namespace CORE.Game_Manager
                yield return new WaitForSeconds(clip.length);
             }
         }
+        public void SettingButtonClicked()
+        {
+            sfxSource.PlayOneShot(settingSound);
+        }
+
+        public void RestartButtonClicked()
+        {
+            sfxSource.PlayOneShot(restartSound);
+        }
+
+        public void MissionButtonClicked()
+        {
+            sfxSource.PlayOneShot(missionSound);
+        }
+        //BACKGROUND MUSIC
+        
         public void BackgroundMusicToggle(bool isOn)
         {
             // isOn = true nghĩa là người chơi ĐANG MUỐN TẮT TIẾNG (Màu đỏ)
@@ -70,17 +88,6 @@ namespace CORE.Game_Manager
                 isBackgroundMusicOn = true;
             }
         }
-
-        public void SettingButtonClicked()
-        {
-            sfxSource.PlayOneShot(settingSound);
-        }
-
-        public void RestartButtonClicked()
-        {
-            sfxSource.PlayOneShot(restartSound);
-        }
-
         public void ChangeBackgroundMusic(AudioClip newClip)
         {
             if (bmgSource.clip == newClip) return;
@@ -88,6 +95,10 @@ namespace CORE.Game_Manager
             bmgSource.loop = true;
             bmgSource.Play();
         }
-            
+        //ANOTHER SFX
+        public void TargetSound()
+        {
+            sfxSource.PlayOneShot(targetSound);
+        }
     }
 }

@@ -119,6 +119,67 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &11055756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 11055758}
+  - component: {fileID: 11055757}
+  - component: {fileID: 11055759}
+  m_Layer: 0
+  m_Name: LevelManager_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &11055757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11055756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e66bd3a7069fbb348a52faf6bba72a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelManager2
+  SettingMenu: {fileID: 1471671884}
+  MissionMenu: {fileID: 329234893}
+  musicToggle: {fileID: 1149368351}
+--- !u!4 &11055758
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11055756}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.21248, y: 0.50687, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11055759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11055756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f91a0413f5857342a5fdb6c64b42aca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelManager
+  currentLevelIndex: 2
 --- !u!1 &26049388
 GameObject:
   m_ObjectHideFlags: 0
@@ -15376,21 +15437,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
-        m_MethodName: CloseSetting_Button
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
-        m_MethodName: ClickSound
+      - m_Target: {fileID: 11055757}
+        m_TargetAssemblyTypeName: LevelManager2, Assembly-CSharp
+        m_MethodName: CloseMission
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15666,21 +15715,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+      - m_Target: {fileID: 11055757}
+        m_TargetAssemblyTypeName: LevelManager2, Assembly-CSharp
         m_MethodName: RestartLevel
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
-        m_MethodName: ClickSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -49674,9 +49711,9 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
-        m_MethodName: OnToggleSound
+      - m_Target: {fileID: 11055757}
+        m_TargetAssemblyTypeName: LevelManager2, Assembly-CSharp
+        m_MethodName: SoundToggle
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -54609,21 +54646,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+      - m_Target: {fileID: 11055757}
+        m_TargetAssemblyTypeName: LevelManager2, Assembly-CSharp
         m_MethodName: OpenSetting_Button
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
-        m_MethodName: ClickSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -54829,21 +54854,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+      - m_Target: {fileID: 11055757}
+        m_TargetAssemblyTypeName: LevelManager2, Assembly-CSharp
         m_MethodName: CloseMission
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
-        m_MethodName: ClickSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -55311,7 +55324,7 @@ Tilemap:
       - {fileID: -5971717200312924582, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: 1446067179842847954, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: -7566794699793799545, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
-      m_AnimationSpeed: 14.738478
+      m_AnimationSpeed: 12.534717
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -9, y: 1, z: 0}
@@ -55322,7 +55335,7 @@ Tilemap:
       - {fileID: 2419445185463732754, guid: 6d9f94d499d775a448ce5d3a95311900, type: 3}
       - {fileID: 7399960206344849653, guid: 6d9f94d499d775a448ce5d3a95311900, type: 3}
       - {fileID: -6268033591852502288, guid: 6d9f94d499d775a448ce5d3a95311900, type: 3}
-      m_AnimationSpeed: 2.0175426
+      m_AnimationSpeed: 2.4518218
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 8, y: 1, z: 0}
@@ -55333,7 +55346,7 @@ Tilemap:
       - {fileID: -1634006696980753376, guid: 8bb5748ca43d4344fab228f0ccfb94e7, type: 3}
       - {fileID: 171826717312502759, guid: 8bb5748ca43d4344fab228f0ccfb94e7, type: 3}
       - {fileID: -2173995194910542438, guid: 8bb5748ca43d4344fab228f0ccfb94e7, type: 3}
-      m_AnimationSpeed: 1.0930088
+      m_AnimationSpeed: 1.2568152
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:
@@ -60508,21 +60521,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+      - m_Target: {fileID: 11055757}
+        m_TargetAssemblyTypeName: LevelManager2, Assembly-CSharp
         m_MethodName: Exit_Button
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
-        m_MethodName: ClickSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -63517,7 +63518,7 @@ Tilemap:
       - {fileID: -1287600412402747709, guid: dd6b34b8c8edc394b85d10b6b68a4e51, type: 3}
       - {fileID: 781610906755907283, guid: dd6b34b8c8edc394b85d10b6b68a4e51, type: 3}
       - {fileID: 9072039017572796191, guid: dd6b34b8c8edc394b85d10b6b68a4e51, type: 3}
-      m_AnimationSpeed: 1.7434542
+      m_AnimationSpeed: 2.861915
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 7, y: -6, z: 0}
@@ -63528,7 +63529,7 @@ Tilemap:
       - {fileID: -1634006696980753376, guid: 8bb5748ca43d4344fab228f0ccfb94e7, type: 3}
       - {fileID: 171826717312502759, guid: 8bb5748ca43d4344fab228f0ccfb94e7, type: 3}
       - {fileID: -2173995194910542438, guid: 8bb5748ca43d4344fab228f0ccfb94e7, type: 3}
-      m_AnimationSpeed: 1.6130189
+      m_AnimationSpeed: 2.6009789
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -8, y: -4, z: 0}
@@ -63539,7 +63540,7 @@ Tilemap:
       - {fileID: -1287600412402747709, guid: dd6b34b8c8edc394b85d10b6b68a4e51, type: 3}
       - {fileID: 781610906755907283, guid: dd6b34b8c8edc394b85d10b6b68a4e51, type: 3}
       - {fileID: 9072039017572796191, guid: dd6b34b8c8edc394b85d10b6b68a4e51, type: 3}
-      m_AnimationSpeed: 2.3330948
+      m_AnimationSpeed: 1.0566871
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -4, y: -4, z: 0}
@@ -63550,7 +63551,7 @@ Tilemap:
       - {fileID: 2419445185463732754, guid: 6d9f94d499d775a448ce5d3a95311900, type: 3}
       - {fileID: 7399960206344849653, guid: 6d9f94d499d775a448ce5d3a95311900, type: 3}
       - {fileID: -6268033591852502288, guid: 6d9f94d499d775a448ce5d3a95311900, type: 3}
-      m_AnimationSpeed: 2.725552
+      m_AnimationSpeed: 1.3277612
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 7, y: -4, z: 0}
@@ -63561,7 +63562,7 @@ Tilemap:
       - {fileID: -1634006696980753376, guid: 8bb5748ca43d4344fab228f0ccfb94e7, type: 3}
       - {fileID: 171826717312502759, guid: 8bb5748ca43d4344fab228f0ccfb94e7, type: 3}
       - {fileID: -2173995194910542438, guid: 8bb5748ca43d4344fab228f0ccfb94e7, type: 3}
-      m_AnimationSpeed: 1.8652856
+      m_AnimationSpeed: 2.4301326
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -4, y: 1, z: 0}
@@ -63572,7 +63573,7 @@ Tilemap:
       - {fileID: -1287600412402747709, guid: dd6b34b8c8edc394b85d10b6b68a4e51, type: 3}
       - {fileID: 781610906755907283, guid: dd6b34b8c8edc394b85d10b6b68a4e51, type: 3}
       - {fileID: 9072039017572796191, guid: dd6b34b8c8edc394b85d10b6b68a4e51, type: 3}
-      m_AnimationSpeed: 1.1821992
+      m_AnimationSpeed: 1.3025911
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -3, y: 1, z: 0}
@@ -63593,7 +63594,7 @@ Tilemap:
       - {fileID: -5971717200312924582, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: 1446067179842847954, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: -7566794699793799545, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
-      m_AnimationSpeed: 14.2615185
+      m_AnimationSpeed: 14.308949
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -2, y: 1, z: 0}
@@ -63614,7 +63615,7 @@ Tilemap:
       - {fileID: -5971717200312924582, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: 1446067179842847954, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: -7566794699793799545, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
-      m_AnimationSpeed: 13.788004
+      m_AnimationSpeed: 12.563183
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 0, y: 1, z: 0}
@@ -63635,7 +63636,7 @@ Tilemap:
       - {fileID: -5971717200312924582, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: 1446067179842847954, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: -7566794699793799545, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
-      m_AnimationSpeed: 15.6486
+      m_AnimationSpeed: 15.116364
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 1, y: 1, z: 0}
@@ -63656,7 +63657,7 @@ Tilemap:
       - {fileID: -5971717200312924582, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: 1446067179842847954, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: -7566794699793799545, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
-      m_AnimationSpeed: 15.315734
+      m_AnimationSpeed: 14.708347
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 2, y: 1, z: 0}
@@ -63677,7 +63678,7 @@ Tilemap:
       - {fileID: -5971717200312924582, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: 1446067179842847954, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: -7566794699793799545, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
-      m_AnimationSpeed: 12.456728
+      m_AnimationSpeed: 14.308575
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -11, y: 3, z: 0}
@@ -63698,7 +63699,7 @@ Tilemap:
       - {fileID: -5971717200312924582, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: 1446067179842847954, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: -7566794699793799545, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
-      m_AnimationSpeed: 13.890816
+      m_AnimationSpeed: 15.711616
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -7, y: 3, z: 0}
@@ -63719,7 +63720,7 @@ Tilemap:
       - {fileID: -5971717200312924582, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: 1446067179842847954, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: -7566794699793799545, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
-      m_AnimationSpeed: 15.005907
+      m_AnimationSpeed: 14.0224285
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 1, y: 3, z: 0}
@@ -63730,7 +63731,7 @@ Tilemap:
       - {fileID: 3165500491089172435, guid: 09a246bc5c457dd40bffc96f418e83ea, type: 3}
       - {fileID: -608702131658807645, guid: 09a246bc5c457dd40bffc96f418e83ea, type: 3}
       - {fileID: -7486611482738379287, guid: 09a246bc5c457dd40bffc96f418e83ea, type: 3}
-      m_AnimationSpeed: 2.279375
+      m_AnimationSpeed: 1.9945815
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 6, y: 3, z: 0}
@@ -63751,7 +63752,7 @@ Tilemap:
       - {fileID: -5971717200312924582, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: 1446067179842847954, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: -7566794699793799545, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
-      m_AnimationSpeed: 14.038793
+      m_AnimationSpeed: 14.4232025
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 10, y: 3, z: 0}
@@ -63772,7 +63773,7 @@ Tilemap:
       - {fileID: -5971717200312924582, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: 1446067179842847954, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: -7566794699793799545, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
-      m_AnimationSpeed: 13.081263
+      m_AnimationSpeed: 13.358456
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -11, y: 4, z: 0}
@@ -63793,7 +63794,7 @@ Tilemap:
       - {fileID: -5971717200312924582, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: 1446067179842847954, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: -7566794699793799545, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
-      m_AnimationSpeed: 14.667663
+      m_AnimationSpeed: 14.170012
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -7, y: 4, z: 0}
@@ -63814,7 +63815,7 @@ Tilemap:
       - {fileID: -5971717200312924582, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: 1446067179842847954, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: -7566794699793799545, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
-      m_AnimationSpeed: 12.885132
+      m_AnimationSpeed: 14.72187
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 6, y: 4, z: 0}
@@ -63835,7 +63836,7 @@ Tilemap:
       - {fileID: -5971717200312924582, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: 1446067179842847954, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: -7566794699793799545, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
-      m_AnimationSpeed: 14.6756735
+      m_AnimationSpeed: 12.389991
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 10, y: 4, z: 0}
@@ -63856,7 +63857,7 @@ Tilemap:
       - {fileID: -5971717200312924582, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: 1446067179842847954, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
       - {fileID: -7566794699793799545, guid: 56e0819a861ad264ebb5ae7ef91c1406, type: 3}
-      m_AnimationSpeed: 12.571539
+      m_AnimationSpeed: 13.491329
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -9, y: 5, z: 0}
@@ -63867,7 +63868,7 @@ Tilemap:
       - {fileID: 3165500491089172435, guid: 09a246bc5c457dd40bffc96f418e83ea, type: 3}
       - {fileID: -608702131658807645, guid: 09a246bc5c457dd40bffc96f418e83ea, type: 3}
       - {fileID: -7486611482738379287, guid: 09a246bc5c457dd40bffc96f418e83ea, type: 3}
-      m_AnimationSpeed: 1.732382
+      m_AnimationSpeed: 2.1232502
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -2, y: 5, z: 0}
@@ -63878,7 +63879,7 @@ Tilemap:
       - {fileID: -3952316392366093792, guid: 9feeb6d75f3969d449a24dde6c675049, type: 3}
       - {fileID: -6871641387244503986, guid: 9feeb6d75f3969d449a24dde6c675049, type: 3}
       - {fileID: 6432504202524935157, guid: 9feeb6d75f3969d449a24dde6c675049, type: 3}
-      m_AnimationSpeed: 2.9673386
+      m_AnimationSpeed: 2.798778
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 8, y: 5, z: 0}
@@ -63889,7 +63890,7 @@ Tilemap:
       - {fileID: -3952316392366093792, guid: 9feeb6d75f3969d449a24dde6c675049, type: 3}
       - {fileID: -6871641387244503986, guid: 9feeb6d75f3969d449a24dde6c675049, type: 3}
       - {fileID: 6432504202524935157, guid: 9feeb6d75f3969d449a24dde6c675049, type: 3}
-      m_AnimationSpeed: 1.5102206
+      m_AnimationSpeed: 1.4573061
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:
@@ -71515,21 +71516,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+      - m_Target: {fileID: 11055757}
+        m_TargetAssemblyTypeName: LevelManager2, Assembly-CSharp
         m_MethodName: OpenMission
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
-        m_MethodName: ClickSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -71939,3 +71928,4 @@ SceneRoots:
   - {fileID: 1550419085}
   - {fileID: 2087263634}
   - {fileID: 747160297}
+  - {fileID: 11055758}

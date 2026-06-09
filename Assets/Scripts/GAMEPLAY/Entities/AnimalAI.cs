@@ -68,6 +68,7 @@ public class AnimalAI : MonoBehaviour
                     Debug.Log(gameObject.name + " đã về đích an toàn!");
                     animator.SetBool("IsMoving", false);
                     isMoving = false;
+                    GameObject.FindGameObjectWithTag("Level_Controller").SendMessage("WinLevel");
                     yield break; 
                 }
                 
