@@ -76,4 +76,5 @@ public class LevelManager1 : MonoBehaviour
     {
         SoundManager.Instance.BackgroundMusicToggle(isOn);
     }
+    
 }

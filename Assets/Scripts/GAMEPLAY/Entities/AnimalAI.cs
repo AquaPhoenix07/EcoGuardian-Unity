@@ -19,6 +19,7 @@ public class AnimalAI : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     
     private List<Vector3> resultPath;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -68,7 +69,7 @@ public class AnimalAI : MonoBehaviour
                     Debug.Log(gameObject.name + " đã về đích an toàn!");
                     animator.SetBool("IsMoving", false);
                     isMoving = false;
-                    GameObject.FindGameObjectWithTag("Level_Controller").SendMessage("WinLevel");
+                    GameObject.FindGameObjectWithTag("Level_Controller").SendMessage("AnimalReachedShelter");
                     yield break; 
                 }
                 
